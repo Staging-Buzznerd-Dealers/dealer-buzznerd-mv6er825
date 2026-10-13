@@ -140,7 +140,10 @@
               "limit": 8
             },
             "behaviour": "carousel",
-            "behaviourOptions": "{\"label\":\"Featured listings\",\"perMove\":1}"
+            "behaviourOptions": "{\"label\":\"Featured listings\",\"perMove\":1}",
+            "snapshot": {
+              "listings": []
+            }
           }
         },
         {
