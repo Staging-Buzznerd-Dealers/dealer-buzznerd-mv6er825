@@ -290,27 +290,27 @@
                   }
                 },
                 {
-                  "slug": "6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "href": "products/6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "title": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
+                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
+                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
                       "label": "Manufacturer",
-                      "value": "TALBERT"
+                      "value": "FONTAINE"
                     },
                     {
-                      "label": "Year",
-                      "value": "2014"
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
                     }
                   ],
                   "image": {
-                    "src": "preview/67/dms-1007694860__preview.jpg",
-                    "alt": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                    "src": "preview/44/dms-1010340934__preview.jpg",
+                    "alt": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
                     "width": 600,
                     "height": 400
                   }
@@ -342,27 +342,27 @@
                   }
                 },
                 {
-                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                  "slug": "6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
+                  "href": "products/6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
+                  "title": "2014 TALBERT For rent 55 Ton hydraulic RGN",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
                       "label": "Condition",
-                      "value": "Used"
+                      "value": "New"
                     },
                     {
-                      "label": "Model",
-                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
+                      "label": "Manufacturer",
+                      "value": "TALBERT"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2014"
                     }
                   ],
                   "image": {
-                    "src": "preview/44/dms-1010340934__preview.jpg",
-                    "alt": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                    "src": "preview/67/dms-1007694860__preview.jpg",
+                    "alt": "2014 TALBERT For rent 55 Ton hydraulic RGN",
                     "width": 600,
                     "height": 400
                   }
@@ -853,11 +853,189 @@
               ]
             },
             {
+              "id": "10",
+              "name": "Los Angeles",
+              "subtitle": "",
+              "slug": "los-angeles",
+              "num": "02",
+              "href": null,
+              "streetAddress": null,
+              "city": "",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": null,
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Rental",
+              "hours": "Sales: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nRental: 07:00–19:00 Mon–Fri, 08:00–16:00 Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": "Full-Service Dealerships",
+              "groupKey": "full-service-dealerships",
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
+                },
+                {
+                  "name": "Rental",
+                  "key": "rental",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00–19:00 Mon–Fri, 08:00–16:00 Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–18:00",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–14:00",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Rental",
+                  "key": "rental",
+                  "summary": "07:00–19:00 Mon–Fri, 08:00–16:00 Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00–19:00",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00–19:00",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00–19:00",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00–19:00",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00–19:00",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00–16:00",
+                      "opensAt": "08:00",
+                      "closesAt": "16:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "9",
               "name": "Riverside Branch",
               "subtitle": "",
               "slug": "riverside-branch",
-              "num": "02",
+              "num": "03",
               "href": null,
               "streetAddress": "45 River Road",
               "city": "Lakeview",
@@ -1035,7 +1213,7 @@
               "name": "Riverton",
               "subtitle": "Summit Ridge Truck Center",
               "slug": "riverton",
-              "num": "03",
+              "num": "04",
               "href": null,
               "streetAddress": "1250 Commerce Parkway",
               "city": "",
@@ -1088,7 +1266,7 @@
               "name": "Seattle",
               "subtitle": "",
               "slug": "main",
-              "num": "04",
+              "num": "05",
               "href": null,
               "streetAddress": "1250 Commerce Parkway",
               "city": null,
