@@ -5,36 +5,110 @@
       "id": "main",
       "name": "Main menu",
       "items": [
-        { "id": "home", "label": "Home", "type": "page", "ref": "home" },
-        { "id": "inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
         {
-          "id": "about",
-          "label": "About",
-          "type": "url",
-          "url": "/about",
+          "id": "home",
+          "label": "Home",
+          "type": "page",
+          "ref": "home"
+        },
+        {
+          "id": "inventory",
+          "label": "Inventory",
+          "type": "inventory",
+          "ref": "inventory",
           "children": [
-            { "id": "about-team", "label": "Our team", "type": "url", "url": "/about#team" },
-            { "id": "about-history", "label": "History", "type": "url", "url": "/about#history" }
+            {
+              "id": "inv-all",
+              "label": "All inventory",
+              "type": "inventory",
+              "ref": "inventory"
+            },
+            {
+              "id": "inv-new",
+              "label": "New trucks",
+              "type": "inventory",
+              "ref": "inventory?condition=new"
+            },
+            {
+              "id": "inv-used",
+              "label": "Pre-owned trucks",
+              "type": "inventory",
+              "ref": "inventory?condition=used"
+            }
           ]
         },
-        { "id": "contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "parts",
+          "label": "Parts",
+          "type": "inventory",
+          "ref": "parts"
+        },
+        {
+          "id": "service",
+          "label": "Service",
+          "type": "url",
+          "url": "/#service"
+        },
+        {
+          "id": "contact",
+          "label": "Contact",
+          "type": "url",
+          "url": "/#contact"
+        }
       ]
     },
     {
       "id": "footer",
       "name": "Footer menu",
       "items": [
-        { "id": "f-inventory", "label": "Inventory", "type": "inventory", "ref": "inventory" },
-        { "id": "f-about", "label": "About", "type": "url", "url": "/about" },
-        { "id": "f-contact", "label": "Contact", "type": "url", "url": "/contact" }
+        {
+          "id": "f-inventory",
+          "label": "Inventory",
+          "type": "inventory",
+          "ref": "inventory"
+        },
+        {
+          "id": "f-parts",
+          "label": "Parts",
+          "type": "inventory",
+          "ref": "parts"
+        },
+        {
+          "id": "f-service",
+          "label": "Service",
+          "type": "url",
+          "url": "/#service"
+        },
+        {
+          "id": "f-contact",
+          "label": "Contact",
+          "type": "url",
+          "url": "/#contact"
+        },
+        {
+          "id": "f-call",
+          "label": "(555) 010-0148",
+          "type": "url",
+          "url": "tel:+15550100148"
+        }
       ]
     },
     {
       "id": "legal",
       "name": "Legal",
       "items": [
-        { "id": "privacy", "label": "Privacy", "type": "url", "url": "/privacy" },
-        { "id": "terms", "label": "Terms", "type": "url", "url": "/terms" }
+        {
+          "id": "privacy",
+          "label": "Privacy",
+          "type": "url",
+          "url": "/privacy"
+        },
+        {
+          "id": "terms",
+          "label": "Terms",
+          "type": "url",
+          "url": "/terms"
+        }
       ]
     }
   ]

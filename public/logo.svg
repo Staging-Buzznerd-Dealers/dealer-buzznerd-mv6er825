@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="48" viewBox="0 0 260 48" role="img" aria-label="Summit Ridge Truck Center">
+  <path d="M4 40 L18 14 L26 26 L32 18 L46 40 Z" fill="#d99038"/>
+  <path d="M18 14 L22 21 L18 19 L14 21 Z" fill="#ffffff" opacity=".9"/>
+  <text x="56" y="24" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="19" font-weight="800" fill="#111c3a" letter-spacing=".5">SUMMIT RIDGE</text>
+  <text x="57" y="40" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#7c86a2" letter-spacing="2.4">TRUCK CENTER</text>
+</svg>

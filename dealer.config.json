@@ -1,8 +1,8 @@
 {
   "$schema": "./dealer.config.schema.json",
   "contractVersion": "5.0.0",
-  "name": "BuzzNerd Dealer",
-  "shortName": "BuzzNerd",
+  "name": "Summit Ridge Truck Center",
+  "shortName": "Summit Ridge",
   "channelToken": "buzznerd-mv6er825",
   "domain": "dealer-buzznerd-mv6er825.vercel.app",
   "url": "https://dealer-buzznerd-mv6er825.vercel.app",
@@ -16,27 +16,27 @@
   },
   "business": {
     "type": "AutoDealer",
-    "legalName": "BuzzNerd Trucks LLC",
-    "phone": "+1-800-555-0100",
-    "email": "sales@example.com",
-    "streetAddress": "1234 Highway Dr",
-    "addressLocality": "Salt Lake City",
-    "addressRegion": "UT",
-    "postalCode": "84101",
+    "legalName": "Summit Ridge Truck Center",
+    "phone": "+1-555-010-0148",
+    "email": "sales@summitridge.example.com",
+    "streetAddress": "1250 Commerce Parkway",
+    "addressLocality": "Riverton",
+    "addressRegion": "TX",
+    "postalCode": "75001",
     "addressCountry": "US",
-    "latitude": 40.7608,
-    "longitude": -111.891,
-    "priceRange": "$$",
+    "latitude": 32.9618,
+    "longitude": -96.8292,
+    "priceRange": "$$$",
     "openingHours": [
-      "Mo-Fr 08:00-18:00",
-      "Sa 09:00-16:00"
+      "Mo-Fr 07:00-18:00",
+      "Sa 08:00-14:00"
     ]
   },
   "seo": {
-    "defaultTitle": "BuzzNerd Dealer | Trucks, Parts & Service",
-    "titleTemplate": "%s | BuzzNerd Dealer",
-    "defaultDescription": "New and used trucks, expert service, genuine parts, financing and leasing from a dealer you can trust.",
-    "ogImage": "/og-default.jpg",
+    "defaultTitle": "Summit Ridge Truck Center | Commercial Trucks, Parts & Service in Riverton, TX",
+    "titleTemplate": "%s | Summit Ridge Truck Center",
+    "defaultDescription": "New and pre-owned commercial trucks, factory-trained service, genuine parts and fleet financing from Summit Ridge Truck Center in Riverton, TX.",
+    "ogImage": "/logo.svg",
     "locale": "en_US",
     "themeColor": "#111c3a"
   }
