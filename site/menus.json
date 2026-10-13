@@ -102,15 +102,6 @@
                   "url": "/#financing",
                   "newTab": false,
                   "children": []
-                },
-                {
-                  "id": "mf-quote",
-                  "label": "Request a quote",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#contact",
-                  "newTab": false,
-                  "children": []
                 }
               ]
             },
@@ -136,52 +127,6 @@
                   "label": "Capacity Yard",
                   "type": "inventory",
                   "ref": "search?q=capacity+yard",
-                  "url": null,
-                  "newTab": false,
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": "mt-type",
-              "label": "Shop by Type",
-              "type": "label",
-              "ref": null,
-              "url": null,
-              "newTab": false,
-              "children": [
-                {
-                  "id": "tt-day-cab",
-                  "label": "Day cabs",
-                  "type": "inventory",
-                  "ref": "search?q=day+cab",
-                  "url": null,
-                  "newTab": false,
-                  "children": []
-                },
-                {
-                  "id": "tt-sleeper",
-                  "label": "Sleepers",
-                  "type": "inventory",
-                  "ref": "search?q=sleeper",
-                  "url": null,
-                  "newTab": false,
-                  "children": []
-                },
-                {
-                  "id": "tt-vocational",
-                  "label": "Vocational",
-                  "type": "inventory",
-                  "ref": "search?q=vocational",
-                  "url": null,
-                  "newTab": false,
-                  "children": []
-                },
-                {
-                  "id": "tt-box",
-                  "label": "Box trucks",
-                  "type": "inventory",
-                  "ref": "search?q=box+truck",
                   "url": null,
                   "newTab": false,
                   "children": []
@@ -344,7 +289,7 @@
         },
         {
           "id": "call",
-          "label": "(800) 741-7566",
+          "label": "800-741-7566",
           "type": "url",
           "ref": null,
           "url": "tel:+18007417566",
