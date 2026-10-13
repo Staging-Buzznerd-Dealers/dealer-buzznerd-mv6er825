@@ -17,5 +17,44 @@
       "utilityNav": null
     },
     "pageType": "Home"
+  },
+  {
+    "slug": "locations",
+    "title": "Locations & Hours",
+    "description": "Find a Summit Ridge Truck Center location in Texas or Oklahoma — addresses, phone numbers and hours for sales, service and parts.",
+    "path": "/locations",
+    "out": "locations/index.html",
+    "dir": "locations",
+    "group": "locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
+    "slug": "location-detail",
+    "title": "Summit Ridge {{name}} — Hours & Location",
+    "description": "Hours, directions and departments at Summit Ridge Truck Center {{name}}, {{streetAddress}}, {{city}}, {{region}}. Call {{phone}}.",
+    "path": "/locations/:slug",
+    "out": "locations/:slug/index.html",
+    "dir": "location-detail",
+    "group": "locations",
+    "forEach": "locations",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

@@ -3,8 +3,13 @@
   "id": "location-cards",
   "name": "Location cards",
   "description": "A scrolling row of rooftop cards from Locations: number, name, state, address, phone, directions and the departments each one offers.",
-  "css": "[data-bz-section=\"location-cards\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"location-cards\"] .bz-col[data-bz-node^=\"lc-card\"] { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 28px 28px 30px; min-width: 300px; display: flex; flex-direction: column; gap: 10px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] h3 { font-size: 17px; line-height: 1.25; margin: 0; text-transform: uppercase; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] .bz-eyebrow { color: var(--muted); margin: 0 0 4px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-addr\"] p { font-size: 14px; color: var(--muted); margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-phone\"] p { font-size: 16px; margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block p a { color: var(--ink); text-decoration: none; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-dir\"] p a { font-weight: 700; font-size: 14px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-depts\"] p { margin: 4px 0 0; font: 700 11px / 1.9 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); }",
+  "css": "[data-bz-section=\"location-cards\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"location-cards\"] .bz-col[data-bz-node^=\"lc-card\"] { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 28px 28px 30px; min-width: 300px; display: flex; flex-direction: column; gap: 10px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] h3 { font-size: 17px; line-height: 1.25; margin: 0; text-transform: uppercase; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] .bz-eyebrow { color: var(--muted); margin: 0 0 4px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-addr\"] p { font-size: 14px; color: var(--muted); margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-phone\"] p { font-size: 16px; margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block p a { color: var(--ink); text-decoration: none; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-dir\"] p a { font-weight: 700; font-size: 14px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-depts\"] p { margin: 4px 0 0; font: 700 11px / 1.9 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-dir\"] p { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; }",
   "props": [
+    {
+      "key": "locationSlug",
+      "type": "text",
+      "label": "Location to leave out (filled in on location pages)"
+    },
     {
       "key": "eyebrow",
       "type": "text",
@@ -71,6 +76,11 @@
           "key": "departments",
           "type": "text",
           "label": "Departments"
+        },
+        {
+          "key": "href",
+          "type": "url",
+          "label": "Location page"
         }
       ]
     }
@@ -162,7 +172,7 @@
                   "id": "lc-dir",
                   "type": "text",
                   "props": {
-                    "text": "<a href=\"{{mapUrl}}\" target=\"_blank\" rel=\"noopener\">Directions →</a>",
+                    "text": "<a href=\"{{href}}\">View location →</a><a href=\"{{mapUrl}}\" target=\"_blank\" rel=\"noopener\">Directions →</a>",
                     "width": "full"
                   }
                 },
