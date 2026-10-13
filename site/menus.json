@@ -10,35 +10,43 @@
           "label": "Trucks",
           "type": "inventory",
           "ref": "inventory?type=truck",
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "mt-shop",
               "label": "Shop trucks",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "mt-all",
                   "label": "All truck inventory",
                   "type": "inventory",
-                  "ref": "inventory"
+                  "ref": "inventory",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "mt-new",
                   "label": "New trucks",
                   "type": "inventory",
-                  "ref": "inventory?condition=new"
+                  "ref": "inventory?condition=new",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "mt-used",
                   "label": "Used trucks",
                   "type": "inventory",
-                  "ref": "inventory?condition=used"
-                },
-                {
-                  "id": "mt-rent",
-                  "label": "Rental & lease trucks",
-                  "type": "inventory",
-                  "ref": "search?q=rental"
+                  "ref": "inventory?condition=used",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 }
               ]
             },
@@ -46,30 +54,45 @@
               "id": "mt-type",
               "label": "Shop by type",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "tt-day-cab",
                   "label": "Day cabs",
                   "type": "inventory",
-                  "ref": "search?q=day+cab"
+                  "ref": "search?q=day+cab",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "tt-sleeper",
                   "label": "Sleepers",
                   "type": "inventory",
-                  "ref": "search?q=sleeper"
+                  "ref": "search?q=sleeper",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "tt-vocational",
                   "label": "Vocational",
                   "type": "inventory",
-                  "ref": "search?q=vocational"
+                  "ref": "search?q=vocational",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "tt-box",
                   "label": "Box trucks",
                   "type": "inventory",
-                  "ref": "search?q=box+truck"
+                  "ref": "search?q=box+truck",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 }
               ]
             },
@@ -77,24 +100,27 @@
               "id": "mt-finance",
               "label": "Build & finance",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "mf-quote",
                   "label": "Request a quote",
                   "type": "url",
-                  "url": "/#contact"
+                  "ref": null,
+                  "url": "/#contact",
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "mf-finance",
                   "label": "Financing & credit",
                   "type": "url",
-                  "url": "/#financing"
-                },
-                {
-                  "id": "mf-fleet",
-                  "label": "Fleet sales",
-                  "type": "url",
-                  "url": "/#contact"
+                  "ref": null,
+                  "url": "/#financing",
+                  "newTab": false,
+                  "children": []
                 }
               ]
             }
@@ -105,35 +131,25 @@
           "label": "Trailers",
           "type": "inventory",
           "ref": "search?q=trailer",
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "mr-shop",
               "label": "Shop trailers",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "mr-all",
                   "label": "All trailers",
                   "type": "inventory",
-                  "ref": "search?q=trailer"
-                },
-                {
-                  "id": "mr-van",
-                  "label": "Dry vans",
-                  "type": "inventory",
-                  "ref": "search?q=dry+van"
-                },
-                {
-                  "id": "mr-flat",
-                  "label": "Flatbeds",
-                  "type": "inventory",
-                  "ref": "search?q=flatbed"
-                },
-                {
-                  "id": "mr-reefer",
-                  "label": "Reefers",
-                  "type": "inventory",
-                  "ref": "search?q=reefer"
+                  "ref": "search?q=trailer",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 }
               ]
             },
@@ -141,18 +157,27 @@
               "id": "mr-more",
               "label": "Rent & finance",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "mr-rent",
                   "label": "Trailer rentals",
                   "type": "inventory",
-                  "ref": "search?q=trailer+rental"
+                  "ref": "search?q=trailer+rental",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 },
                 {
                   "id": "mr-finance",
                   "label": "Financing & credit",
                   "type": "url",
-                  "url": "/#financing"
+                  "ref": null,
+                  "url": "/#financing",
+                  "newTab": false,
+                  "children": []
                 }
               ]
             }
@@ -163,31 +188,17 @@
           "label": "Parts",
           "type": "inventory",
           "ref": "parts",
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "mp-shop",
               "label": "Shop parts",
               "type": "label",
-              "children": [
-                {
-                  "id": "mp-all",
-                  "label": "Parts catalogue",
-                  "type": "inventory",
-                  "ref": "parts"
-                },
-                {
-                  "id": "mp-search",
-                  "label": "Search by part number",
-                  "type": "inventory",
-                  "ref": "search"
-                },
-                {
-                  "id": "mp-order",
-                  "label": "Order by phone",
-                  "type": "url",
-                  "url": "tel:+15550100148"
-                }
-              ]
+              "ref": null,
+              "url": null,
+              "newTab": false,
+              "children": []
             }
           ]
         },
@@ -195,30 +206,26 @@
           "id": "service",
           "label": "Service",
           "type": "url",
+          "ref": null,
           "url": "/#service",
+          "newTab": false,
           "children": [
             {
               "id": "ms-svc",
               "label": "Service",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "ms-book",
                   "label": "Schedule service",
                   "type": "url",
-                  "url": "/#contact"
-                },
-                {
-                  "id": "ms-mobile",
-                  "label": "Mobile service",
-                  "type": "url",
-                  "url": "/#service"
-                },
-                {
-                  "id": "ms-road",
-                  "label": "Road Assist — 24/7",
-                  "type": "url",
-                  "url": "tel:+15550100199"
+                  "ref": null,
+                  "url": "/#contact",
+                  "newTab": false,
+                  "children": []
                 }
               ]
             },
@@ -226,12 +233,18 @@
               "id": "ms-loc",
               "label": "Find a shop",
               "type": "label",
+              "ref": null,
+              "url": null,
+              "newTab": false,
               "children": [
                 {
                   "id": "ms-locations",
                   "label": "Locations & hours",
                   "type": "page",
-                  "ref": "locations"
+                  "ref": "locations",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
                 }
               ]
             }
@@ -241,46 +254,28 @@
           "id": "about",
           "label": "About",
           "type": "url",
+          "ref": null,
           "url": "/#why-us",
-          "children": [
-            {
-              "id": "ma-co",
-              "label": "Company",
-              "type": "label",
-              "children": [
-                {
-                  "id": "ma-about",
-                  "label": "About Summit Ridge",
-                  "type": "url",
-                  "url": "/#why-us"
-                },
-                {
-                  "id": "ma-news",
-                  "label": "News",
-                  "type": "url",
-                  "url": "/blog"
-                },
-                {
-                  "id": "ma-contact",
-                  "label": "Contact us",
-                  "type": "url",
-                  "url": "/#contact"
-                }
-              ]
-            }
-          ]
+          "newTab": false,
+          "children": []
         },
         {
           "id": "locations",
           "label": "Locations",
           "type": "page",
-          "ref": "locations"
+          "ref": "locations",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "call",
           "label": "(555) 010-0148",
           "type": "url",
-          "url": "tel:+15550100148"
+          "ref": null,
+          "url": "tel:+15550100148",
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -292,19 +287,28 @@
           "id": "u-about",
           "label": "About us",
           "type": "url",
-          "url": "/#why-us"
+          "ref": null,
+          "url": "/#why-us",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "u-locations",
           "label": "Locations",
           "type": "page",
-          "ref": "locations"
+          "ref": "locations",
+          "url": null,
+          "newTab": false,
+          "children": []
         },
         {
           "id": "u-contact",
           "label": "Contact",
           "type": "url",
-          "url": "/#contact"
+          "ref": null,
+          "url": "/#contact",
+          "newTab": false,
+          "children": []
         }
       ]
     },
@@ -316,24 +320,36 @@
           "id": "fg-shop",
           "label": "Shop",
           "type": "label",
+          "ref": null,
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "fs-new",
               "label": "New trucks",
               "type": "inventory",
-              "ref": "inventory?condition=new"
+              "ref": "inventory?condition=new",
+              "url": null,
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fs-used",
               "label": "Used trucks",
               "type": "inventory",
-              "ref": "inventory?condition=used"
+              "ref": "inventory?condition=used",
+              "url": null,
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fs-fin",
               "label": "Financing",
               "type": "url",
-              "url": "/#financing"
+              "ref": null,
+              "url": "/#financing",
+              "newTab": false,
+              "children": []
             }
           ]
         },
@@ -341,24 +357,36 @@
           "id": "fg-support",
           "label": "Support",
           "type": "label",
+          "ref": null,
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "fp-service",
               "label": "Service",
               "type": "url",
-              "url": "/#service"
+              "ref": null,
+              "url": "/#service",
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fp-parts",
               "label": "Parts",
               "type": "inventory",
-              "ref": "parts"
+              "ref": "parts",
+              "url": null,
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fp-contact",
               "label": "Contact us",
               "type": "url",
-              "url": "/#contact"
+              "ref": null,
+              "url": "/#contact",
+              "newTab": false,
+              "children": []
             }
           ]
         },
@@ -366,24 +394,36 @@
           "id": "fg-company",
           "label": "Company",
           "type": "label",
+          "ref": null,
+          "url": null,
+          "newTab": false,
           "children": [
             {
               "id": "fc-about",
               "label": "About us",
               "type": "url",
-              "url": "/#why-us"
+              "ref": null,
+              "url": "/#why-us",
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fc-locations",
               "label": "Locations",
               "type": "page",
-              "ref": "locations"
+              "ref": "locations",
+              "url": null,
+              "newTab": false,
+              "children": []
             },
             {
               "id": "fc-blog",
               "label": "News",
               "type": "url",
-              "url": "/blog"
+              "ref": null,
+              "url": "/blog",
+              "newTab": false,
+              "children": []
             }
           ]
         }
@@ -397,13 +437,19 @@
           "id": "privacy",
           "label": "Privacy Policy",
           "type": "url",
-          "url": "/privacy"
+          "ref": null,
+          "url": "/privacy",
+          "newTab": false,
+          "children": []
         },
         {
           "id": "terms",
           "label": "Terms",
           "type": "url",
-          "url": "/terms"
+          "ref": null,
+          "url": "/terms",
+          "newTab": false,
+          "children": []
         }
       ]
     }
