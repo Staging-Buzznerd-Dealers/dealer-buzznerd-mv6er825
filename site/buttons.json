@@ -1,7 +1,7 @@
 [
   {
     "id": "browse-inventory",
-    "label": "Browse inventory",
+    "label": "View all inventory →",
     "url": "/store/inventory",
     "style": "primary",
     "intent": "browse-inventory",
@@ -20,10 +20,10 @@
   },
   {
     "id": "book-service",
-    "label": "Book service",
+    "label": "Schedule service",
     "url": null,
     "formId": "request-info",
-    "style": "secondary",
+    "style": "primary",
     "intent": "book-service",
     "newTab": false,
     "active": true
@@ -48,7 +48,7 @@
   },
   {
     "id": "shop-new",
-    "label": "Shop new trucks",
+    "label": "New trucks",
     "url": "/store/inventory?condition=new",
     "style": "secondary",
     "intent": "browse-inventory",
@@ -57,19 +57,19 @@
   },
   {
     "id": "shop-parts",
-    "label": "Shop parts",
+    "label": "Order parts",
     "url": "/store/parts",
-    "style": "link",
+    "style": "primary",
     "intent": "browse-parts",
     "newTab": false,
     "active": true
   },
   {
     "id": "get-financing",
-    "label": "Apply for financing",
+    "label": "Get pre-qualified",
     "url": null,
     "formId": "financing",
-    "style": "link",
+    "style": "secondary",
     "intent": "get-financing",
     "newTab": false,
     "active": true
@@ -80,6 +80,15 @@
     "url": "/#contact",
     "style": "secondary",
     "intent": "contact",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "shop-used",
+    "label": "Used trucks",
+    "url": "/store/inventory?condition=used",
+    "style": "secondary",
+    "intent": "browse-inventory",
     "newTab": false,
     "active": true
   }

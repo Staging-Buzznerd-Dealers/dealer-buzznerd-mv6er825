@@ -3,62 +3,114 @@
   "nodes": [
     {
       "id": "hero",
-      "type": "hero",
-      "props": {
-        "headingLevel": 1,
-        "eyebrow": "Riverton, TX · Sales · Service · Parts",
-        "headline": "Commercial trucks, ready for the next load.",
-        "subhead": "New and pre-owned day cabs, sleepers and vocational trucks — backed by a full-service shop and a parts counter that keeps your fleet moving.",
-        "showSearch": true,
-        "ctas": [
-          {
-            "ctaId": "browse-inventory"
-          },
-          {
-            "ctaId": "request-quote",
-            "style": "secondary"
-          }
-        ]
-      }
-    },
-    {
-      "id": "quick-band",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 7,
-        "background": "paper"
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 600,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "backgroundImage": "/images/hero-truck.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center right",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 48,
+          "paddingBottom": 48
+        }
       },
       "children": [
         {
-          "id": "quick",
-          "type": "iconGrid",
+          "id": "hero-row",
+          "type": "row",
           "props": {
-            "heading": "How can we help today?",
-            "headingLevel": 2,
-            "items": [
-              {
-                "label": "New trucks",
-                "desc": "Spec a new day cab, sleeper or vocational build and order it with our sales team.",
-                "url": "/store/inventory?condition=new"
+            "gap": 7,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "hero-copy",
+              "type": "column",
+              "props": {
+                "span": 7
               },
-              {
-                "label": "Pre-owned trucks",
-                "desc": "Inspected, serviced and priced to move — with warranty options on most units.",
-                "url": "/store/inventory?condition=used"
+              "children": [
+                {
+                  "id": "hero-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "New & used commercial trucks",
+                    "text": "North Texas’s premier commercial truck dealer",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "hero-sub",
+                  "type": "text",
+                  "props": {
+                    "text": "Summit Ridge Truck Center is a full-service commercial truck dealer for Texas and Oklahoma, offering new and used Class 8 trucks, certified service, and OEM parts to keep your fleet moving.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "hero-search",
+                  "type": "widget",
+                  "props": {
+                    "widget": "inventory-search",
+                    "config": {
+                      "placeholder": "Search by stock #, model, or VIN"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hero-links",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "align": "center"
               },
-              {
-                "label": "Parts counter",
-                "desc": "OEM and aftermarket parts in stock, shipped same day or ready for pickup.",
-                "url": "/store/parts"
-              },
-              {
-                "label": "Service & repair",
-                "desc": "Factory-trained technicians, 12 service bays and extended weekday hours.",
-                "url": "#service"
-              }
-            ]
-          }
+              "children": [
+                {
+                  "id": "hero-tiles",
+                  "type": "quick-tiles",
+                  "props": {
+                    "items": [
+                      {
+                        "label": "New trucks",
+                        "url": "/store/inventory?condition=new",
+                        "icon": "truck"
+                      },
+                      {
+                        "label": "Used trucks",
+                        "url": "/store/inventory?condition=used",
+                        "icon": "truck"
+                      },
+                      {
+                        "label": "Schedule service",
+                        "url": "/#service",
+                        "icon": "wrench"
+                      },
+                      {
+                        "label": "Order parts",
+                        "url": "/store/parts",
+                        "icon": "box"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -67,60 +119,17 @@
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 7
+        "paddingY": 8
       },
       "children": [
         {
-          "id": "featured-head",
-          "type": "row",
+          "id": "featured-h",
+          "type": "heading",
           "props": {
-            "gap": 5,
-            "align": "end",
-            "stackOn": "mobile"
-          },
-          "children": [
-            {
-              "id": "featured-copy",
-              "type": "column",
-              "props": {
-                "span": 8
-              },
-              "children": [
-                {
-                  "id": "featured-h",
-                  "type": "heading",
-                  "props": {
-                    "eyebrow": "On the lot now",
-                    "text": "Featured inventory",
-                    "headingLevel": 2
-                  }
-                }
-              ]
-            },
-            {
-              "id": "featured-more",
-              "type": "column",
-              "props": {
-                "span": 4,
-                "align": "end"
-              },
-              "children": [
-                {
-                  "id": "featured-cta",
-                  "type": "buttons",
-                  "props": {
-                    "items": [
-                      {
-                        "ctaId": "browse-inventory",
-                        "label": "View all inventory",
-                        "style": "link"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
+            "eyebrow": "Inventory",
+            "text": "Featured listings",
+            "headingLevel": 2
+          }
         },
         {
           "id": "featured",
@@ -131,49 +140,17 @@
               "limit": 8
             },
             "behaviour": "carousel",
-            "behaviourOptions": "{\"label\":\"Featured inventory\",\"perMove\":1}"
+            "behaviourOptions": "{\"label\":\"Featured listings\",\"perMove\":1}"
           }
-        }
-      ]
-    },
-    {
-      "id": "band",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 0,
-        "background": "ink",
-        "anchor": "why-us"
-      },
-      "children": [
+        },
         {
-          "id": "band-stats",
-          "type": "statBand",
+          "id": "featured-more",
+          "type": "buttons",
           "props": {
-            "heading": "Built around keeping you on the road",
-            "headingLevel": 2,
-            "body": "Every pre-owned unit goes through our own shop before it reaches the lot, and every truck we sell comes with a direct line to the technicians who know it.",
-            "ctas": [
+            "items": [
               {
-                "ctaId": "request-quote"
-              }
-            ],
-            "stats": [
-              {
-                "value": "25+",
-                "label": "Years serving North Texas"
-              },
-              {
-                "value": "300+",
-                "label": "Trucks in stock"
-              },
-              {
-                "value": "12",
-                "label": "Service bays"
-              },
-              {
-                "value": "Same day",
-                "label": "Parts shipping"
+                "ctaId": "browse-inventory",
+                "style": "link"
               }
             ]
           }
@@ -181,7 +158,62 @@
       ]
     },
     {
-      "id": "service-band",
+      "id": "offer",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 9,
+        "background": "ink",
+        "anchor": "why-us"
+      },
+      "children": [
+        {
+          "id": "offer-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Why Summit Ridge",
+            "text": "What we offer",
+            "headingLevel": 2,
+            "align": "center"
+          }
+        },
+        {
+          "id": "offer-stats",
+          "type": "icon-stats",
+          "props": {
+            "items": [
+              {
+                "icon": "gear",
+                "value": "120+",
+                "label": "Service technicians"
+              },
+              {
+                "icon": "pin",
+                "value": "90+",
+                "label": "Service bays"
+              },
+              {
+                "icon": "wrench",
+                "value": "35",
+                "label": "Parts delivery vehicles"
+              },
+              {
+                "icon": "check",
+                "value": "12+",
+                "label": "Certified DOT safety inspectors"
+              },
+              {
+                "icon": "star",
+                "value": "AC",
+                "label": "Factory-trained AC technicians"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "depts",
       "type": "section",
       "props": {
         "width": "boxed",
@@ -190,113 +222,252 @@
       },
       "children": [
         {
-          "id": "services",
-          "type": "serviceGrid",
+          "id": "depts-row",
+          "type": "row",
           "props": {
-            "heading": "Service, parts and financing under one roof",
-            "headingLevel": 2,
-            "body": "From a quick PM to a full engine overhaul, our team handles it in-house — and keeps you informed at every step.",
-            "items": [
-              {
-                "label": "Preventive maintenance",
-                "desc": "Scheduled PM programs built around your routes and duty cycles, so small issues never become downtime.",
-                "cta": {
-                  "ctaId": "book-service"
+            "gap": 6,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "service-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "service-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/service-bay.webp",
+                      "alt": "Technicians walking through an open service bay beside a truck",
+                      "width": 1400,
+                      "height": 933
+                    },
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "service-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Service center",
+                    "text": "Certified maintenance & repair",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "service-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Factory-trained technicians, genuine parts, and same-week appointments to keep your trucks on the road longer.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "service-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "book-service"
+                      }
+                    ]
+                  }
                 }
+              ]
+            },
+            {
+              "id": "parts-col",
+              "type": "column",
+              "props": {
+                "span": 6
               },
-              {
-                "label": "Repair & diagnostics",
-                "desc": "Engine, drivetrain, electrical and aftertreatment work by factory-trained technicians.",
-                "cta": {
-                  "ctaId": "book-service"
+              "children": [
+                {
+                  "id": "parts-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/parts-showroom.webp",
+                      "alt": "Parts team walking past a truck in a glass-walled showroom",
+                      "width": 1400,
+                      "height": 933
+                    },
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "parts-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Parts department",
+                    "text": "OEM parts, in stock",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "parts-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Order online or call our parts desk. Most in-stock orders ship same day.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "parts-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "shop-parts"
+                      }
+                    ]
+                  }
                 }
-              },
-              {
-                "label": "Parts counter",
-                "desc": "Thousands of OEM and aftermarket parts on the shelf, with same-day shipping across the region.",
-                "cta": {
-                  "ctaId": "shop-parts"
-                }
-              },
-              {
-                "label": "Financing & leasing",
-                "desc": "Loans and leases for owner-operators and fleets, with fast decisions across credit tiers.",
-                "cta": {
-                  "ctaId": "get-financing"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "reviews-band",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 8,
-        "background": "paper"
-      },
-      "children": [
-        {
-          "id": "reviews",
-          "type": "testimonials",
-          "props": {
-            "heading": "What our customers say",
-            "headingLevel": 2,
-            "items": [
-              {
-                "quote": "They had the exact spec I needed in stock and had it road-ready in two days. Straight answers from start to finish.",
-                "name": "Owner-operator",
-                "role": "Regional hauling",
-                "rating": 5
-              },
-              {
-                "quote": "Our PM program runs like clockwork. The service team calls before we even notice a problem.",
-                "name": "Fleet manager",
-                "role": "40-truck distribution fleet",
-                "rating": 5
-              },
-              {
-                "quote": "The parts counter is the best in the area — if it is not on the shelf, it is here the next morning.",
-                "name": "Shop foreman",
-                "role": "Municipal fleet",
-                "rating": 5
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "locations-band",
-      "type": "section",
-      "props": {
-        "width": "boxed",
-        "paddingY": 8
-      },
-      "children": [
-        {
-          "id": "locations",
-          "type": "widget",
-          "props": {
-            "widget": "locations-map",
-            "config": {
-              "heading": "Visit Summit Ridge",
-              "showMap": true
+              ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "financing",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "ink",
+        "anchor": "financing"
+      },
+      "children": [
+        {
+          "id": "fin-row",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "fin-copy",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "fin-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Flexible fleet financing",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "fin-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Competitive rates on new and used trucks, tailored to owner-operators and fleets alike.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fin-cta-col",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "fin-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "get-financing"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "quote-carousel",
+        "values": {
+          "quotes": [
+            {
+              "quote": "They kept three of our trucks down for less than 48 hours combined all year. That’s the difference a good service team makes.",
+              "name": "Dana Whitfield",
+              "role": "Fleet Manager, Whitfield Freight"
+            },
+            {
+              "quote": "They had the exact spec I needed in stock and had it road-ready in two days. Straight answers from start to finish.",
+              "name": "Luis Ortega",
+              "role": "Owner-Operator, Ortega Hauling"
+            },
+            {
+              "quote": "The parts counter is the best in the region. If it isn’t on the shelf, it’s here the next morning.",
+              "name": "Priya Natarajan",
+              "role": "Shop Foreman, Red River Municipal Fleet"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "locations",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-cards",
+        "values": {
+          "rooftops": {
+            "source": "locations"
+          }
+        }
+      }
+    },
+    {
+      "id": "news",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "news-posts",
+          "type": "postsList",
+          "props": {
+            "heading": "From the road ahead",
+            "headingLevel": 2,
+            "count": 3,
+            "showDates": false
           }
         }
       ]
     },
     {
-      "id": "contact-band",
+      "id": "contact",
       "type": "section",
       "props": {
         "width": "boxed",
-        "paddingY": 8,
-        "background": "paper",
+        "paddingY": 9,
         "anchor": "contact"
       },
       "children": [
@@ -304,7 +475,7 @@
           "id": "contact-row",
           "type": "row",
           "props": {
-            "gap": 7,
+            "gap": 8,
             "align": "start",
             "stackOn": "tablet"
           },
@@ -313,15 +484,15 @@
               "id": "contact-left",
               "type": "column",
               "props": {
-                "span": 5
+                "span": 6
               },
               "children": [
                 {
-                  "id": "contact-copy",
+                  "id": "contact-h",
                   "type": "heading",
                   "props": {
                     "eyebrow": "Get in touch",
-                    "text": "Talk to someone who knows the equipment",
+                    "text": "Talk to our team",
                     "headingLevel": 2
                   }
                 },
@@ -329,28 +500,15 @@
                   "id": "contact-text",
                   "type": "text",
                   "props": {
-                    "text": "Tell us what the job needs and we will spec it, price it and tell you honestly what is in stock. Most enquiries get a reply the same business day."
+                    "text": "Questions about inventory, service, or financing? Send a message and we’ll respond within one business day.",
+                    "width": "full"
                   }
                 },
                 {
-                  "id": "contact-call",
-                  "type": "buttons",
+                  "id": "contact-form",
+                  "type": "form",
                   "props": {
-                    "items": [
-                      {
-                        "ctaId": "call-us"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "id": "contact-hours",
-                  "type": "widget",
-                  "props": {
-                    "widget": "hours",
-                    "config": {
-                      "heading": "Hours"
-                    }
+                    "formId": "talk-to-team"
                   }
                 }
               ]
@@ -359,16 +517,30 @@
               "id": "contact-right",
               "type": "column",
               "props": {
-                "span": 7,
-                "padding": 6,
-                "background": "card"
+                "span": 6
               },
               "children": [
                 {
-                  "id": "contact-form",
+                  "id": "news-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Fleet updates & offers",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "news-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Subscribe for new inventory alerts and service specials.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "news-form",
                   "type": "form",
                   "props": {
-                    "formId": "request-info"
+                    "formId": "fleet-updates"
                   }
                 }
               ]
