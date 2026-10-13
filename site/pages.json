@@ -56,5 +56,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "create-a",
+    "dir": "create-a",
+    "title": "Create A",
+    "path": "/create-a",
+    "out": "create-a/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

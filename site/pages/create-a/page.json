@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "intro-section",
+      "type": "section",
+      "props": {
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "intro-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center"
+          },
+          "children": [
+            {
+              "id": "intro-column",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "intro-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Schedule Your Service Appointment",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "intro-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Ensure your vehicle is running smoothly by scheduling a service appointment with us. Our expert technicians are ready to provide top-notch service.",
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "form-section",
+      "type": "section",
+      "props": {
+        "background": "paper",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "form-row",
+          "type": "row",
+          "props": {
+            "gap": 6
+          },
+          "children": [
+            {
+              "id": "form-column",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "service-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "schedule-visit",
+                    "heading": "Book Your Service",
+                    "headingLevel": 2,
+                    "intro": "Fill out the form below to schedule a service appointment."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cta-column",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "contact-buttons",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "book-service",
+                        "style": "primary"
+                      },
+                      {
+                        "ctaId": "contact-us",
+                        "style": "secondary"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
