@@ -52,6 +52,23 @@
       "key": "youtube",
       "type": "url",
       "label": "YouTube link (empty hides it)"
+    },
+    {
+      "key": "builtByLogo",
+      "type": "image",
+      "label": "\"Built by\" logo",
+      "default": {
+        "src": "/images/buzznerd-logo.png",
+        "alt": "BuzzNerd",
+        "width": 480,
+        "height": 100
+      }
+    },
+    {
+      "key": "builtByUrl",
+      "type": "url",
+      "label": "\"Built by\" link",
+      "default": "https://buzznerd.com"
     }
   ],
   "nodes": [
@@ -142,7 +159,7 @@
               "id": "ft-copy",
               "type": "column",
               "props": {
-                "span": 6
+                "span": 4
               },
               "children": [
                 {
@@ -156,10 +173,36 @@
               ]
             },
             {
+              "id": "ft-builtby",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "ft-builtby-t",
+                  "type": "text",
+                  "props": {
+                    "text": "Built by",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ft-builtby-logo",
+                  "type": "image",
+                  "props": {
+                    "image": "{{builtByLogo}}",
+                    "url": "{{builtByUrl}}"
+                  }
+                }
+              ]
+            },
+            {
               "id": "ft-legal",
               "type": "column",
               "props": {
-                "span": 6,
+                "span": 4,
                 "align": "center"
               },
               "children": [
