@@ -7,39 +7,187 @@
       "items": [
         {
           "id": "inventory",
-          "label": "Inventory",
+          "label": "Trucks",
           "type": "inventory",
-          "ref": "inventory"
-        },
-        {
-          "id": "truck-types",
-          "label": "Truck types",
-          "type": "inventory",
-          "ref": "inventory",
+          "ref": "inventory?type=truck",
           "children": [
             {
-              "id": "tt-day-cab",
-              "label": "Day cabs",
-              "type": "inventory",
-              "ref": "search?q=day+cab"
+              "id": "mt-shop",
+              "label": "Shop trucks",
+              "type": "label",
+              "children": [
+                {
+                  "id": "mt-all",
+                  "label": "All truck inventory",
+                  "type": "inventory",
+                  "ref": "inventory"
+                },
+                {
+                  "id": "mt-new",
+                  "label": "New trucks",
+                  "type": "inventory",
+                  "ref": "inventory?condition=new"
+                },
+                {
+                  "id": "mt-used",
+                  "label": "Used trucks",
+                  "type": "inventory",
+                  "ref": "inventory?condition=used"
+                },
+                {
+                  "id": "mt-rent",
+                  "label": "Rental & lease trucks",
+                  "type": "inventory",
+                  "ref": "search?q=rental"
+                }
+              ]
             },
             {
-              "id": "tt-sleeper",
-              "label": "Sleepers",
-              "type": "inventory",
-              "ref": "search?q=sleeper"
+              "id": "mt-type",
+              "label": "Shop by type",
+              "type": "label",
+              "children": [
+                {
+                  "id": "tt-day-cab",
+                  "label": "Day cabs",
+                  "type": "inventory",
+                  "ref": "search?q=day+cab"
+                },
+                {
+                  "id": "tt-sleeper",
+                  "label": "Sleepers",
+                  "type": "inventory",
+                  "ref": "search?q=sleeper"
+                },
+                {
+                  "id": "tt-vocational",
+                  "label": "Vocational",
+                  "type": "inventory",
+                  "ref": "search?q=vocational"
+                },
+                {
+                  "id": "tt-box",
+                  "label": "Box trucks",
+                  "type": "inventory",
+                  "ref": "search?q=box+truck"
+                }
+              ]
             },
             {
-              "id": "tt-vocational",
-              "label": "Vocational",
-              "type": "inventory",
-              "ref": "search?q=vocational"
+              "id": "mt-finance",
+              "label": "Build & finance",
+              "type": "label",
+              "children": [
+                {
+                  "id": "mf-quote",
+                  "label": "Request a quote",
+                  "type": "url",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "mf-finance",
+                  "label": "Financing & credit",
+                  "type": "url",
+                  "url": "/#financing"
+                },
+                {
+                  "id": "mf-fleet",
+                  "label": "Fleet sales",
+                  "type": "url",
+                  "url": "/#contact"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trailers",
+          "label": "Trailers",
+          "type": "inventory",
+          "ref": "search?q=trailer",
+          "children": [
+            {
+              "id": "mr-shop",
+              "label": "Shop trailers",
+              "type": "label",
+              "children": [
+                {
+                  "id": "mr-all",
+                  "label": "All trailers",
+                  "type": "inventory",
+                  "ref": "search?q=trailer"
+                },
+                {
+                  "id": "mr-van",
+                  "label": "Dry vans",
+                  "type": "inventory",
+                  "ref": "search?q=dry+van"
+                },
+                {
+                  "id": "mr-flat",
+                  "label": "Flatbeds",
+                  "type": "inventory",
+                  "ref": "search?q=flatbed"
+                },
+                {
+                  "id": "mr-reefer",
+                  "label": "Reefers",
+                  "type": "inventory",
+                  "ref": "search?q=reefer"
+                }
+              ]
             },
             {
-              "id": "tt-box",
-              "label": "Box trucks",
-              "type": "inventory",
-              "ref": "search?q=box+truck"
+              "id": "mr-more",
+              "label": "Rent & finance",
+              "type": "label",
+              "children": [
+                {
+                  "id": "mr-rent",
+                  "label": "Trailer rentals",
+                  "type": "inventory",
+                  "ref": "search?q=trailer+rental"
+                },
+                {
+                  "id": "mr-finance",
+                  "label": "Financing & credit",
+                  "type": "url",
+                  "url": "/#financing"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parts",
+          "label": "Parts",
+          "type": "inventory",
+          "ref": "parts",
+          "children": [
+            {
+              "id": "mp-shop",
+              "label": "Shop parts",
+              "type": "label",
+              "children": [
+                {
+                  "id": "mp-all",
+                  "label": "Parts catalogue",
+                  "type": "inventory",
+                  "ref": "parts"
+                },
+                {
+                  "id": "mp-search",
+                  "label": "Search by part number",
+                  "type": "inventory",
+                  "ref": "search"
+                },
+                {
+                  "id": "mp-order",
+                  "label": "Order by phone",
+                  "type": "url",
+                  "url": "tel:+15550100148"
+                }
+              ]
             }
           ]
         },
@@ -47,25 +195,92 @@
           "id": "service",
           "label": "Service",
           "type": "url",
-          "url": "/#service"
+          "url": "/#service",
+          "children": [
+            {
+              "id": "ms-svc",
+              "label": "Service",
+              "type": "label",
+              "children": [
+                {
+                  "id": "ms-book",
+                  "label": "Schedule service",
+                  "type": "url",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "ms-mobile",
+                  "label": "Mobile service",
+                  "type": "url",
+                  "url": "/#service"
+                },
+                {
+                  "id": "ms-road",
+                  "label": "Road Assist — 24/7",
+                  "type": "url",
+                  "url": "tel:+15550100199"
+                }
+              ]
+            },
+            {
+              "id": "ms-loc",
+              "label": "Find a shop",
+              "type": "label",
+              "children": [
+                {
+                  "id": "ms-locations",
+                  "label": "Locations & hours",
+                  "type": "page",
+                  "ref": "locations"
+                }
+              ]
+            }
+          ]
         },
         {
-          "id": "parts",
-          "label": "Parts",
-          "type": "inventory",
-          "ref": "parts"
-        },
-        {
-          "id": "financing",
-          "label": "Financing",
+          "id": "about",
+          "label": "About",
           "type": "url",
-          "url": "/#financing"
+          "url": "/#why-us",
+          "children": [
+            {
+              "id": "ma-co",
+              "label": "Company",
+              "type": "label",
+              "children": [
+                {
+                  "id": "ma-about",
+                  "label": "About Summit Ridge",
+                  "type": "url",
+                  "url": "/#why-us"
+                },
+                {
+                  "id": "ma-news",
+                  "label": "News",
+                  "type": "url",
+                  "url": "/blog"
+                },
+                {
+                  "id": "ma-contact",
+                  "label": "Contact us",
+                  "type": "url",
+                  "url": "/#contact"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "locations",
           "label": "Locations",
           "type": "page",
           "ref": "locations"
+        },
+        {
+          "id": "call",
+          "label": "(555) 010-0148",
+          "type": "url",
+          "url": "tel:+15550100148"
         }
       ]
     },
