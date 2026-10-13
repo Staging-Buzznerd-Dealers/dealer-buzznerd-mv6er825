@@ -289,10 +289,10 @@
         },
         {
           "id": "call",
-          "label": "800-741-7566",
+          "label": "15550100148",
           "type": "url",
           "ref": null,
-          "url": "tel:+18007417566",
+          "url": "tel:+15550100148",
           "newTab": false,
           "children": []
         }
