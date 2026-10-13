@@ -1,0 +1,349 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "loc-head",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-header",
+        "values": {
+          "rooftop": {
+            "source": "locations",
+            "config": {
+              "locationSlug": "{{locationSlug}}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "store",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "store-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "store-copy",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "store-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Store map",
+                    "text": "Find us",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "store-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Pull in off the frontage road — there is room for tractor-trailers in the customer lot, and the service write-up desk is just inside the main bay doors.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "store-phones",
+                  "type": "widget",
+                  "props": {
+                    "widget": "phone-numbers",
+                    "config": {}
+                  }
+                },
+                {
+                  "id": "store-after",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>After-hours service</strong><br>Breakdown after closing? Summit Ridge Road Assist runs 6:00 PM – 7:00 AM every night.<br><strong>Road Assist — (555) 010-0199</strong>",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "store-map-col",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "store-map",
+                  "type": "widget",
+                  "props": {
+                    "widget": "locations-map",
+                    "config": {
+                      "mapProvider": "google",
+                      "showMap": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "hours-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Department hours",
+            "text": "When each department is open",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "hours-tables",
+          "type": "widget",
+          "props": {
+            "widget": "hours",
+            "config": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "onsite",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "onsite-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "What’s on site",
+            "text": "One address, every department",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "onsite-grid",
+          "type": "iconGrid",
+          "props": {
+            "items": [
+              {
+                "label": "Truck sales",
+                "desc": "New and pre-owned day cabs, sleepers and vocational trucks, with spec help and factory ordering.",
+                "url": "/store/inventory"
+              },
+              {
+                "label": "Parts counter",
+                "desc": "OEM and aftermarket parts on the shelf, with same-day delivery across the metro.",
+                "url": "/store/parts"
+              },
+              {
+                "label": "Service & repair",
+                "desc": "Factory-trained technicians, PM programs and DOT inspections in dedicated truck bays.",
+                "url": "/#service"
+              },
+              {
+                "label": "Financing",
+                "desc": "Loans and leases for owner-operators and fleets, with fast decisions across credit tiers.",
+                "url": "/#financing"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "extras-row",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "fleet-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "fleet-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Fleet program",
+                    "text": "Fleet sales & leasing",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "fleet-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Running five trucks or fifty? Our fleet desk handles spec’ing, volume pricing, lease-versus-buy comparisons and scheduled PM so your whole operation runs off one account.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "fleet-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "request-quote",
+                        "style": "link",
+                        "label": "Talk to the fleet desk →"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mobile-col",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "mobile-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Mobile service",
+                    "text": "We come to your yard",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "mobile-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Our service trucks handle PM, diagnostics and minor repairs on site, Monday to Saturday — so trucks keep working while the work gets done.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "mobile-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "book-service",
+                        "style": "link",
+                        "label": "Book mobile service →"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-cards",
+        "values": {
+          "eyebrow": "Find a location",
+          "heading": "Other Summit Ridge locations",
+          "rooftops": {
+            "source": "locations",
+            "config": {
+              "excludeSlug": "{{locationSlug}}",
+              "pagePathPrefix": "/locations"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "faq-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Location FAQ",
+            "text": "Common questions",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "faq-list",
+          "type": "widget",
+          "props": {
+            "widget": "faq",
+            "config": {
+              "items": [
+                {
+                  "q": "Do I need an appointment for service?",
+                  "a": "Appointments get you the fastest turnaround, but every Summit Ridge location takes walk-ins for inspections and quick repairs when bays are open."
+                },
+                {
+                  "q": "Is after-hours service available?",
+                  "a": "Yes. Summit Ridge Road Assist answers (555) 010-0199 from 6:00 PM to 7:00 AM every night and dispatches a technician or tow."
+                },
+                {
+                  "q": "Can I pick up parts ordered online here?",
+                  "a": "Yes. Choose this location at checkout and most in-stock orders are ready at the parts counter the same day."
+                },
+                {
+                  "q": "Do you rent or lease trucks from this location?",
+                  "a": "Short-term rentals and full-service leases are available — our fleet desk can tell you what is on the lot here today."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {}
+      }
+    }
+  ]
+}

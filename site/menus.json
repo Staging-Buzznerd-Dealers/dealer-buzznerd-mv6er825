@@ -60,6 +60,12 @@
           "label": "Financing",
           "type": "url",
           "url": "/#financing"
+        },
+        {
+          "id": "locations",
+          "label": "Locations",
+          "type": "page",
+          "ref": "locations"
         }
       ]
     },
@@ -76,8 +82,8 @@
         {
           "id": "u-locations",
           "label": "Locations",
-          "type": "url",
-          "url": "/#locations"
+          "type": "page",
+          "ref": "locations"
         },
         {
           "id": "u-contact",
@@ -155,8 +161,8 @@
             {
               "id": "fc-locations",
               "label": "Locations",
-              "type": "url",
-              "url": "/#locations"
+              "type": "page",
+              "ref": "locations"
             },
             {
               "id": "fc-blog",

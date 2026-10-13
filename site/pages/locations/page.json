@@ -1,0 +1,346 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 460,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 80,
+          "paddingBottom": 80,
+          "backgroundImage": "/images/locations-banner.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "banner-crumb",
+          "type": "text",
+          "props": {
+            "text": "<a href=\"/\">Home</a> / Locations & hours",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "text": "Locations & hours",
+            "headingLevel": 1,
+            "align": "center"
+          }
+        },
+        {
+          "id": "banner-text",
+          "type": "text",
+          "props": {
+            "text": "Four locations across Texas and Oklahoma for trucks, parts, service and financing — with after-hours help a phone call away.",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-cta",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "label": "See all locations",
+                "url": "#all-locations",
+                "style": "primary",
+                "intent": "find-location"
+              },
+              {
+                "ctaId": "call-us"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "find",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "find-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Find a location",
+            "text": "Ready to find the right equipment for your business?",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "find-text",
+          "type": "text",
+          "props": {
+            "text": "Visit any Summit Ridge location across North Texas, East Texas and Oklahoma. Every store carries sales, parts and service; Tyler is our dedicated truck and trailer parts hub, and Road Assist covers all four locations after hours.",
+            "width": "full"
+          }
+        },
+        {
+          "id": "find-map",
+          "type": "widget",
+          "props": {
+            "widget": "locations-pinmap",
+            "config": {
+              "basemap": {
+                "src": "/images/maps/texas-oklahoma.svg",
+                "alt": "Map of Texas and Oklahoma",
+                "width": 1000,
+                "height": 998
+              },
+              "anchors": [
+                {
+                  "lat": 36,
+                  "lng": -106,
+                  "x": 103.4,
+                  "y": 137.9
+                },
+                {
+                  "lat": 27,
+                  "lng": -94.5,
+                  "x": 896.6,
+                  "y": 867.3
+                }
+              ],
+              "pagePathPrefix": "/locations",
+              "label": "Map of Summit Ridge locations"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "directory",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-directory",
+        "values": {
+          "rooftops": {
+            "source": "locations",
+            "config": {
+              "pagePathPrefix": "/locations"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "coverage",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "coverage-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "coverage-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "coverage-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "When stores are closed",
+                    "text": "Coverage outside store hours",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "coverage-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Summit Ridge Road Assist answers from 6:00 PM to 7:00 AM every night and dispatches a technician or tow from the nearest location.\n\nOur mobile service team runs Monday to Saturday, 7:00 AM to 5:00 PM, handling PM, diagnostics and minor repairs at your yard or job site.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "coverage-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "book-service",
+                        "style": "link",
+                        "label": "Schedule service →"
+                      },
+                      {
+                        "ctaId": "call-us",
+                        "style": "link",
+                        "label": "Call Road Assist →"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "coverage-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "coverage-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/coverage-truck.webp",
+                      "alt": "A white tractor-trailer on an open highway at sunset",
+                      "width": 1586,
+                      "height": 992
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bysite",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "bysite-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "What’s at each location",
+            "text": "Departments by site",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "bysite-grid",
+          "type": "iconGrid",
+          "props": {
+            "items": [
+              {
+                "label": "Truck sales",
+                "desc": "New and pre-owned trucks at Riverton, Fort Worth and Oklahoma City, with fleet pricing at every store.",
+                "url": "/store/inventory"
+              },
+              {
+                "label": "Trailer sales",
+                "desc": "Dry vans, reefers and flatbeds through our trailer desk at Fort Worth.",
+                "url": "/store/inventory"
+              },
+              {
+                "label": "Parts",
+                "desc": "Parts counters at all four locations, plus the Tyler truck & trailer parts hub with same-day delivery.",
+                "url": "/store/parts"
+              },
+              {
+                "label": "Service & mobile",
+                "desc": "Service bays at every location, mobile service across the region and Road Assist after hours.",
+                "url": "/#service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "faq-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Location FAQ",
+            "text": "Common questions",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "faq-list",
+          "type": "widget",
+          "props": {
+            "widget": "faq",
+            "config": {
+              "items": [
+                {
+                  "q": "How many Summit Ridge locations are there?",
+                  "a": "Four: Riverton, Fort Worth and Tyler in Texas, and Oklahoma City. Each carries sales, parts and service; Tyler is our truck and trailer parts hub."
+                },
+                {
+                  "q": "What are the service department hours?",
+                  "a": "Most service departments are open 7:00 AM to 6:00 PM on weekdays with Saturday mornings at select locations. Each location page lists its exact hours."
+                },
+                {
+                  "q": "Which locations sell trailers?",
+                  "a": "Trailer sales run through our Fort Worth location, and any store can order one for you."
+                },
+                {
+                  "q": "Do you offer curbside pickup or delivery?",
+                  "a": "Yes. Order parts online or by phone for curbside pickup at any location, or same-day delivery within the metro."
+                },
+                {
+                  "q": "Which areas do you serve?",
+                  "a": "North and East Texas and central Oklahoma, with mobile service and Road Assist reaching customers between our locations."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {}
+      }
+    }
+  ]
+}
