@@ -1,107 +1,381 @@
 {
-  "version": 1,
-  "blocks": [
+  "version": 2,
+  "nodes": [
     {
       "id": "hero",
       "type": "hero",
       "props": {
         "headingLevel": 1,
-        "eyebrow": "Trucks · Parts · Service",
-        "headline": "Your trusted partner on the road.",
-        "subhead": "New and used trucks, expert service, and genuine parts — all from one dealer you can rely on.",
+        "eyebrow": "Riverton, TX · Sales · Service · Parts",
+        "headline": "Commercial trucks, ready for the next load.",
+        "subhead": "New and pre-owned day cabs, sleepers and vocational trucks — backed by a full-service shop and a parts counter that keeps your fleet moving.",
         "showSearch": true,
-        "ctas": [{ "ctaId": "browse-inventory" }, { "ctaId": "request-quote", "style": "secondary" }]
-      }
-    },
-    {
-      "id": "quick",
-      "type": "iconGrid",
-      "props": {
-        "heading": "How can we help?",
-        "items": [
+        "ctas": [
           {
-            "label": "In-stock inventory",
-            "desc": "New and used trucks and trailers, priced and ready to move.",
-            "url": "/store"
+            "ctaId": "browse-inventory"
           },
           {
-            "label": "Parts counter",
-            "desc": "OEM and aftermarket parts, shipped or ready at the counter.",
-            "url": "/store"
-          },
-          {
-            "label": "Service & repair",
-            "desc": "Factory-trained technicians for inspections, warranty and repair.",
-            "url": "/contact"
-          },
-          {
-            "label": "Financing",
-            "desc": "Flexible terms for owner-operators, with fast pre-approval.",
-            "url": "/contact"
+            "ctaId": "request-quote",
+            "style": "secondary"
           }
         ]
       }
     },
     {
-      "id": "featured",
-      "type": "widget",
+      "id": "quick-band",
+      "type": "section",
       "props": {
-        "widget": "inventory-carousel",
-        "config": { "heading": "Featured inventory", "limit": 4 }
-      }
+        "width": "boxed",
+        "paddingY": 7,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "quick",
+          "type": "iconGrid",
+          "props": {
+            "heading": "How can we help today?",
+            "headingLevel": 2,
+            "items": [
+              {
+                "label": "New trucks",
+                "desc": "Spec a new day cab, sleeper or vocational build and order it with our sales team.",
+                "url": "/store/inventory?condition=new"
+              },
+              {
+                "label": "Pre-owned trucks",
+                "desc": "Inspected, serviced and priced to move — with warranty options on most units.",
+                "url": "/store/inventory?condition=used"
+              },
+              {
+                "label": "Parts counter",
+                "desc": "OEM and aftermarket parts in stock, shipped same day or ready for pickup.",
+                "url": "/store/parts"
+              },
+              {
+                "label": "Service & repair",
+                "desc": "Factory-trained technicians, 12 service bays and extended weekday hours.",
+                "url": "#service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "featured-band",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "featured-head",
+          "type": "row",
+          "props": {
+            "gap": 5,
+            "align": "end",
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "featured-copy",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "featured-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "On the lot now",
+                    "text": "Featured inventory",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            },
+            {
+              "id": "featured-more",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "align": "end"
+              },
+              "children": [
+                {
+                  "id": "featured-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory",
+                        "label": "View all inventory",
+                        "style": "link"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "featured",
+          "type": "widget",
+          "props": {
+            "widget": "inventory-carousel",
+            "config": {
+              "limit": 8
+            },
+            "behaviour": "carousel",
+            "behaviourOptions": "{\"label\":\"Featured inventory\",\"perMove\":1}"
+          }
+        }
+      ]
     },
     {
       "id": "band",
-      "type": "statBand",
+      "type": "section",
       "props": {
-        "heading": "Keeping your fleet on the road",
-        "body": "Every unit we sell is inspected in our own shop. When you buy from us you get a direct line to the people who worked on it.",
-        "ctas": [{ "ctaId": "about-us" }],
-        "stats": [
-          { "value": "39", "label": "Years in business" },
-          { "value": "12k+", "label": "Units delivered" },
-          { "value": "4", "label": "Sales & service centers" },
-          { "value": "48hr", "label": "Avg. parts turnaround" }
-        ]
-      }
+        "width": "boxed",
+        "paddingY": 0,
+        "background": "ink",
+        "anchor": "why-us"
+      },
+      "children": [
+        {
+          "id": "band-stats",
+          "type": "statBand",
+          "props": {
+            "heading": "Built around keeping you on the road",
+            "headingLevel": 2,
+            "body": "Every pre-owned unit goes through our own shop before it reaches the lot, and every truck we sell comes with a direct line to the technicians who know it.",
+            "ctas": [
+              {
+                "ctaId": "request-quote"
+              }
+            ],
+            "stats": [
+              {
+                "value": "25+",
+                "label": "Years serving North Texas"
+              },
+              {
+                "value": "300+",
+                "label": "Trucks in stock"
+              },
+              {
+                "value": "12",
+                "label": "Service bays"
+              },
+              {
+                "value": "Same day",
+                "label": "Parts shipping"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "id": "locations",
-      "type": "widget",
+      "id": "service-band",
+      "type": "section",
       "props": {
-        "widget": "locations-map",
-        "config": { "heading": "Find a location", "showMap": true }
-      }
+        "width": "boxed",
+        "paddingY": 8,
+        "anchor": "service"
+      },
+      "children": [
+        {
+          "id": "services",
+          "type": "serviceGrid",
+          "props": {
+            "heading": "Service, parts and financing under one roof",
+            "headingLevel": 2,
+            "body": "From a quick PM to a full engine overhaul, our team handles it in-house — and keeps you informed at every step.",
+            "items": [
+              {
+                "label": "Preventive maintenance",
+                "desc": "Scheduled PM programs built around your routes and duty cycles, so small issues never become downtime.",
+                "cta": {
+                  "ctaId": "book-service"
+                }
+              },
+              {
+                "label": "Repair & diagnostics",
+                "desc": "Engine, drivetrain, electrical and aftertreatment work by factory-trained technicians.",
+                "cta": {
+                  "ctaId": "book-service"
+                }
+              },
+              {
+                "label": "Parts counter",
+                "desc": "Thousands of OEM and aftermarket parts on the shelf, with same-day shipping across the region.",
+                "cta": {
+                  "ctaId": "shop-parts"
+                }
+              },
+              {
+                "label": "Financing & leasing",
+                "desc": "Loans and leases for owner-operators and fleets, with fast decisions across credit tiers.",
+                "cta": {
+                  "ctaId": "get-financing"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      "id": "contact-row",
-      "type": "row",
+      "id": "reviews-band",
+      "type": "section",
       "props": {
-        "align": "start",
-        "columns": [
-          [
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "reviews",
+          "type": "testimonials",
+          "props": {
+            "heading": "What our customers say",
+            "headingLevel": 2,
+            "items": [
+              {
+                "quote": "They had the exact spec I needed in stock and had it road-ready in two days. Straight answers from start to finish.",
+                "name": "Owner-operator",
+                "role": "Regional hauling",
+                "rating": 5
+              },
+              {
+                "quote": "Our PM program runs like clockwork. The service team calls before we even notice a problem.",
+                "name": "Fleet manager",
+                "role": "40-truck distribution fleet",
+                "rating": 5
+              },
+              {
+                "quote": "The parts counter is the best in the area — if it is not on the shelf, it is here the next morning.",
+                "name": "Shop foreman",
+                "role": "Municipal fleet",
+                "rating": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "locations-band",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "locations",
+          "type": "widget",
+          "props": {
+            "widget": "locations-map",
+            "config": {
+              "heading": "Visit Summit Ridge",
+              "showMap": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact-band",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper",
+        "anchor": "contact"
+      },
+      "children": [
+        {
+          "id": "contact-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
             {
-              "id": "contact-copy",
-              "type": "heading",
-              "props": { "text": "Talk to someone who knows the equipment", "headingLevel": 2 }
+              "id": "contact-left",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "contact-copy",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Get in touch",
+                    "text": "Talk to someone who knows the equipment",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "contact-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Tell us what the job needs and we will spec it, price it and tell you honestly what is in stock. Most enquiries get a reply the same business day."
+                  }
+                },
+                {
+                  "id": "contact-call",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "call-us"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "contact-hours",
+                  "type": "widget",
+                  "props": {
+                    "widget": "hours",
+                    "config": {
+                      "heading": "Hours"
+                    }
+                  }
+                }
+              ]
             },
             {
-              "id": "contact-text",
-              "type": "text",
+              "id": "contact-right",
+              "type": "column",
               "props": {
-                "text": "Tell us what the job needs and we will spec it, price it and tell you honestly what is in stock.\n\nPrefer the phone? <a href=\"tel:+15551234567\">Call us</a> during business hours."
-              }
-            }
-          ],
-          [
-            {
-              "id": "contact-form",
-              "type": "form",
-              "props": { "formId": "request-info" }
+                "span": 7,
+                "padding": 6,
+                "background": "card"
+              },
+              "children": [
+                {
+                  "id": "contact-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "request-info"
+                  }
+                }
+              ]
             }
           ]
-        ]
-      }
+        }
+      ]
     }
   ]
 }

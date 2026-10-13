@@ -2,7 +2,7 @@
   {
     "id": "browse-inventory",
     "label": "Browse inventory",
-    "url": "/store",
+    "url": "/store/inventory",
     "style": "primary",
     "intent": "browse-inventory",
     "newTab": false,
@@ -30,8 +30,8 @@
   },
   {
     "id": "call-us",
-    "label": "Call us",
-    "url": "tel:+15551234567",
+    "label": "Call (555) 010-0148",
+    "url": "tel:+15550100148",
     "style": "secondary",
     "intent": "call-dealer",
     "newTab": false,
@@ -39,10 +39,47 @@
   },
   {
     "id": "about-us",
-    "label": "About us",
-    "url": "/about",
+    "label": "Why Summit Ridge",
+    "url": "/#why-us",
     "style": "link",
     "intent": "about",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "shop-new",
+    "label": "Shop new trucks",
+    "url": "/store/inventory?condition=new",
+    "style": "secondary",
+    "intent": "browse-inventory",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "shop-parts",
+    "label": "Shop parts",
+    "url": "/store/parts",
+    "style": "link",
+    "intent": "browse-parts",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "get-financing",
+    "label": "Apply for financing",
+    "url": null,
+    "formId": "financing",
+    "style": "link",
+    "intent": "get-financing",
+    "newTab": false,
+    "active": true
+  },
+  {
+    "id": "contact-us",
+    "label": "Contact us",
+    "url": "/#contact",
+    "style": "secondary",
+    "intent": "contact",
     "newTab": false,
     "active": true
   }
