@@ -1,0 +1,184 @@
+{
+  "version": 2,
+  "id": "location-cards",
+  "name": "Location cards",
+  "description": "A scrolling row of rooftop cards from Locations: number, name, state, address, phone, directions and the departments each one offers.",
+  "css": "[data-bz-section=\"location-cards\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"location-cards\"] .bz-col[data-bz-node^=\"lc-card\"] { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 28px 28px 30px; min-width: 300px; display: flex; flex-direction: column; gap: 10px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] h3 { font-size: 17px; line-height: 1.25; margin: 0; text-transform: uppercase; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-name\"] .bz-eyebrow { color: var(--muted); margin: 0 0 4px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-addr\"] p { font-size: 14px; color: var(--muted); margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-phone\"] p { font-size: 16px; margin: 0; }\n[data-bz-section=\"location-cards\"] .bz-block p a { color: var(--ink); text-decoration: none; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-dir\"] p a { font-weight: 700; font-size: 14px; }\n[data-bz-section=\"location-cards\"] .bz-block[data-bz-node^=\"lc-depts\"] p { margin: 4px 0 0; font: 700 11px / 1.9 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); }",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Label above the heading",
+      "default": "Locations"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Find a location"
+    },
+    {
+      "key": "rooftops",
+      "type": "list",
+      "label": "Rooftops",
+      "fields": [
+        {
+          "key": "num",
+          "type": "text",
+          "label": "Number"
+        },
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "region",
+          "type": "text",
+          "label": "State"
+        },
+        {
+          "key": "streetAddress",
+          "type": "text",
+          "label": "Street address"
+        },
+        {
+          "key": "city",
+          "type": "text",
+          "label": "City"
+        },
+        {
+          "key": "postalCode",
+          "type": "text",
+          "label": "ZIP"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "phoneUrl",
+          "type": "url",
+          "label": "Phone link"
+        },
+        {
+          "key": "mapUrl",
+          "type": "url",
+          "label": "Directions link"
+        },
+        {
+          "key": "departments",
+          "type": "text",
+          "label": "Departments"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper",
+        "anchor": "locations",
+        "behaviour": "carousel",
+        "behaviourOptions": "{\"label\":\"Locations\",\"perMove\":1}"
+      },
+      "children": [
+        {
+          "id": "lc-head",
+          "type": "row",
+          "props": {
+            "gap": 4
+          },
+          "children": [
+            {
+              "id": "lc-headcol",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lc-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lc-track",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "part": "track",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lc-card",
+              "type": "column",
+              "props": {
+                "span": 3,
+                "part": "slide",
+                "repeat": "rooftops"
+              },
+              "children": [
+                {
+                  "id": "lc-name",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{num}} · {{region}}",
+                    "text": "{{name}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "lc-addr",
+                  "type": "text",
+                  "props": {
+                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "lc-phone",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "lc-dir",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{mapUrl}}\" target=\"_blank\" rel=\"noopener\">Directions →</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "lc-depts",
+                  "type": "text",
+                  "props": {
+                    "text": "{{departments}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,42 +6,42 @@
       "name": "Main menu",
       "items": [
         {
-          "id": "home",
-          "label": "Home",
-          "type": "page",
-          "ref": "home"
-        },
-        {
           "id": "inventory",
           "label": "Inventory",
+          "type": "inventory",
+          "ref": "inventory"
+        },
+        {
+          "id": "truck-types",
+          "label": "Truck types",
           "type": "inventory",
           "ref": "inventory",
           "children": [
             {
-              "id": "inv-all",
-              "label": "All inventory",
+              "id": "tt-day-cab",
+              "label": "Day cabs",
               "type": "inventory",
-              "ref": "inventory"
+              "ref": "search?q=day+cab"
             },
             {
-              "id": "inv-new",
-              "label": "New trucks",
+              "id": "tt-sleeper",
+              "label": "Sleepers",
               "type": "inventory",
-              "ref": "inventory?condition=new"
+              "ref": "search?q=sleeper"
             },
             {
-              "id": "inv-used",
-              "label": "Pre-owned trucks",
+              "id": "tt-vocational",
+              "label": "Vocational",
               "type": "inventory",
-              "ref": "inventory?condition=used"
+              "ref": "search?q=vocational"
+            },
+            {
+              "id": "tt-box",
+              "label": "Box trucks",
+              "type": "inventory",
+              "ref": "search?q=box+truck"
             }
           ]
-        },
-        {
-          "id": "parts",
-          "label": "Parts",
-          "type": "inventory",
-          "ref": "parts"
         },
         {
           "id": "service",
@@ -50,7 +50,37 @@
           "url": "/#service"
         },
         {
-          "id": "contact",
+          "id": "parts",
+          "label": "Parts",
+          "type": "inventory",
+          "ref": "parts"
+        },
+        {
+          "id": "financing",
+          "label": "Financing",
+          "type": "url",
+          "url": "/#financing"
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Utility bar",
+      "items": [
+        {
+          "id": "u-about",
+          "label": "About us",
+          "type": "url",
+          "url": "/#why-us"
+        },
+        {
+          "id": "u-locations",
+          "label": "Locations",
+          "type": "url",
+          "url": "/#locations"
+        },
+        {
+          "id": "u-contact",
           "label": "Contact",
           "type": "url",
           "url": "/#contact"
@@ -59,37 +89,82 @@
     },
     {
       "id": "footer",
-      "name": "Footer menu",
+      "name": "Footer links",
       "items": [
         {
-          "id": "f-inventory",
-          "label": "Inventory",
-          "type": "inventory",
-          "ref": "inventory"
+          "id": "fg-shop",
+          "label": "Shop",
+          "type": "label",
+          "children": [
+            {
+              "id": "fs-new",
+              "label": "New trucks",
+              "type": "inventory",
+              "ref": "inventory?condition=new"
+            },
+            {
+              "id": "fs-used",
+              "label": "Used trucks",
+              "type": "inventory",
+              "ref": "inventory?condition=used"
+            },
+            {
+              "id": "fs-fin",
+              "label": "Financing",
+              "type": "url",
+              "url": "/#financing"
+            }
+          ]
         },
         {
-          "id": "f-parts",
-          "label": "Parts",
-          "type": "inventory",
-          "ref": "parts"
+          "id": "fg-support",
+          "label": "Support",
+          "type": "label",
+          "children": [
+            {
+              "id": "fp-service",
+              "label": "Service",
+              "type": "url",
+              "url": "/#service"
+            },
+            {
+              "id": "fp-parts",
+              "label": "Parts",
+              "type": "inventory",
+              "ref": "parts"
+            },
+            {
+              "id": "fp-contact",
+              "label": "Contact us",
+              "type": "url",
+              "url": "/#contact"
+            }
+          ]
         },
         {
-          "id": "f-service",
-          "label": "Service",
-          "type": "url",
-          "url": "/#service"
-        },
-        {
-          "id": "f-contact",
-          "label": "Contact",
-          "type": "url",
-          "url": "/#contact"
-        },
-        {
-          "id": "f-call",
-          "label": "(555) 010-0148",
-          "type": "url",
-          "url": "tel:+15550100148"
+          "id": "fg-company",
+          "label": "Company",
+          "type": "label",
+          "children": [
+            {
+              "id": "fc-about",
+              "label": "About us",
+              "type": "url",
+              "url": "/#why-us"
+            },
+            {
+              "id": "fc-locations",
+              "label": "Locations",
+              "type": "url",
+              "url": "/#locations"
+            },
+            {
+              "id": "fc-blog",
+              "label": "News",
+              "type": "url",
+              "url": "/blog"
+            }
+          ]
         }
       ]
     },
@@ -99,7 +174,7 @@
       "items": [
         {
           "id": "privacy",
-          "label": "Privacy",
+          "label": "Privacy Policy",
           "type": "url",
           "url": "/privacy"
         },

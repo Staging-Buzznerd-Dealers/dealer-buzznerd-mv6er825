@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "id": "utility-bar",
+  "name": "Utility bar",
+  "description": "The thin dark strip above the header: main phone and address on the left, a short menu and social icons on the right.",
+  "css": "[data-bz-section=\"utility-bar\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"utility-bar\"] .bz-block p { margin: 0; font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.72); }\n[data-bz-section=\"utility-bar\"] .bz-block p a { color: #fff; font-weight: 700; text-decoration: none; margin-right: 14px; }\n[data-bz-section=\"utility-bar\"] .bz-nav { gap: 22px; flex-wrap: nowrap; }\n[data-bz-section=\"utility-bar\"] .bz-navitem > a { font: 500 13px / 1.4 var(--font-body); padding-block: 0; color: rgba(255,255,255,.85); }\n[data-bz-section=\"utility-bar\"] .bz-navitem > a:hover { color: #fff; }\n[data-bz-section=\"utility-bar\"] .bz-col[data-bz-node=\"ub-right\"] { display: flex; align-items: center; justify-content: flex-end; gap: 22px; }\n[data-bz-section=\"utility-bar\"] .sl { gap: 14px; padding-left: 22px; border-left: 1px solid rgba(255,255,255,.18); }\n@media (max-width: 1100px) { [data-bz-section=\"utility-bar\"] .bz-col[data-bz-node=\"ub-right\"] { display: none; } }\n@media (max-width: 640px) { [data-bz-section=\"utility-bar\"] .bz-block p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }",
+  "props": [
+    {
+      "key": "phone",
+      "type": "text",
+      "label": "Main phone",
+      "default": "(555) 010-0148"
+    },
+    {
+      "key": "phoneUrl",
+      "type": "url",
+      "label": "Phone link",
+      "default": "tel:+15550100148"
+    },
+    {
+      "key": "address",
+      "type": "text",
+      "label": "Main address",
+      "default": "1250 Commerce Parkway, Riverton, TX 75001"
+    },
+    {
+      "key": "facebook",
+      "type": "url",
+      "label": "Facebook link (empty hides it)"
+    },
+    {
+      "key": "instagram",
+      "type": "url",
+      "label": "Instagram link (empty hides it)"
+    },
+    {
+      "key": "linkedin",
+      "type": "url",
+      "label": "LinkedIn link (empty hides it)"
+    },
+    {
+      "key": "x",
+      "type": "url",
+      "label": "X link (empty hides it)"
+    },
+    {
+      "key": "youtube",
+      "type": "url",
+      "label": "YouTube link (empty hides it)"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ub",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "background": "inkDark",
+          "paddingTop": 9,
+          "paddingBottom": 9,
+          "paddingLeft": 24,
+          "paddingRight": 24
+        }
+      },
+      "children": [
+        {
+          "id": "ub-row",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "align": "center",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ub-left",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "ub-contact",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a>{{address}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ub-right",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "ub-menu",
+                  "type": "menu",
+                  "props": {
+                    "menuId": "utility",
+                    "layout": "horizontal",
+                    "align": "end",
+                    "depth": 1
+                  }
+                },
+                {
+                  "id": "ub-social",
+                  "type": "social-links",
+                  "props": {
+                    "facebook": "{{facebook}}",
+                    "instagram": "{{instagram}}",
+                    "linkedin": "{{linkedin}}",
+                    "x": "{{x}}",
+                    "youtube": "{{youtube}}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

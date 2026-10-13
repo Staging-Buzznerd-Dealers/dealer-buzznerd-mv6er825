@@ -1,0 +1,66 @@
+/* Home page — Summit Ridge, handoff "Home Page Variant 2". */
+
+/* Hero: a dark scrim over the photo so the headline reads; the photo itself
+   is the section's Background image and can be swapped on the canvas. */
+[data-bz-node="hero"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="hero"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(29,28,26,.92) 0%, rgba(29,28,26,.72) 45%, rgba(29,28,26,.25) 100%); }
+[data-bz-node="hero"] .bz-block { padding-block: 0; }
+[data-bz-node="hero-h"] .bz-eyebrow { display: inline-block; background: #fff; color: var(--ink); border-radius: 6px; padding: 8px 12px; letter-spacing: .08em; margin-bottom: 18px; }
+[data-bz-node="hero-h"] h1 { color: #fff; max-width: 15ch; }
+[data-bz-node="hero-sub"] p { color: rgba(255,255,255,.88); font-size: 18px; line-height: 1.6; max-width: 46ch; }
+[data-bz-node="hero-search"] .bz-widget__h { display: none; }
+[data-bz-node="hero-search"] .bz-searchbar { display: flex; max-width: 480px; margin-top: 28px; }
+[data-bz-node="hero-search"] .bz-searchbar .bz-input { flex: 1; border: 0; border-radius: 8px 0 0 8px; padding: 16px 18px; font-size: 15px; }
+[data-bz-node="hero-search"] .bz-searchbar .bz-btn { border-radius: 0 8px 8px 0; padding-inline: 26px; background: var(--ink); color: #fff; }
+[data-bz-node="hero-search"] .bz-searchbar__chips { display: none; }
+
+/* Right-aligned links that the buttons block can only place left or centre. */
+[data-bz-node="featured-more"] .bz-btns,
+[data-bz-node="fin-cta"] .bz-btns { justify-content: flex-end; }
+@media (max-width: 1100px) { [data-bz-node="fin-cta"] .bz-btns { justify-content: flex-start; } }
+[data-bz-node="fin-cta"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; padding: 16px 26px; }
+
+/* Dark bands */
+[data-bz-node="offer"] .bz-eyebrow,
+[data-bz-node="news"] .bz-eyebrow { color: rgba(255,255,255,.8); }
+[data-bz-node="offer-h"] { margin-bottom: 40px; }
+[data-bz-node="fin-text"] p { color: rgba(255,255,255,.85); max-width: 52ch; }
+
+/* Service and parts split */
+[data-bz-node="service-img"] img,
+[data-bz-node="parts-img"] img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--radius-card); }
+[data-bz-node="depts"] .bz-block { padding-block: 0; }
+[data-bz-node="service-img"],
+[data-bz-node="parts-img"] { margin-bottom: 28px; }
+
+/* Latest posts on the dark band */
+[data-bz-node="news-posts"] h2 { color: #fff; }
+
+/* Contact: placeholders carry the field names, as in the design */
+[data-bz-node="contact-form"] .bz-label,
+[data-bz-node="news-form"] .bz-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+[data-bz-node="contact-form"] .bz-btn { width: 100%; padding-block: 16px; }
+[data-bz-node="contact-right"] { padding-top: 40px; }
+
+/* Contact forms sit on the page, not in a card; the section heading names them. */
+[data-bz-node="contact-form"] .bz-form,
+[data-bz-node="news-form"] .bz-form { border: 0; padding: 0; background: none; box-shadow: none; max-width: 440px; }
+[data-bz-node="news-form"] .bz-form { max-width: 520px; }
+[data-bz-node="contact-form"] .bz-form__t,
+[data-bz-node="news-form"] .bz-form__t { display: none; }
+[data-bz-node="news-form"] .bz-form { display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
+[data-bz-node="news-form"] .bz-form > * { margin: 0; }
+[data-bz-node="news-form"] .bz-form > :first-child { flex: 1 1 260px; }
+
+/* Post cards: uppercase titles, as in the design */
+[data-bz-node="news-posts"] .bz-card__t { text-transform: uppercase; font-family: var(--font-heading); }
+
+/* The hero is a flex box (to centre its content vertically); its row must still
+   take the full width and be allowed to shrink, or it overflows on phones. */
+[data-bz-node="hero"] > * { width: 100%; min-width: 0; }
+[data-bz-node="hero-row"] > .bz-col { min-width: 0; }
+@media (max-width: 640px) {
+  [data-bz-node="hero-h"] h1 { font-size: 25px; }
+  [data-bz-node="hero-sub"] p { font-size: 16px; }
+  [data-bz-node="hero-search"] .bz-searchbar .bz-btn { padding-inline: 18px; }
+}
