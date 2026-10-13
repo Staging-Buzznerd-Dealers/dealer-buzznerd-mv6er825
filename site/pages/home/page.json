@@ -378,7 +378,12 @@
             ]
           }
         }
-      ]
+      ],
+      "styles": {
+        "base": {
+          "hide": true
+        }
+      }
     },
     {
       "id": "offer",
