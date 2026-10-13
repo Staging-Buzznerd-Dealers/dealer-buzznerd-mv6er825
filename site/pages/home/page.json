@@ -218,16 +218,16 @@
                   "price": "$0",
                   "facts": [
                     {
+                      "label": "Manufacturer",
+                      "value": "FONTAINE"
+                    },
+                    {
                       "label": "Year",
                       "value": "2027"
                     },
                     {
                       "label": "Condition",
                       "value": "New"
-                    },
-                    {
-                      "label": "Model",
-                      "value": "RENEGADE 20"
                     }
                   ],
                   "image": {
@@ -270,68 +270,21 @@
                   "price": "$0",
                   "facts": [
                     {
+                      "label": "Manufacturer",
+                      "value": "FONTAINE"
+                    },
+                    {
                       "label": "Year",
                       "value": "2014"
                     },
                     {
                       "label": "Condition",
                       "value": "Used"
-                    },
-                    {
-                      "label": "Model",
-                      "value": "For Rent-53 x 102 container lock drop deck CA leg"
                     }
                   ],
                   "image": {
                     "src": "preview/04/dms-1011690824__preview.jpg",
                     "alt": "2014 FONTAINE For Rent-53 x 102 container lock drop deck CA leg",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
-                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
-                      "label": "Condition",
-                      "value": "Used"
-                    },
-                    {
-                      "label": "Model",
-                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
-                    }
-                  ],
-                  "image": null
-                },
-                {
-                  "slug": "6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "href": "products/6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "title": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Condition",
-                      "value": "Used"
-                    },
-                    {
-                      "label": "Model",
-                      "value": "For Rent - 48x102 Rev All Alum Flat w/Aero Sliding"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2015"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/87/dms-1023181768__preview.jpg",
-                    "alt": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
                     "width": 600,
                     "height": 400
                   }
@@ -358,6 +311,58 @@
                   "image": {
                     "src": "preview/67/dms-1007694860__preview.jpg",
                     "alt": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
+                  "href": "products/6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
+                  "title": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Manufacturer",
+                      "value": "FONTAINE"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "For Rent - 48x102 Rev All Alum Flat w/Aero Sliding"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/87/dms-1023181768__preview.jpg",
+                    "alt": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
+                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
+                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Manufacturer",
+                      "value": "FONTAINE"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/44/dms-1010340934__preview.jpg",
+                    "alt": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
                     "width": 600,
                     "height": 400
                   }
