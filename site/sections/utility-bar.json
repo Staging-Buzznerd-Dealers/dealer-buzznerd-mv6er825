@@ -3,7 +3,7 @@
   "id": "utility-bar",
   "name": "Utility bar",
   "description": "The thin dark strip above the header: main phone and address on the left, a short menu and social icons on the right.",
-  "css": "[data-bz-section=\"utility-bar\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"utility-bar\"] .bz-block p { margin: 0; font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.72); }\n[data-bz-section=\"utility-bar\"] .bz-block p a { color: #fff; font-weight: 700; text-decoration: none; margin-right: 14px; }\n[data-bz-section=\"utility-bar\"] .bz-nav { gap: 22px; flex-wrap: nowrap; }\n[data-bz-section=\"utility-bar\"] .bz-navitem > a { font: 500 13px / 1.4 var(--font-body); padding-block: 0; color: rgba(255,255,255,.85); }\n[data-bz-section=\"utility-bar\"] .bz-navitem > a:hover { color: #fff; }\n[data-bz-section=\"utility-bar\"] .bz-col[data-bz-node=\"ub-right\"] { display: flex; align-items: center; justify-content: flex-end; gap: 22px; }\n[data-bz-section=\"utility-bar\"] .sl { gap: 14px; padding-left: 22px; border-left: 1px solid rgba(255,255,255,.18); }\n@media (max-width: 1100px) { [data-bz-section=\"utility-bar\"] .bz-col[data-bz-node=\"ub-right\"] { display: none; } }\n@media (max-width: 640px) { [data-bz-section=\"utility-bar\"] .bz-block p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }",
+  "css": "/* Styled in the site template (Templates → Site template → Custom code) so the same rules reach the /store inventory pages. */",
   "props": [
     {
       "key": "phone",
