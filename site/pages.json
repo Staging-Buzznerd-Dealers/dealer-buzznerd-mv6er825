@@ -111,5 +111,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "about",
+    "title": "About Us",
+    "description": "Summit Ridge Truck Center is a family-owned commercial truck dealer serving Texas and Oklahoma for over 25 years — our story, our people, our mission and the values we work by.",
+    "path": "/about",
+    "out": "about/index.html",
+    "dir": "about",
+    "group": "about",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
