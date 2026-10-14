@@ -206,7 +206,7 @@
                   "label": "Schedule Service",
                   "type": "url",
                   "ref": null,
-                  "url": "/#contact",
+                  "url": "/service-appointment",
                   "newTab": false,
                   "children": []
                 }
