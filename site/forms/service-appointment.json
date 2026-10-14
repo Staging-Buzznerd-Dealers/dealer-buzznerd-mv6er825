@@ -1,0 +1,244 @@
+{
+  "id": "service-appointment",
+  "name": "Service appointment request",
+  "status": "live",
+  "surfaces": [
+    "page"
+  ],
+  "intent": "book-service",
+  "submitLabel": "Submit service request",
+  "successMessage": "Thanks — your request is in. A service advisor will call or email you to confirm a time.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted about this service request by phone, text or email."
+  },
+  "fields": [
+    {
+      "id": "sa-name",
+      "type": "full_name",
+      "label": "Full name",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "sa-company",
+      "type": "single_line",
+      "label": "Company or fleet",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "sa-phone",
+      "type": "phone",
+      "label": "Phone",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "sa-email",
+      "type": "email",
+      "label": "Email",
+      "required": true,
+      "width": "half"
+    },
+    {
+      "id": "sa-unit",
+      "type": "dropdown",
+      "label": "Unit type",
+      "required": true,
+      "width": "half",
+      "placeholder": "Choose…",
+      "options": [
+        {
+          "value": "tractor",
+          "label": "Tractor / day cab"
+        },
+        {
+          "value": "sleeper",
+          "label": "Sleeper"
+        },
+        {
+          "value": "straight",
+          "label": "Straight truck / box truck"
+        },
+        {
+          "value": "vocational",
+          "label": "Vocational (dump, mixer, refuse)"
+        },
+        {
+          "value": "trailer",
+          "label": "Trailer"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    {
+      "id": "sa-ymm",
+      "type": "single_line",
+      "label": "Year, make & model",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "sa-vin",
+      "type": "single_line",
+      "label": "VIN or unit number",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "sa-miles",
+      "type": "single_line",
+      "label": "Mileage or engine hours",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "sa-codes",
+      "type": "single_line",
+      "label": "Active fault codes",
+      "required": false
+    },
+    {
+      "id": "sa-needs",
+      "type": "checkboxes",
+      "label": "What do you need? (select all that apply)",
+      "required": false,
+      "options": [
+        {
+          "value": "pm",
+          "label": "Preventive maintenance"
+        },
+        {
+          "value": "diagnostics",
+          "label": "Engine diagnostics"
+        },
+        {
+          "value": "warranty",
+          "label": "Warranty repair"
+        },
+        {
+          "value": "dot",
+          "label": "DOT safety inspection"
+        },
+        {
+          "value": "brakes",
+          "label": "Brakes & suspension"
+        },
+        {
+          "value": "alignment",
+          "label": "Alignment"
+        },
+        {
+          "value": "drivetrain",
+          "label": "Transmission & drivetrain"
+        },
+        {
+          "value": "electrical",
+          "label": "Electrical & aftertreatment"
+        },
+        {
+          "value": "trailer",
+          "label": "Trailer repair"
+        },
+        {
+          "value": "liftgate",
+          "label": "Liftgate service"
+        },
+        {
+          "value": "fabrication",
+          "label": "Fabrication & welding"
+        },
+        {
+          "value": "body",
+          "label": "Body or collision repair"
+        }
+      ]
+    },
+    {
+      "id": "sa-issue",
+      "type": "paragraph",
+      "label": "Describe the issue",
+      "placeholder": "Symptoms, when they started, what’s been done already.",
+      "required": true
+    },
+    {
+      "id": "sa-location",
+      "type": "dropdown",
+      "label": "Location",
+      "required": true,
+      "width": "half",
+      "placeholder": "Choose…",
+      "options": [
+        {
+          "value": "riverton",
+          "label": "Riverton, TX"
+        },
+        {
+          "value": "fort-worth",
+          "label": "Fort Worth, TX"
+        },
+        {
+          "value": "tyler",
+          "label": "Tyler, TX"
+        },
+        {
+          "value": "oklahoma-city",
+          "label": "Oklahoma City, OK"
+        },
+        {
+          "value": "mobile",
+          "label": "Mobile service — come to me"
+        }
+      ]
+    },
+    {
+      "id": "sa-date",
+      "type": "date",
+      "label": "Preferred date",
+      "required": false,
+      "width": "half"
+    },
+    {
+      "id": "sa-dropoff",
+      "type": "dropdown",
+      "label": "Preferred drop-off",
+      "required": false,
+      "width": "half",
+      "placeholder": "Choose…",
+      "options": [
+        {
+          "value": "morning",
+          "label": "Morning (7:00 – 11:00)"
+        },
+        {
+          "value": "afternoon",
+          "label": "Afternoon (11:00 – 3:00)"
+        },
+        {
+          "value": "late",
+          "label": "Late day (3:00 – close)"
+        },
+        {
+          "value": "after-hours",
+          "label": "After-hours key drop"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "sa-advisor",
+      "name": "Service advisors",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "service-advisor",
+      "scopeMode": "dynamic"
+    }
+  ]
+}

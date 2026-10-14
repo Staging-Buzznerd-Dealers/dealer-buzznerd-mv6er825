@@ -204,9 +204,8 @@
                 {
                   "id": "ms-book",
                   "label": "Schedule service",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#contact",
+                  "type": "page",
+                  "ref": "service-appointment",
                   "newTab": false,
                   "children": []
                 }

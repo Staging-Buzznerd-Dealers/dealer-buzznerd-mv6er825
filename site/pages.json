@@ -73,5 +73,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "service-appointment",
+    "title": "Schedule a Service Appointment",
+    "description": "Request a truck or trailer service appointment at Summit Ridge Truck Center in Riverton, Fort Worth, Tyler or Oklahoma City — or ask for mobile service at your yard.",
+    "path": "/service-appointment",
+    "out": "service-appointment/index.html",
+    "dir": "service-appointment",
+    "group": "service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
