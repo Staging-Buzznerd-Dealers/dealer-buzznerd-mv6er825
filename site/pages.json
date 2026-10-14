@@ -19,6 +19,24 @@
     "pageType": "Home"
   },
   {
+    "slug": "about",
+    "title": "About Us",
+    "description": "Meet the family behind Summit Ridge Truck Center: our story, our team, our values and how we take care of every customer.",
+    "path": "/about",
+    "out": "about/index.html",
+    "dir": "about",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
+  },
+  {
     "slug": "locations",
     "title": "Locations & Hours",
     "description": "Find a Summit Ridge Truck Center location in Texas or Oklahoma — addresses, phone numbers and hours for sales, service and parts.",

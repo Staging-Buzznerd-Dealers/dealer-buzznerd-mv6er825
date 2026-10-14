@@ -1,0 +1,546 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 360,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 80,
+          "paddingBottom": 72,
+          "backgroundImage": "/images/service-bay.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 56,
+          "paddingBottom": 56
+        }
+      },
+      "children": [
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "text": "Where quality meets family",
+            "headingLevel": 1,
+            "eyebrow": "Our story",
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "story-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "story-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "story-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Summit Ridge Truck Center is where quality meets family. Whether you’re in the market for new or used trucks and trailers, we’ve got you covered with selections from renowned manufacturers and a team that treats every customer like a neighbour.\n\nOur commitment goes beyond providing quality equipment: we offer a full-service experience, from the first conversation to the day your truck rolls off the lot, and every mile after that.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "story-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "story-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/post-technician-training.webp",
+                      "alt": "A technician leading a training session for the service team",
+                      "width": 1000,
+                      "height": 667
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drives",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "value-cards",
+        "values": {
+          "eyebrow": "What drives our success",
+          "heading": "A family, not just a company.",
+          "intro": "As a family-owned and operated business, we’ve created an environment where every team member plays a crucial role in our success. In our workplace, we believe a team works best when united with a common goal. That goal for us is to provide the best possible care to our customers and to make our business the best it can be. It’s this unique culture that is the driving force behind our remarkable success of over 20 years. Some of the values that help us stay united and successful as a team at Summit Ridge include:",
+          "items": [
+            {
+              "title": "Community",
+              "text": "At Summit Ridge, we’re more than a business; we’re a family. Within our walls, every individual is not merely an employee but a valued member."
+            },
+            {
+              "title": "Growth",
+              "text": "Investing in the growth and development of our people is a cornerstone of our company. We encourage our team to make the change they want to see."
+            },
+            {
+              "title": "Transparency",
+              "text": "We operate on the principle of “open book” transparency, allowing our employees a clear view of how their contributions directly impact our success."
+            },
+            {
+              "title": "Dependability",
+              "text": "We hold our employees responsible for upholding our mission and values, and at the core of our values is our unwavering commitment to customer care and satisfaction."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leader",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "leader-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "leader-media",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "leader-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/team-placeholder.svg",
+                      "alt": "Portrait placeholder for Marcus Hale",
+                      "width": 600,
+                      "height": 700
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "leader-copy",
+              "type": "column",
+              "props": {
+                "span": 8,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "leader-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Marcus Hale",
+                    "headingLevel": 2,
+                    "eyebrow": "Chief Operating Officer"
+                  }
+                },
+                {
+                  "id": "leader-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Originally from Vermont, Marcus started as a service technician at Summit Ridge in 1994. Between 1994 and 2000, he held positions of Service Writer, Manager, and eventually Director. In 2007, Marcus moved to the parts and fleet operations side of the business, eventually becoming VP of Fleet Operations. Marcus has been married to his wife Kim for 12 years. Together they enjoy travel, boating, and their three dogs.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glance",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "glance-row",
+          "type": "row",
+          "props": {
+            "gap": 7,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "glance-card",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "background": "ink"
+              },
+              "children": [
+                {
+                  "id": "glance-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Summit Ridge at a glance",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "glance-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "Voted a Top Workplace for 2020 to 2022, and recipient of the Top Workplace USA award."
+                      },
+                      {
+                        "label": "Family-owned and operated business, celebrating 30+ years in the region with annual gross revenue above $200M."
+                      },
+                      {
+                        "label": "Authorized dealer for International’s flagship line of products, with a large selection of used trucks across a wide variety of makes and models."
+                      },
+                      {
+                        "label": "Comprehensive services offering truck, trailer and bus maintenance, from DPF/DOC cleanings to body swaps and frame modifications."
+                      },
+                      {
+                        "label": "Diamond Logic and OTA programming to automate performance; OnCommand Connection, the industry’s only all-makes/all-models telematics solution to monitor fleet health and schedule preventative maintenance."
+                      },
+                      {
+                        "label": "Member of an industry network of more than 1,000 service locations across North America."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "glance-copy",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "glance-copy-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Why celebrating 30 years with Summit Ridge is not all that uncommon.",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "glance-p1",
+                  "type": "text",
+                  "props": {
+                    "text": "Summit Ridge started as a single-bay service shop and has grown into one of the region’s most trusted truck centers. No one can steal or copy it because our culture is the engine that drives our relentless commitment to getting you back on the road.\n\nOur family-owned business has a 20+ year track record of helping customers achieve their goals, and a heritage of community service and “be the change” culture we seek to create the next generation of leaders in our region.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "glance-p2",
+                  "type": "text",
+                  "props": {
+                    "text": "We invest heavily in developing our people and give them opportunities to grow and lead. We show an “open book” transparency into our operation that demonstrates how each employee contributes to our success. We promote accountability with our mission and values, creating a sense of urgency in our people and give them a voice as part of the Summit Ridge family.\n\nBacked by International’s industry-leading product line and services, we will continue to deliver innovation, services and support you can count on today and tomorrow.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 7,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "mission-h",
+          "type": "heading",
+          "props": {
+            "text": "We strive to be the premier provider of quality transportation products, parts and service at a fair price, with an unrivaled commitment to our customers’ success — matched only by our dedication to our employees’ growth, development and well-being, and our calling to have a meaningful impact in our community.",
+            "headingLevel": 2,
+            "eyebrow": "Our mission",
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stand",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "value-cards",
+        "values": {
+          "eyebrow": "Our values",
+          "heading": "What we stand for.",
+          "intro": "",
+          "items": [
+            {
+              "title": "Trust",
+              "text": "Our number one goal — and we earn it, one word, one action at a time."
+            },
+            {
+              "title": "Honesty",
+              "text": "Always the best policy, and our ongoing promise."
+            },
+            {
+              "title": "Teamwork",
+              "text": "Travel fast alone, or far together."
+            },
+            {
+              "title": "Customer service",
+              "text": "Let’s get you going."
+            },
+            {
+              "title": "Mutual respect",
+              "text": "Treating all people with dignity is our gold standard."
+            },
+            {
+              "title": "Vision / action oriented",
+              "text": "If you don’t know where you’re going, any road will take you there."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mile",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "mile-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "mile-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "mile-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/about-collage.webp",
+                      "alt": "A collage of Summit Ridge team members with trucks in the service bay and showroom",
+                      "width": 1200,
+                      "height": 1600
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mile-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "mile-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Going the extra mile.",
+                    "headingLevel": 2,
+                    "eyebrow": "Customer care"
+                  }
+                },
+                {
+                  "id": "mile-lead",
+                  "type": "text",
+                  "props": {
+                    "text": "Providing excellent customer service is at the heart of everything we do. We believe in going above and beyond to understand and meet your unique needs and challenges.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "mile-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Whether it’s assisting you in finding the perfect truck or trailer, offering expert advice, or ensuring swift and reliable support, you can rest assured we’re here to provide the quality you deserve. When it comes to your satisfaction, our commitment to excellence isn’t just a promise — it’s a daily practice that sets us apart.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trailers",
+      "type": "section",
+      "props": {
+        "width": "full",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "trailers-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "trailers-copy",
+              "type": "column",
+              "props": {
+                "span": 6,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "trailers-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "More than a provider of trailers.",
+                    "headingLevel": 2,
+                    "eyebrow": "Your home on the road"
+                  }
+                },
+                {
+                  "id": "trailers-text",
+                  "type": "text",
+                  "props": {
+                    "text": "For more information on our new and used trailers, contact us today. We’ll listen carefully and help you take your business further. At all three locations we also sell trucks and provide service and parts. Your journey is our journey, and we’re dedicated to making it as easy and successful as possible by supplying the quality equipment you need.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "trailers-media",
+              "type": "column",
+              "props": {
+                "span": 6
+              },
+              "children": [
+                {
+                  "id": "trailers-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/coverage-truck.webp",
+                      "alt": "A white tractor-trailer on an open highway at sunset",
+                      "width": 1586,
+                      "height": 992
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "careers",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 9,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "careers-h",
+          "type": "heading",
+          "props": {
+            "text": "Ready to begin your career journey with Summit Ridge?",
+            "headingLevel": 2,
+            "align": "center"
+          }
+        },
+        {
+          "id": "careers-cta",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "ctaId": "get-started"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    }
+  ]
+}

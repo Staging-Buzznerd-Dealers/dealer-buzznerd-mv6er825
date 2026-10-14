@@ -91,5 +91,14 @@
     "intent": "browse-inventory",
     "newTab": false,
     "active": true
+  },
+  {
+    "id": "get-started",
+    "label": "Let’s get going!",
+    "url": "/#contact",
+    "style": "secondary",
+    "intent": "get-started",
+    "newTab": false,
+    "active": true
   }
 ]

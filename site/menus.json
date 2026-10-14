@@ -272,9 +272,9 @@
         {
           "id": "about",
           "label": "About",
-          "type": "url",
-          "ref": null,
-          "url": "/#why-us",
+          "type": "page",
+          "ref": "about",
+          "url": null,
           "newTab": false,
           "children": []
         },
@@ -305,9 +305,9 @@
         {
           "id": "u-about",
           "label": "About us",
-          "type": "url",
-          "ref": null,
-          "url": "/#why-us",
+          "type": "page",
+          "ref": "about",
+          "url": null,
           "newTab": false,
           "children": []
         },
@@ -420,9 +420,9 @@
             {
               "id": "fc-about",
               "label": "About us",
-              "type": "url",
-              "ref": null,
-              "url": "/#why-us",
+              "type": "page",
+              "ref": "about",
+              "url": null,
               "newTab": false,
               "children": []
             },

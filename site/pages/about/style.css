@@ -1,0 +1,59 @@
+/* About us — dummy content laid out to the design handoff. */
+
+/* Banner: dark scrim over the photo (the section's Background image) */
+[data-bz-node="banner"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="banner"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(29,28,26,.62); }
+[data-bz-node="banner"] > * { width: 100%; min-width: 0; }
+[data-bz-node="banner"] .bz-block { padding-block: 0; }
+[data-bz-node="banner-h"] { text-align: center; }
+[data-bz-node="banner-h"] .bz-eyebrow { color: rgba(255,255,255,.8); }
+[data-bz-node="banner-h"] h1 { color: #fff; }
+
+/* Split bands: copy padded off the page edge, photo fills its half */
+[data-bz-node$="-copy"] .bz-block, [data-bz-node$="-media"] .bz-block { padding-block: 0; }
+[data-bz-node$="-media"] .bz-block { padding: 0; height: 100%; }
+[data-bz-node$="-img"], [data-bz-node$="-img"] .bz-container, [data-bz-node$="-img"] figure { height: 100%; margin: 0; }
+[data-bz-node$="-img"] img { width: 100%; height: 100%; min-height: 360px; object-fit: cover; border-radius: 0; }
+[data-bz-node="story-copy"], [data-bz-node="mile-copy"], [data-bz-node="trailers-copy"] { padding: 72px 56px 72px max(24px, calc((100vw - 1400px) / 2 + 24px)); }
+[data-bz-node="mile-copy"], [data-bz-node="trailers-copy"] { padding-left: 56px; }
+[data-bz-node="trailers-copy"] { padding-left: max(24px, calc((100vw - 1400px) / 2 + 24px)); }
+[data-bz-node="story-text"] p, [data-bz-node="trailers-text"] p, [data-bz-node="mile-text"] p { font-size: 14px; line-height: 1.75; color: var(--muted); max-width: 52ch; }
+[data-bz-node="mile-lead"] p { font-weight: 700; font-size: 15px; line-height: 1.65; max-width: 52ch; }
+
+/* Leader band: portrait beside a short bio */
+[data-bz-node="leader-media"] { padding: 64px 24px 64px max(24px, calc((100vw - 1400px) / 2 + 24px)); }
+[data-bz-node="leader-img"] img { max-width: 260px; min-height: 0; height: auto; margin-inline: auto; border-radius: 4px; }
+[data-bz-node="leader-copy"] { padding: 64px 24px; }
+[data-bz-node="leader-h"] h2 { color: #fff; text-transform: uppercase; font-size: 26px; }
+[data-bz-node="leader-h"] .bz-eyebrow { color: rgba(255,255,255,.75); order: 2; }
+[data-bz-node="leader-text"] p { color: rgba(255,255,255,.85); font-size: 14px; line-height: 1.7; max-width: 60ch; }
+
+/* At a glance: a dark card beside the story */
+[data-bz-node="glance-card"] { padding: 36px 32px; border-radius: 2px; }
+[data-bz-node="glance-card"] .bz-block { padding-block: 0; }
+[data-bz-node="glance-h"] h2 { color: #fff; font-size: 22px; margin-bottom: 18px; }
+[data-bz-node="glance-list"] .bz-feature__t { font: 400 12.5px / 1.55 var(--font-body); letter-spacing: 0; text-transform: none; color: rgba(255,255,255,.88); margin: 0; }
+[data-bz-node="glance-list"] ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+[data-bz-node="glance-list"] li { padding-left: 16px; position: relative; }
+[data-bz-node="glance-list"] li::before { content: ""; position: absolute; left: 0; top: .6em; width: 5px; height: 5px; border-radius: 50%; background: #fff; }
+[data-bz-node="glance-copy"] .bz-block { padding-block: 0; }
+[data-bz-node="glance-copy-h"] h2 { font-size: 24px; margin-bottom: 16px; }
+[data-bz-node="glance-p1"] p, [data-bz-node="glance-p2"] p { font-size: 13px; line-height: 1.7; color: var(--muted); }
+
+/* Mission */
+[data-bz-node="mission"] .bz-block { padding-block: 0; }
+[data-bz-node="mission-h"] .bz-eyebrow { color: rgba(255,255,255,.75); }
+[data-bz-node="mission-h"] h2 { color: #fff; font-size: 15px; line-height: 1.7; letter-spacing: .06em; max-width: 82ch; margin-inline: auto; }
+
+/* Closing band */
+[data-bz-node="careers"] .bz-block { padding-block: 0; }
+[data-bz-node="careers-h"] h2 { color: #fff; max-width: 22ch; margin-inline: auto; }
+[data-bz-node="careers-cta"] .bz-btns { justify-content: center; margin-top: 28px; margin-bottom: 0; }
+[data-bz-node="careers-cta"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }
+
+@media (max-width: 1100px) {
+  [data-bz-node="story-copy"], [data-bz-node="mile-copy"], [data-bz-node="trailers-copy"], [data-bz-node="leader-media"], [data-bz-node="leader-copy"] { padding: 48px 20px; }
+}
+
+[data-bz-node="glance-p2"] p, [data-bz-node="mile-text"] p { margin-top: 16px; }
+[data-bz-node="glance-p1"] p { margin-top: 0; }
