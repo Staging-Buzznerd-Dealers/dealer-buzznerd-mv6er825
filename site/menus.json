@@ -186,9 +186,9 @@
         {
           "id": "service",
           "label": "Service",
-          "type": "url",
-          "ref": null,
-          "url": "/#service",
+          "type": "page",
+          "ref": "service",
+          "url": null,
           "newTab": false,
           "children": [
             {
@@ -199,6 +199,15 @@
               "url": null,
               "newTab": false,
               "children": [
+                {
+                  "id": "ms-overview",
+                  "label": "Service overview",
+                  "type": "page",
+                  "ref": "service",
+                  "url": null,
+                  "newTab": false,
+                  "children": []
+                },
                 {
                   "id": "ms-book",
                   "label": "Schedule Service",
@@ -342,9 +351,9 @@
             {
               "id": "fp-service",
               "label": "Service",
-              "type": "url",
-              "ref": null,
-              "url": "/#service",
+              "type": "page",
+              "ref": "service",
+              "url": null,
               "newTab": false,
               "children": []
             },

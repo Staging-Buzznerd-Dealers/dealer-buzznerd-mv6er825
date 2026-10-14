@@ -130,5 +130,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "service",
+    "title": "Truck & Trailer Service",
+    "description": "Commercial truck and trailer service at Summit Ridge Truck Center: factory-trained technicians, DOT inspections, alignment, fabrication, fleet PM programs and mobile service across Texas and Oklahoma.",
+    "path": "/service",
+    "out": "service/index.html",
+    "dir": "service",
+    "group": "service",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
