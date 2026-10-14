@@ -253,7 +253,7 @@
             {
               "id": "item-28",
               "label": "Downtown Branch",
-              "type": "location",
+              "type": "url",
               "url": null,
               "ref": null,
               "children": []
