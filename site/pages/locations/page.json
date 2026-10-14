@@ -106,23 +106,23 @@
             "widget": "locations-pinmap",
             "config": {
               "basemap": {
-                "src": "/images/maps/texas-oklahoma.svg",
-                "alt": "Map of Texas and Oklahoma",
-                "width": 1000,
-                "height": 998
+                "src": "/images/maps/united-states.svg",
+                "alt": "Map of the United States",
+                "width": 1200,
+                "height": 662
               },
               "anchors": [
                 {
-                  "lat": 36,
-                  "lng": -106,
-                  "x": 103.4,
-                  "y": 137.9
+                  "lat": 47,
+                  "lng": -120,
+                  "x": 134.4,
+                  "y": 102
                 },
                 {
-                  "lat": 27,
-                  "lng": -94.5,
-                  "x": 896.6,
-                  "y": 867.3
+                  "lat": 28,
+                  "lng": -80,
+                  "x": 902.4,
+                  "y": 566.5
                 }
               ],
               "pagePathPrefix": "/locations",
