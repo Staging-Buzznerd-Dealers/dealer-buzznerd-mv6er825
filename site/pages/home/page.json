@@ -171,20 +171,20 @@
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
                       "label": "Model",
                       "value": "INFINITY"
                     },
                     {
                       "label": "Year",
                       "value": "2027"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "New"
                     }
                   ],
                   "image": {
-                    "src": "preview/17/dms-9013159630__preview.jpg",
+                    "src": "preview/7d/dms-9013159633__preview.jpg",
                     "alt": "2027 FONTAINE INFINITY",
                     "width": 600,
                     "height": 400
@@ -223,16 +223,16 @@
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
                       "label": "Year",
                       "value": "2027"
                     },
                     {
                       "label": "Condition",
                       "value": "New"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "RENEGADE 20"
                     }
                   ],
                   "image": {
@@ -249,16 +249,16 @@
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Model",
-                      "value": "Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG"
-                    },
-                    {
                       "label": "Year",
                       "value": "2014"
                     },
                     {
                       "label": "Condition",
                       "value": "Used"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG"
                     }
                   ],
                   "image": {
@@ -331,12 +331,12 @@
                       "value": "Used"
                     },
                     {
-                      "label": "Model",
-                      "value": "For Rent - 48x102 Rev All Alum Flat w/Aero Sliding"
-                    },
-                    {
                       "label": "Year",
                       "value": "2015"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "48x102 Rev All Alum Flat w/Aero Sliding"
                     }
                   ],
                   "image": {
@@ -362,7 +362,7 @@
                     },
                     {
                       "label": "Model",
-                      "value": "For rent 55 Ton hydraulic RGN"
+                      "value": "55 Ton hydraulic RGN"
                     }
                   ],
                   "image": {
