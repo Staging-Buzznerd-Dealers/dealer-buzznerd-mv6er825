@@ -1,0 +1,57 @@
+/* Schedule a service appointment — styled to match the home and locations pages. */
+
+/* Banner: dark scrim over the service-bay photo (the section's Background image) */
+[data-bz-node="banner"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="banner"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(29,28,26,.78); }
+[data-bz-node="banner"] > * { width: 100%; min-width: 0; }
+[data-bz-node="banner"] .bz-block { padding-block: 0; }
+[data-bz-node="banner-crumb"] p { font: 700 12px / 1.4 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.75); margin: 0 0 14px; }
+[data-bz-node="banner-crumb"] a { color: inherit; text-decoration: none; }
+[data-bz-node="banner-h"] h1 { color: #fff; max-width: 18ch; margin-inline: auto; }
+[data-bz-node="banner-text"] p { color: rgba(255,255,255,.88); max-width: 56ch; margin-inline: auto; }
+[data-bz-node="banner-cta"] .bz-btns { justify-content: center; margin-bottom: 0; }
+[data-bz-node="banner-cta"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }
+[data-bz-node="banner-cta"] .bz-btn + .bz-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+
+/* Intro and the three dark tiles */
+[data-bz-node="intro-text"] p { max-width: 72ch; color: #3b3a37; }
+[data-bz-node="intro-stats"] .bz-band, [data-bz-node="intro-stats"].bz-block { background: none; padding: 0; color: var(--ink); }
+[data-bz-node="intro-stats"] .bz-band { display: block; }
+[data-bz-node="intro-stats"] .bz-band > :not(.bz-stats):empty { display: none; }
+[data-bz-node="intro-stats"] .bz-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+[data-bz-node="intro-stats"] .bz-stat { background: var(--ink); color: #fff; border-radius: var(--radius-card); padding: 26px 24px; text-align: left; }
+[data-bz-node="intro-stats"] .bz-stat__v { display: block; font: 700 26px / 1.1 var(--font-heading); color: #fff; text-transform: uppercase; }
+[data-bz-node="intro-stats"] .bz-stat__l { display: block; margin-top: 8px; font: 700 11px / 1.5 var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.75); }
+@media (max-width: 640px) { [data-bz-node="intro-stats"] .bz-stats { grid-template-columns: 1fr; } }
+
+/* The form: on the page, not in a card; small spaced labels; grey fields */
+[data-bz-node="request"] .bz-block { padding-block: 0; }
+[data-bz-node="request-text"] p, [data-bz-node="request-note"] p { font-size: 14px; color: var(--muted); }
+[data-bz-node="request-note"] p { margin-top: 16px; }
+[data-bz-node="request-form"] .bz-form { border: 0; padding: 0; background: none; box-shadow: none; max-width: none; margin-top: 12px; }
+[data-bz-node="request-form"] .bz-form__t { display: none; }
+[data-bz-node="request-form"] .bz-label { font: 700 11px / 1.4 var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+[data-bz-node="request-form"] .bz-input { background: var(--paper); border-color: var(--line); }
+[data-bz-node="request-form"] fieldset .bz-choice, [data-bz-node="request-form"] .bz-choices { font-size: 14px; }
+[data-bz-node="request-form"] .bz-field:has(input[type="checkbox"]:not([name*="consent"])) .bz-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px; }
+@media (max-width: 640px) { [data-bz-node="request-form"] .bz-field .bz-choices { grid-template-columns: 1fr; } }
+
+/* Sidebar: how it works and what to have ready */
+[data-bz-node="request-side"] { border-radius: var(--radius-card); }
+[data-bz-node="request-side"] h2 { font-size: 20px; margin-bottom: 14px; }
+[data-bz-node="ready-h"] { margin-top: 32px; }
+[data-bz-node="steps"] .bz-grid, [data-bz-node="ready"] .bz-grid { display: block; }
+[data-bz-node="steps"] .bz-feature, [data-bz-node="ready"] .bz-feature { padding: 12px 0; border-bottom: 1px solid var(--line); background: none; border-radius: 0; }
+[data-bz-node="steps"] .bz-feature:last-child, [data-bz-node="ready"] .bz-feature:last-child { border-bottom: 0; }
+[data-bz-node="steps"] .bz-feature__t, [data-bz-node="ready"] .bz-feature__t { font: 700 14px / 1.35 var(--font-body); text-transform: none; margin: 0; }
+[data-bz-node="steps"] .bz-feature__d { font-size: 13px; color: var(--muted); margin: 4px 0 0; }
+
+/* Schedule by phone: a grey band of location numbers */
+[data-bz-section="location-phones"] { background: var(--paper); padding: 56px 0; }
+[data-bz-section="location-phones"] .bz-block { padding-block: 0; }
+[data-bz-section="location-phones"] h2 { font-size: 24px; }
+[data-bz-section="location-phones"] p { margin: 0; }
+[data-bz-section="location-phones"] p a { color: var(--ink); font-weight: 700; text-decoration: none; }
+[data-bz-section="location-phones"] .bz-row[data-bz-node="lp-list"] { display: flex; flex-wrap: wrap; gap: 10px 40px; margin: 18px 0; }
+[data-bz-section="location-phones"] .bz-col[data-bz-node^="lp-item"] { flex: 0 0 auto; width: auto; }
+[data-bz-section="location-phones"] [data-bz-node="lp-after"] p { font-size: 14px; color: var(--muted); }

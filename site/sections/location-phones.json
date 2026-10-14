@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "id": "location-phones",
+  "name": "Location phone list",
+  "description": "A label, a heading, the main scheduling line, then every location with its phone number (from Locations) and an after-hours note.",
+  "css": "/* Styled on the page that places it (Custom code). */",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Label",
+      "default": "Prefer to call?"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Schedule by phone"
+    },
+    {
+      "key": "mainLine",
+      "type": "text",
+      "label": "Main line",
+      "default": "Service scheduling — <a href=\"tel:+15550100150\">(555) 010-0150</a>"
+    },
+    {
+      "key": "afterHours",
+      "type": "textarea",
+      "label": "After-hours note",
+      "default": "After-hours service through Summit Ridge Road Assist, 6:00 PM to 7:00 AM: (555) 010-0199."
+    },
+    {
+      "key": "rooftops",
+      "type": "list",
+      "label": "Locations",
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "phoneUrl",
+          "type": "url",
+          "label": "Phone link"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lp",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "lp-row",
+          "type": "row",
+          "props": {
+            "gap": 4
+          },
+          "children": [
+            {
+              "id": "lp-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lp-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "lp-main",
+                  "type": "text",
+                  "props": {
+                    "text": "{{mainLine}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lp-list",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "lp-item",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "repeat": "rooftops"
+              },
+              "children": [
+                {
+                  "id": "lp-item-t",
+                  "type": "text",
+                  "props": {
+                    "text": "{{name}} — <a href=\"{{phoneUrl}}\">{{phone}}</a>",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lp-after-row",
+          "type": "row",
+          "props": {
+            "gap": 4
+          },
+          "children": [
+            {
+              "id": "lp-after-col",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "lp-after",
+                  "type": "text",
+                  "props": {
+                    "text": "{{afterHours}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

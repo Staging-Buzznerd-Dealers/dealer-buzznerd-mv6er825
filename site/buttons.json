@@ -21,8 +21,7 @@
   {
     "id": "book-service",
     "label": "Schedule service",
-    "url": null,
-    "formId": "request-info",
+    "url": "/service-appointment",
     "style": "primary",
     "intent": "book-service",
     "newTab": false,

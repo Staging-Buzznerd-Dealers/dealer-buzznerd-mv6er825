@@ -1,0 +1,286 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 380,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "backgroundImage": "/images/service-bay.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 52,
+          "paddingBottom": 52
+        }
+      },
+      "children": [
+        {
+          "id": "banner-crumb",
+          "type": "text",
+          "props": {
+            "text": "<a href=\"/\">Home</a> / <a href=\"/#service\">Service</a> / Service appointment",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "text": "Schedule a service appointment",
+            "headingLevel": 1,
+            "align": "center"
+          }
+        },
+        {
+          "id": "banner-text",
+          "type": "text",
+          "props": {
+            "text": "We’re here to help with all of your commercial truck and trailer repair needs. Let’s get you going.",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-cta",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "label": "Request an appointment",
+                "url": "#request",
+                "style": "primary",
+                "intent": "book-service"
+              },
+              {
+                "ctaId": "call-us"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "intro-text",
+          "type": "text",
+          "props": {
+            "text": "Streamline your service visit with online appointment requests for trucks and trailers: easier scheduling, help managing a whole fleet, and a full service history for every unit — backed by factory-trained technicians at Riverton, Fort Worth, Tyler and Oklahoma City.\n\nTell us what the unit needs and when you’d like it in. A service advisor reviews your request, confirms a time and walks you through the scope of work before repairs begin. If the truck or trailer can’t make it to us, request mobile service and we’ll come to you.",
+            "width": "full"
+          }
+        },
+        {
+          "id": "intro-stats",
+          "type": "statBand",
+          "props": {
+            "stats": [
+              {
+                "value": "Same day",
+                "label": "Response on requests during service hours"
+              },
+              {
+                "value": "2 hrs",
+                "label": "Average diagnostic evaluation and estimate on arrival"
+              },
+              {
+                "value": "24/7",
+                "label": "Coverage with after-hours Road Assist"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "request",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "request"
+      },
+      "styles": {
+        "base": {
+          "paddingBottom": 96
+        }
+      },
+      "children": [
+        {
+          "id": "request-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "request-form-col",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "request-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Service appointment request",
+                    "text": "Tell us about the unit",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "request-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Fields marked with an asterisk are required. A service advisor will follow up to confirm your appointment.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "request-form",
+                  "type": "form",
+                  "props": {
+                    "formId": "service-appointment"
+                  }
+                },
+                {
+                  "id": "request-note",
+                  "type": "text",
+                  "props": {
+                    "text": "Submitting a request does not confirm an appointment. A service advisor will contact you by phone or email.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "request-side",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "background": "paper",
+                "padding": 6
+              },
+              "children": [
+                {
+                  "id": "steps-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Four steps",
+                    "text": "How it works",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "steps",
+                  "type": "list",
+                  "props": {
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "1. Tell us about your unit",
+                        "desc": "Contact details, unit information and the repairs or maintenance you need."
+                      },
+                      {
+                        "label": "2. Pick a location and time",
+                        "desc": "Riverton, Fort Worth, Tyler or Oklahoma City — or request mobile service at your yard or job site."
+                      },
+                      {
+                        "label": "3. Confirm with a service advisor",
+                        "desc": "We review the scope of work and give you an estimate before any repairs begin."
+                      },
+                      {
+                        "label": "4. Get back to work",
+                        "desc": "Factory-trained technicians do the work, and your service history is kept on file for future planning."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "ready-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Before you submit",
+                    "text": "Have ready",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "ready",
+                  "type": "list",
+                  "props": {
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "VIN or unit number"
+                      },
+                      {
+                        "label": "Year, make and model"
+                      },
+                      {
+                        "label": "Current mileage or engine hours"
+                      },
+                      {
+                        "label": "Active fault codes, if any"
+                      },
+                      {
+                        "label": "Recent repair or maintenance history"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phones",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "location-phones",
+        "values": {
+          "rooftops": {
+            "source": "locations"
+          }
+        }
+      }
+    },
+    {
+      "id": "cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {
+          "eyebrow": "Fleet service",
+          "heading": "Keep the whole fleet on schedule",
+          "body": "Set up a preventive maintenance program for every unit — we’ll plan the intervals, remind you when trucks are due and keep the records."
+        }
+      }
+    }
+  ]
+}
