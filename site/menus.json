@@ -249,16 +249,7 @@
           "ref": "locations",
           "url": null,
           "newTab": false,
-          "children": [
-            {
-              "id": "item-28",
-              "label": "Downtown Branch",
-              "type": "url",
-              "url": null,
-              "ref": null,
-              "children": []
-            }
-          ]
+          "children": []
         },
         {
           "id": "call",
