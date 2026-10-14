@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 380,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "backgroundImage": "/images/coverage-truck.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center 40%",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 52,
+          "paddingBottom": 52
+        }
+      },
+      "children": [
+        {
+          "id": "banner-crumb",
+          "type": "text",
+          "props": {
+            "text": "<a href=\"/\">Home</a> / Financing",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "text": "Financing trucks and trailers at Summit Ridge",
+            "headingLevel": 1,
+            "align": "center"
+          }
+        },
+        {
+          "id": "banner-text",
+          "type": "text",
+          "props": {
+            "text": "We take the guesswork out of financing the equipment that keeps you moving.",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-cta",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "ctaId": "get-financing",
+                "label": "Apply for credit"
+              },
+              {
+                "ctaId": "call-us"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "intro-text",
+          "type": "text",
+          "props": {
+            "text": "At Summit Ridge Truck Center we know the trucking business from the inside. We offer competitive rates and flexible financing through our network of commercial lenders, and our finance team makes the decision simpler by laying out your options side by side.\n\nIf you’ve decided to finance your next truck, you’re in good company — most of our customers do. With a reasonable down payment and approved credit, you can arrange financing with us and get on the road quickly.\n\nYou can also roll in parts, accessories, upfits, warranties and insurance, so everything the truck needs is covered by one monthly payment.\n\nAnd because we finance trucks every day, we understand what matters most to you: getting the truck working as soon as possible. That’s why we keep the process quick.",
+            "width": "full"
+          }
+        },
+        {
+          "id": "intro-stats",
+          "type": "statBand",
+          "props": {
+            "stats": [
+              {
+                "value": "6",
+                "label": "Payment structures, from equal monthly to skip payment"
+              },
+              {
+                "value": "0%",
+                "label": "Interest on financed 1–4 year extended warranties"
+              },
+              {
+                "value": "1",
+                "label": "Monthly payment covering truck, parts, upfits and insurance"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "options",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "Financing options",
+          "heading": "Financing options tailored to the way you work",
+          "intro": "Structures can be combined and matched to your cash flow, season and duty cycle. Tell us how the equipment earns and we’ll show you which of these fit.",
+          "cards": [
+            {
+              "tag": "Debt financing",
+              "title": "Retail financing",
+              "text": "A straightforward finance contract that can roll in the bodywork, upfit and other costs of putting a truck into service, so the whole job is covered by one loan."
+            },
+            {
+              "tag": "Tax-exempt",
+              "title": "Municipal leasing",
+              "text": "Tax-exempt leasing helps cities, counties, school districts, utilities and other public agencies get the equipment they need while staying inside annual budget limits."
+            },
+            {
+              "tag": "Predictable",
+              "title": "Equal monthly",
+              "text": "The same payment every month for the life of the contract — the simplest structure to plan around."
+            },
+            {
+              "tag": "Seasonal",
+              "title": "Skip payment",
+              "text": "Built for seasonal work: choose the months you need to protect cash flow and skip the truck payment while the work is slow."
+            },
+            {
+              "tag": "Cash flow",
+              "title": "Balloon payment",
+              "text": "Set 5%, 10% or 15% of the amount financed aside as a final payment. Lower monthly payments now, with the balance due at the end of the term."
+            },
+            {
+              "tag": "Equity",
+              "title": "Accelerated payment",
+              "text": "Pay more early and less later. You build equity faster and save interest, and payments drop as maintenance costs start to rise."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "extras",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "Warranty, insurance and repair financing",
+          "heading": "More than the truck itself",
+          "intro": "",
+          "cards": [
+            {
+              "tag": "Protection",
+              "title": "Extended warranty",
+              "text": "Ridgeline Protect extended warranties come in 1-, 2-, 3- and 4-year terms, and can be added to a truck you already own.",
+              "linkLabel": "Ask about coverage →",
+              "linkUrl": "/#contact"
+            },
+            {
+              "tag": "0% interest",
+              "title": "Financed extended warranties",
+              "text": "Paying cash for the truck but want the warranty spread out? Finance a 1- to 4-year extended warranty at 0% interest with a low down payment.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Insurance",
+              "title": "GAP coverage",
+              "text": "Covers the difference between what you owe and what the truck is worth if it is totalled or stolen, so a bad day doesn’t become a debt.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Repairs",
+              "title": "Repair financing",
+              "text": "Spread the cost of major engine overhauls, transmission work or component replacements over manageable monthly payments.",
+              "linkLabel": "Schedule service →",
+              "linkUrl": "/service-appointment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "apply",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 9,
+        "background": "ink",
+        "anchor": "apply"
+      },
+      "children": [
+        {
+          "id": "apply-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Get pre-qualified",
+            "text": "Find out what you qualify for",
+            "headingLevel": 2,
+            "align": "center"
+          }
+        },
+        {
+          "id": "apply-text",
+          "type": "text",
+          "props": {
+            "text": "Apply in a few minutes. Most well-qualified buyers hear back the same business day, with options across credit tiers.",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "apply-btns",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "ctaId": "get-financing",
+                "label": "Apply for credit"
+              },
+              {
+                "ctaId": "call-us"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    }
+  ]
+}

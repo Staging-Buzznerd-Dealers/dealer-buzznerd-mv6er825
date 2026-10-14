@@ -1,0 +1,36 @@
+/* Financing — styled to match the service and locations pages. */
+
+/* Banner: dark scrim over the highway photo (the section's Background image) */
+[data-bz-node="banner"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="banner"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(29,28,26,.74); }
+[data-bz-node="banner"] > * { width: 100%; min-width: 0; }
+[data-bz-node="banner"] .bz-block { padding-block: 0; }
+[data-bz-node="banner-crumb"] p { font: 700 12px / 1.4 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.75); margin: 0 0 14px; }
+[data-bz-node="banner-crumb"] a { color: inherit; text-decoration: none; }
+[data-bz-node="banner-h"] h1 { color: #fff; max-width: 20ch; margin-inline: auto; }
+[data-bz-node="banner-text"] p { color: rgba(255,255,255,.88); max-width: 56ch; margin-inline: auto; }
+[data-bz-node="banner-cta"] .bz-btns { justify-content: center; margin-bottom: 0; }
+[data-bz-node="banner-cta"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }
+[data-bz-node="banner-cta"] .bz-btn + .bz-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+
+/* Intro and the three dark tiles */
+[data-bz-node="intro-text"] p { max-width: 72ch; color: #3b3a37; }
+[data-bz-node="intro-stats"].bz-block, [data-bz-node="intro-stats"] .bz-band { background: none; padding: 0; color: var(--ink); }
+[data-bz-node="intro-stats"] .bz-band { display: block; }
+[data-bz-node="intro-stats"] .bz-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+[data-bz-node="intro-stats"] .bz-stat { background: var(--ink); color: #fff; border-radius: var(--radius-card); padding: 26px 24px; text-align: left; }
+[data-bz-node="intro-stats"] .bz-stat__v { display: block; font: 700 30px / 1.1 var(--font-heading); color: #fff; }
+[data-bz-node="intro-stats"] .bz-stat__l { display: block; margin-top: 8px; font: 700 11px / 1.5 var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.75); }
+@media (max-width: 640px) { [data-bz-node="intro-stats"] .bz-stats { grid-template-columns: 1fr; } }
+
+/* The two card grids: options on white, three across; add-ons on grey, four across */
+[data-bz-node="options"] [data-bz-node="ic"] { padding-top: 0; }
+[data-bz-node="extras"] { --ic-cols: 4; background: var(--paper); }
+[data-bz-node="extras"] [data-bz-node="ic-intro"] { display: none; }
+
+/* Closing band: the same look as the site's call-to-action band, with Apply / Call */
+[data-bz-node="apply"] .bz-block { padding-block: 0; }
+[data-bz-node="apply-text"] p { color: rgba(255,255,255,.82); max-width: 56ch; margin: 0 auto; }
+[data-bz-node="apply-btns"] .bz-btns { justify-content: center; margin-bottom: 0; }
+[data-bz-node="apply-btns"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }
+[data-bz-node="apply-btns"] .bz-btn + .bz-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
