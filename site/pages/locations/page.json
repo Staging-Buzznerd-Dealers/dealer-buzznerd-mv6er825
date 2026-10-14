@@ -107,7 +107,7 @@
             "config": {
               "basemap": {
                 "src": "/images/maps/united-states.svg",
-                "alt": "Map of the United States with Texas and Oklahoma highlighted",
+                "alt": "Map of the United States",
                 "width": 1200,
                 "height": 662
               },
