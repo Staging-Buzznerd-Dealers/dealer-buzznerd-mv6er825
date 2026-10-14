@@ -191,9 +191,9 @@
                   }
                 },
                 {
-                  "slug": "6-2027-transcraft-now-wabash-48-039-steel-flatbed-sl",
-                  "href": "products/6-2027-transcraft-now-wabash-48-039-steel-flatbed-sl",
-                  "title": "2027 TRANSCRAFT (NOW WABASH) 48&#039; STEEL FLATBED - SLIDING TANDEM",
+                  "slug": "6-2027-transcraft-now-wabash",
+                  "href": "products/6-2027-transcraft-now-wabash",
+                  "title": "2027 TRANSCRAFT (NOW WABASH)",
                   "price": "$0",
                   "facts": [
                     {
@@ -205,13 +205,13 @@
                       "value": "New"
                     },
                     {
-                      "label": "Manufacturer",
-                      "value": "TRANSCRAFT"
+                      "label": "Model",
+                      "value": " STEEL FLATBED - SLIDING TANDEM"
                     }
                   ],
                   "image": {
-                    "src": "preview/fe/dms-5008055881__preview.jpg",
-                    "alt": "2027 TRANSCRAFT (NOW WABASH) 48&#039; STEEL FLATBED - SLIDING TANDEM",
+                    "src": "preview/46/dms-5008056437__preview.jpg",
+                    "alt": "2027 TRANSCRAFT (NOW WABASH)",
                     "width": 600,
                     "height": 400
                   }
@@ -243,15 +243,11 @@
                   }
                 },
                 {
-                  "slug": "6-2014-talbert-rent-me-2014-40-ton-double-drop-rgns-",
-                  "href": "products/6-2014-talbert-rent-me-2014-40-ton-double-drop-rgns-",
-                  "title": "2014 TALBERT Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG",
+                  "slug": "6-2014-talbert-ton-double-drop-rgns",
+                  "href": "products/6-2014-talbert-ton-double-drop-rgns",
+                  "title": "2014 TALBERT TON DOUBLE DROP RGNS",
                   "price": "$0",
                   "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "TALBERT"
-                    },
                     {
                       "label": "Model",
                       "value": "Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG"
@@ -259,25 +255,25 @@
                     {
                       "label": "Year",
                       "value": "2014"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "Used"
                     }
                   ],
                   "image": {
-                    "src": "preview/3c/dms-1011911188__preview.jpg",
-                    "alt": "2014 TALBERT Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG",
+                    "src": "preview/8c/dms-1011911184__preview.jpg",
+                    "alt": "2014 TALBERT TON DOUBLE DROP RGNS",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2014-fontaine-for-rent-53-x-102-container-lock-dro",
-                  "href": "products/6-2014-fontaine-for-rent-53-x-102-container-lock-dro",
-                  "title": "2014 FONTAINE For Rent-53 x 102 container lock drop deck CA leg",
+                  "slug": "6-2014-fontaine-53-x-102-drop-deck",
+                  "href": "products/6-2014-fontaine-53-x-102-drop-deck",
+                  "title": "2014 FONTAINE 53 x 102 DROP DECK",
                   "price": "$0",
                   "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
                     {
                       "label": "Year",
                       "value": "2014"
@@ -285,51 +281,51 @@
                     {
                       "label": "Condition",
                       "value": "Used"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "53 x 102 DROP DECK CA "
                     }
                   ],
                   "image": {
                     "src": "preview/04/dms-1011690824__preview.jpg",
-                    "alt": "2014 FONTAINE For Rent-53 x 102 container lock drop deck CA leg",
+                    "alt": "2014 FONTAINE 53 x 102 DROP DECK",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                  "slug": "6-2013-fontaine-lxt-40",
+                  "href": "products/6-2013-fontaine-lxt-40",
+                  "title": "2013 FONTAINE LXT 40",
                   "price": "$0",
                   "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
                     {
                       "label": "Condition",
                       "value": "Used"
                     },
                     {
+                      "label": "Year",
+                      "value": "2013"
+                    },
+                    {
                       "label": "Model",
-                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
+                      "value": "LXT 40 Ton Double Drop Extendable"
                     }
                   ],
                   "image": {
-                    "src": "preview/44/dms-1010340934__preview.jpg",
-                    "alt": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                    "src": "preview/fa/dms-1010340922__preview.jpg",
+                    "alt": "2013 FONTAINE LXT 40",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "href": "products/6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "title": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
+                  "slug": "6-2015-fontaine-48x102-rev",
+                  "href": "products/6-2015-fontaine-48x102-rev",
+                  "title": "2015 FONTAINE  48x102 REV",
                   "price": "$0",
                   "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
                     {
                       "label": "Condition",
                       "value": "Used"
@@ -337,19 +333,23 @@
                     {
                       "label": "Model",
                       "value": "For Rent - 48x102 Rev All Alum Flat w/Aero Sliding"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2015"
                     }
                   ],
                   "image": {
-                    "src": "preview/87/dms-1023181768__preview.jpg",
-                    "alt": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
+                    "src": "preview/df/dms-1023181782__preview.jpg",
+                    "alt": "2015 FONTAINE  48x102 REV",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "href": "products/6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "title": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                  "slug": "6-2014-talbert-rgn",
+                  "href": "products/6-2014-talbert-rgn",
+                  "title": "2014 TALBERT  RGN",
                   "price": "$0",
                   "facts": [
                     {
@@ -357,17 +357,17 @@
                       "value": "New"
                     },
                     {
-                      "label": "Manufacturer",
-                      "value": "TALBERT"
-                    },
-                    {
                       "label": "Year",
                       "value": "2014"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "For rent 55 Ton hydraulic RGN"
                     }
                   ],
                   "image": {
-                    "src": "preview/67/dms-1007694860__preview.jpg",
-                    "alt": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                    "src": "preview/87/dms-1007694878__preview.jpg",
+                    "alt": "2014 TALBERT  RGN",
                     "width": 600,
                     "height": 400
                   }
