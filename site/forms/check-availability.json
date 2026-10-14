@@ -73,10 +73,11 @@
       "name": "Default",
       "logic": "AND",
       "rules": [],
-      "targetType": "role",
+      "targetType": "user",
       "roleId": "salesperson",
-      "scopeMode": "dynamic"
+      "scopeMode": "dynamic",
+      "administratorId": "10"
     }
   ],
-  "updatedAt": "2026-10-14T15:03:50.722Z"
+  "updatedAt": "2026-10-14T15:33:53.801Z"
 }
