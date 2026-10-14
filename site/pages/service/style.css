@@ -1,0 +1,50 @@
+/* Service — styled to match the financing, about and locations pages. */
+
+/* Banner: dark scrim over the service bay photo (the section's Background image) */
+[data-bz-node="banner"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="banner"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(29,28,26,.72); }
+[data-bz-node="banner"] > * { width: 100%; min-width: 0; }
+[data-bz-node="banner"] .bz-block { padding-block: 0; }
+[data-bz-node="banner-crumb"] p { font: 700 12px / 1.4 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.75); margin: 0 0 14px; }
+[data-bz-node="banner-crumb"] a { color: inherit; text-decoration: none; }
+[data-bz-node="banner-h"] h1 { color: #fff; max-width: 22ch; margin-inline: auto; }
+[data-bz-node="banner-text"] p { color: rgba(255,255,255,.88); max-width: 56ch; margin-inline: auto; }
+[data-bz-node="banner-cta"] .bz-btns { justify-content: center; margin-bottom: 0; }
+[data-bz-node="banner-cta"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }
+
+/* Intro and the three dark tiles */
+[data-bz-node="intro"] { padding-bottom: 0; }
+[data-bz-node="intro-text"] p { max-width: 72ch; color: #3b3a37; }
+[data-bz-node="intro-stats"].bz-block, [data-bz-node="intro-stats"] .bz-band { background: none; padding: 0; color: var(--ink); }
+[data-bz-node="intro-stats"] .bz-band { display: block; }
+[data-bz-node="intro-stats"] .bz-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 28px; }
+[data-bz-node="intro-stats"] .bz-stat { background: var(--ink); color: #fff; border-radius: var(--radius-card); padding: 26px 24px; text-align: left; }
+[data-bz-node="intro-stats"] .bz-stat__v { display: block; font: 700 30px / 1.1 var(--font-heading); color: #fff; }
+[data-bz-node="intro-stats"] .bz-stat__l { display: block; margin-top: 8px; font: 700 11px / 1.5 var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.75); }
+@media (max-width: 640px) { [data-bz-node="intro-stats"] .bz-stats { grid-template-columns: 1fr; } }
+
+/* Protection plans: two cards, no intro line */
+[data-bz-node="protect"] { --ic-cols: 2; }
+[data-bz-node="protect"] [data-bz-node="ic"] { padding-top: 0; }
+[data-bz-node="protect"] [data-bz-node="ic-intro"] { display: none; }
+
+/* Split bands: copy on the grid, photo to the screen edge */
+[data-bz-node="mobile"] .bz-block, [data-bz-node="parts"] .bz-block { padding-block: 0; }
+[data-bz-node="mobile-copy"] { padding: 72px 56px 72px 0; }
+[data-bz-node="parts-copy"] { padding: 72px 0 72px 56px; }
+[data-bz-node="mobile-text"] p, [data-bz-node="parts-text"] p { max-width: 44ch; color: #3b3a37; }
+[data-bz-node="mobile-link"] p, [data-bz-node="parts-link"] p { margin: 4px 0 0; }
+[data-bz-node="mobile-link"] a, [data-bz-node="parts-link"] a { font: 700 12px / 1.4 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+[data-bz-node="mobile-img"], [data-bz-node="mobile-img"] .bz-container, [data-bz-node="mobile-img"] figure,
+[data-bz-node="parts-img"], [data-bz-node="parts-img"] .bz-container, [data-bz-node="parts-img"] figure { height: 100%; margin: 0; }
+[data-bz-node="mobile-img"] img, [data-bz-node="parts-img"] img { width: 100%; height: 100%; min-height: 520px; object-fit: cover; border-radius: 0; }
+@media (max-width: 1100px) {
+  [data-bz-node="mobile-copy"], [data-bz-node="parts-copy"] { padding: 48px 20px; }
+  [data-bz-node="mobile-img"] img, [data-bz-node="parts-img"] img { min-height: 300px; }
+}
+
+/* FAQ */
+[data-bz-node="faq"] > .bz-container, [data-bz-node="faq"] > * { max-width: 760px; margin-inline: auto; }
+[data-bz-node="faq-list"] .bz-faq { border-bottom: 1px solid var(--line); }
+[data-bz-node="faq-list"] .bz-faq summary { font: 700 13px / 1.4 var(--font-body); letter-spacing: .06em; text-transform: uppercase; padding: 16px 0; cursor: pointer; }
+[data-bz-node="faq-list"] .bz-faq__a { font-size: 14px; line-height: 1.6; color: #4a4945; padding: 0 0 16px; }

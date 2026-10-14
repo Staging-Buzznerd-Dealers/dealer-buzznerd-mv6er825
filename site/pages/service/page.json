@@ -1,0 +1,477 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 380,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 72,
+          "paddingBottom": 72,
+          "backgroundImage": "/images/service-bay.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center 45%",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 52,
+          "paddingBottom": 52
+        }
+      },
+      "children": [
+        {
+          "id": "banner-crumb",
+          "type": "text",
+          "props": {
+            "text": "<a href=\"/\">Home</a> / Service",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "text": "Commercial truck & trailer service in Texas and Oklahoma",
+            "headingLevel": 1,
+            "align": "center"
+          }
+        },
+        {
+          "id": "banner-text",
+          "type": "text",
+          "props": {
+            "text": "Truck repair, trailer service and fleet maintenance at Summit Ridge Truck Center. Let’s get you rolling again.",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "banner-cta",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "ctaId": "book-service",
+                "label": "Schedule your service appointment"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "intro-text",
+          "type": "text",
+          "props": {
+            "width": "full",
+            "text": "When a truck or trailer is down, every hour costs you. Whether you run a regional fleet or a single tractor, you need a shop that understands your schedule and works to get you back on the road.\n\nOur four shops service every major make and model with factory-trained technicians, current diagnostic software and a commitment to cutting downtime. From routine PMs and trailer repair to engine diagnostics and warranty work, the team at Summit Ridge delivers the dependable service your operation runs on."
+          }
+        },
+        {
+          "id": "intro-stats",
+          "type": "statBand",
+          "props": {
+            "stats": [
+              {
+                "value": "45+",
+                "label": "Factory-trained service technicians"
+              },
+              {
+                "value": "4",
+                "label": "Full-service shops in Texas and Oklahoma"
+              },
+              {
+                "value": "3 hrs",
+                "label": "Rapid diagnostic evaluation and estimate"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "What we service",
+          "heading": "Service that keeps your business moving",
+          "intro": "As an authorized warranty and repair facility for the major engine and drivetrain makers, we handle warranty repairs and expert service on a wide range of commercial vehicles. Whether you run a Class 8 tractor, a medium-duty box truck, a refrigerated trailer or a vocational unit, you can count on our team for dependable repairs and honest recommendations.",
+          "cards": [
+            {
+              "tag": "Trucks & trailers",
+              "title": "Digital repair estimating",
+              "text": "Our shop software builds detailed, itemized estimates from the diagnostic data, so you know the full scope and cost of a repair before any work starts.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trucks & trailers",
+              "title": "Computerized truck & trailer alignment",
+              "text": "Laser alignment finds problems early. Performed by trained technicians, it cuts uneven tire wear, sharpens steering and extends the life of suspension parts.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trucks & trailers",
+              "title": "Fabrication & welding shop",
+              "text": "Frame alterations, wheelbase changes, body mounts and liftgate repairs. Whether you are repairing damage or modifying a unit to suit the job, our welders build it to last.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trailers",
+              "title": "Repair and replace",
+              "text": "From aluminum and fiberglass panel repair to kingpins, landing gear, floors and lights, our trailer team brings your trailer back to road-ready condition.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trucks & trailers",
+              "title": "DOT safety inspections",
+              "text": "Annual and periodic inspections to federal and state standards, so you catch safety issues and fix them before they turn into violations or breakdowns.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trailers",
+              "title": "Liftgates",
+              "text": "Complete liftgate care: new installs, remounts, warranty repairs, hydraulic service and replacement parts for the major brands.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Fleets",
+              "title": "Fleet PM programs",
+              "text": "Scheduled preventive maintenance planned around your routes, with reminders when units are due and a full service history for every truck.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Trucks",
+              "title": "Express diagnostics",
+              "text": "A complete vehicle evaluation, repair assessment and written estimate within three hours of arrival, so you can make the call and get moving.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Fleets",
+              "title": "Fleet service accounts",
+              "text": "One account for every unit and every location, with consolidated invoicing, approved spending limits and priority bay scheduling.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Fleets",
+              "title": "Remote diagnostics",
+              "text": "Telematics-backed monitoring flags fault codes as they happen, so we can have parts and a bay ready before the truck pulls in.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "Fleets",
+              "title": "Fleet health reporting",
+              "text": "Monthly reports on repair history, cost per mile and upcoming maintenance across your fleet, so managers can plan instead of react.",
+              "linkLabel": "",
+              "linkUrl": ""
+            },
+            {
+              "tag": "On site",
+              "title": "Mobile service",
+              "text": "Repairs, diagnostics and preventive maintenance at your yard or roadside, for when the truck can’t make it to the shop.",
+              "linkLabel": "Request mobile service →",
+              "linkUrl": "/service-appointment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hours",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "service-hours",
+        "values": {
+          "eyebrow": "Service department hours",
+          "heading": "When we’re open",
+          "intro": "Dedicated truck and trailer bays at every Summit Ridge location. Hours and phone numbers by shop:",
+          "afterTitle": "After hours",
+          "afterText": "Summit Ridge Road Assist answers after-hours breakdown calls from 6:00 PM to 7:00 AM, every day of the year: (555) 010-0199.",
+          "rooftops": {
+            "source": "locations"
+          }
+        }
+      }
+    },
+    {
+      "id": "mobile",
+      "type": "section",
+      "props": {
+        "width": "bleed-right",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "mobile-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "mobile-copy",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "mobile-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Mobile service",
+                    "text": "When the truck can’t come to us",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "mobile-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Our mobile service team is equipped to handle many repairs and maintenance jobs at your location, helping you cut downtime and keep your operation moving without the hassle of hauling the vehicle in.\n\nWe can help with repairs, diagnostics and preventive maintenance when and where you need it.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "mobile-link",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/service-appointment\">Request mobile service →</a>",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mobile-media",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "mobile-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/hero-truck.webp",
+                      "alt": "A Summit Ridge mobile service technician at work on a truck",
+                      "width": 1400,
+                      "height": 933
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protect",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "Protect your budget",
+          "heading": "Plans that keep repair costs predictable",
+          "intro": "",
+          "cards": [
+            {
+              "tag": "",
+              "title": "Extended service contracts",
+              "text": "An unexpected repair can wreck an operating budget. An extended service contract protects your trucks from many unplanned repair costs and keeps spending predictable. We offer plans for owner-operators, fleets, municipalities and businesses that keep vehicles covered long after the factory warranty ends.",
+              "linkLabel": "Explore extended service options →",
+              "linkUrl": "/financing"
+            },
+            {
+              "tag": "",
+              "title": "Apply for credit with Summit Ridge",
+              "text": "With approved credit and a modest down payment, we offer an in-house line of credit for all your parts and service needs. Apply today and take advantage of flexible terms built to keep your business running smoothly.",
+              "linkLabel": "Credit application →",
+              "linkUrl": "/financing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "parts",
+      "type": "section",
+      "props": {
+        "width": "bleed-left",
+        "paddingY": 0,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "parts-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "parts-media",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "parts-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/parts-showroom.webp",
+                      "alt": "Genuine parts on the shelves at Summit Ridge",
+                      "width": 1400,
+                      "height": 933
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "parts-copy",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "parts-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "Parts and service working together",
+                    "text": "Quality repairs begin with quality parts",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "parts-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Our service department works hand in hand with the Summit Ridge parts department to make sure your truck or trailer gets the components it needs without delay. We stock a large inventory of genuine OEM and quality aftermarket parts, and if a part isn’t on the shelf our specialists source it through our supplier network to keep downtime to a minimum.",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "parts-link",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"/store/parts\">Visit our parts department →</a>",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "faq-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Commercial truck service FAQs",
+            "text": "Common questions",
+            "headingLevel": 2
+          }
+        },
+        {
+          "id": "faq-list",
+          "type": "widget",
+          "props": {
+            "widget": "faq",
+            "config": {
+              "items": [
+                {
+                  "q": "What types of vehicles does Summit Ridge service?",
+                  "a": "Our technicians service heavy- and medium-duty commercial trucks, trailers, buses and vocational vehicles. We work on all major makes and models."
+                },
+                {
+                  "q": "Do you offer preventive fleet maintenance?",
+                  "a": "Yes. We set up PM programs around your routes and mileage, remind you when each unit is due and keep a full service record for every vehicle."
+                },
+                {
+                  "q": "Do you perform warranty repairs?",
+                  "a": "Yes. We are an authorized warranty facility for the major engine and drivetrain makers, and our team handles the claim paperwork for you."
+                },
+                {
+                  "q": "Can you repair trailers?",
+                  "a": "Yes. Every location has dedicated trailer bays for structural repair, floors, doors, lights, brakes, kingpins, landing gear and liftgates."
+                },
+                {
+                  "q": "How quickly can you diagnose my truck?",
+                  "a": "Our express diagnostics program delivers a complete evaluation and written estimate within three hours of arrival at participating shops."
+                },
+                {
+                  "q": "Do I need an appointment?",
+                  "a": "Appointments get you the fastest turnaround, but we accept walk-ins and breakdowns at every location. Schedule online or call your nearest shop."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {
+          "eyebrow": "Book a bay",
+          "heading": "Ready to get back on the road?",
+          "body": "Schedule service online in a couple of minutes, or call your nearest Summit Ridge shop and we’ll find the first open bay."
+        }
+      }
+    }
+  ]
+}
