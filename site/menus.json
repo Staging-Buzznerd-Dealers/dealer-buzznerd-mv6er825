@@ -287,12 +287,6 @@
           "children": []
         },
         {
-          "id": "schedule-service",
-          "label": "Schedule Service",
-          "type": "page",
-          "ref": "service-appointment"
-        },
-        {
           "id": "call",
           "label": "15550100148",
           "type": "url",
