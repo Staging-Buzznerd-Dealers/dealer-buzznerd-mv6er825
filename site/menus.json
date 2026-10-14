@@ -109,7 +109,7 @@
           "children": [
             {
               "id": "mr-shop",
-              "label": "Shop trailers",
+              "label": "Shop Trailers",
               "type": "label",
               "ref": null,
               "url": null,
@@ -117,7 +117,7 @@
               "children": [
                 {
                   "id": "mr-all",
-                  "label": "All trailers",
+                  "label": "All Trailers",
                   "type": "inventory",
                   "ref": "search?q=trailer",
                   "url": null,
@@ -136,7 +136,7 @@
               "children": [
                 {
                   "id": "mr-rent",
-                  "label": "Trailer rentals",
+                  "label": "Trailer Rentals",
                   "type": "inventory",
                   "ref": "search?q=trailer+rental",
                   "url": null,
@@ -174,7 +174,7 @@
               "children": [
                 {
                   "id": "mp-all",
-                  "label": "All parts",
+                  "label": "All Parts",
                   "type": "inventory",
                   "ref": "parts",
                   "url": null,
@@ -203,9 +203,10 @@
               "children": [
                 {
                   "id": "ms-book",
-                  "label": "Schedule service",
-                  "type": "page",
-                  "ref": "service-appointment",
+                  "label": "Schedule Service",
+                  "type": "url",
+                  "ref": null,
+                  "url": "/#contact",
                   "newTab": false,
                   "children": []
                 }
