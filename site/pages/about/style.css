@@ -1,0 +1,51 @@
+/* About Us — styled to match the rest of the site. */
+
+/* Banner */
+[data-bz-node="banner"] { position: relative; isolation: isolate; color: #fff; }
+[data-bz-node="banner"]::before { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(29,28,26,.68); }
+[data-bz-node="banner"] > * { width: 100%; min-width: 0; }
+[data-bz-node="banner"] .bz-block { padding-block: 0; }
+[data-bz-node="banner-h"] .bz-eyebrow { color: rgba(255,255,255,.8); }
+[data-bz-node="banner-h"] h1 { color: #fff; margin: 0; }
+
+/* Story: copy beside a photo that runs to the right edge */
+[data-bz-node="story"] .bz-block { padding-block: 0; }
+[data-bz-node="story-copy"] { padding: 64px 56px 64px 0; }
+[data-bz-node="story-text"] p { max-width: 42ch; color: #3b3a37; }
+[data-bz-node="story-img"], [data-bz-node="story-img"] .bz-container, [data-bz-node="story-img"] figure { height: 100%; margin: 0; }
+[data-bz-node="story-img"] img { width: 100%; height: 100%; min-height: 460px; object-fit: cover; border-radius: 0; }
+@media (max-width: 1100px) { [data-bz-node="story-copy"] { padding: 48px 20px; } [data-bz-node="story-img"] img { min-height: 300px; } }
+
+/* Value cards: four across, titles only (no tag) */
+[data-bz-node="drives"] { --ic-cols: 4; }
+[data-bz-node="drives"] [data-bz-node="ic-intro"] p { max-width: 72ch; }
+
+/* Leadership */
+[data-bz-node="leader"] .bz-block { padding-block: 0; }
+[data-bz-node="leader-photo"] img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 35% center; border-radius: 4px; }
+[data-bz-node="leader-h"] h2 { color: #fff; margin: 0 0 6px; }
+[data-bz-node="leader-role"] p { font: 700 12px / 1.4 var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.7); margin: 0 0 14px; }
+[data-bz-node="leader-bio"] p { color: rgba(255,255,255,.88); max-width: 70ch; }
+
+/* At a glance box + the 25-years story */
+[data-bz-node="glance"] .bz-block { padding-block: 0; }
+[data-bz-node="glance-box"] { border-radius: var(--radius-card); color: #fff; }
+[data-bz-node="glance-h"] h2 { color: #fff; font-size: 24px; }
+[data-bz-node="glance-list"] .bz-grid { display: grid; gap: 12px; }
+[data-bz-node="glance-list"] .bz-feature { background: none; padding: 0 0 0 18px; position: relative; border: 0; }
+[data-bz-node="glance-list"] .bz-feature::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; border-radius: 50%; background: #e8622c; }
+[data-bz-node="glance-list"] .bz-feature__t { font: 400 14px / 1.55 var(--font-body); color: rgba(255,255,255,.9); text-transform: none; margin: 0; }
+[data-bz-node="years-h"] h2 { font-size: 26px; }
+[data-bz-node="years-text"] p { font-size: 15px; color: #3b3a37; }
+[data-bz-node="years-text-2"] p { font-size: 15px; color: #3b3a37; }
+[data-bz-node="years-list"] .bz-grid { display: block; margin: 0 0 16px; }
+[data-bz-node="years-list"] .bz-feature { background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 10px 0; }
+[data-bz-node="years-list"] .bz-feature__t { font: 400 14px / 1.5 var(--font-body); color: #3b3a37; text-transform: none; margin: 0; }
+
+/* Mission statement */
+[data-bz-node="mission"] .bz-block { padding-block: 0; }
+[data-bz-node="mission-h"] .bz-eyebrow { color: rgba(255,255,255,.8); }
+[data-bz-node="mission-h"] h2 { color: #fff; font-size: clamp(18px, 2vw, 22px); line-height: 1.45; max-width: 60ch; margin-inline: auto; }
+
+/* What we stand for: three across */
+[data-bz-node="values"] { --ic-cols: 3; }

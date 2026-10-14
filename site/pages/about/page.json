@@ -1,0 +1,414 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "banner",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0
+      },
+      "styles": {
+        "base": {
+          "minHeight": 300,
+          "display": "flex",
+          "alignItems": "center",
+          "paddingTop": 64,
+          "paddingBottom": 64,
+          "backgroundImage": "/images/coverage-truck.webp",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center 35%",
+          "background": "inkDark"
+        },
+        "mobile": {
+          "minHeight": 0,
+          "paddingTop": 48,
+          "paddingBottom": 48
+        }
+      },
+      "children": [
+        {
+          "id": "banner-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Our story",
+            "text": "Where quality meets family",
+            "headingLevel": 1,
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "type": "section",
+      "props": {
+        "width": "bleed-right",
+        "paddingY": 0
+      },
+      "children": [
+        {
+          "id": "story-row",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "align": "stretch",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "story-copy",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "story-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Summit Ridge is where quality meets family. Whether you’re shopping for a new or used truck or trailer, we’ve got you covered with a wide selection and a team that knows the equipment inside and out.\n\nOur commitment goes beyond selling quality equipment. From the first quote to the hundredth service visit, we offer a full-service experience built around keeping your trucks earning.",
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "story-media",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "story-img",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/parts-showroom.webp",
+                      "alt": "The Summit Ridge team at work in the showroom",
+                      "width": 1400,
+                      "height": 933
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drives",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "What drives our success",
+          "heading": "A family, not just a company",
+          "intro": "As a family-owned and operated business, we’ve built a place where every team member plays a part in our success. We believe a team works best when it shares a goal — and ours is to give our customers the best possible care and make our business the best it can be. That culture is what has kept us united and growing for over 25 years. Some of the values behind it:",
+          "cards": [
+            {
+              "tag": "",
+              "title": "Community",
+              "text": "At Summit Ridge we’re more than a business — we’re a family. Every person on the team is a valued member, not just an employee number."
+            },
+            {
+              "tag": "",
+              "title": "Growth",
+              "text": "Investing in our people is the cornerstone of our culture. We encourage everyone to learn, take on more and make the change they want to see."
+            },
+            {
+              "tag": "",
+              "title": "Transparency",
+              "text": "We run the business “open book”, so every team member can see how their work moves the numbers and the company forward."
+            },
+            {
+              "tag": "",
+              "title": "Dependability",
+              "text": "We hold each other to our mission and values. At the heart of it is an unwavering commitment to customer care and satisfaction."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leader",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "leader-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center",
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "leader-photo-col",
+              "type": "column",
+              "props": {
+                "span": 3
+              },
+              "children": [
+                {
+                  "id": "leader-photo",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/images/post-technician-training.webp",
+                      "alt": "Dale Whitaker, Chief Operating Officer",
+                      "width": 1000,
+                      "height": 667
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "leader-copy",
+              "type": "column",
+              "props": {
+                "span": 9
+              },
+              "children": [
+                {
+                  "id": "leader-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Dale Whitaker",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "leader-role",
+                  "type": "text",
+                  "props": {
+                    "text": "Chief Operating Officer (COO)",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "leader-bio",
+                  "type": "text",
+                  "props": {
+                    "text": "Raised in East Texas, Dale Whitaker joined Summit Ridge as a service technician in 2001. Over the next decade he worked his way up through service writer, shop foreman and service manager, before moving to the parts side of the business in 2012 and later becoming VP of Fixed Operations. Today he leads operations across all four locations. Away from work, Dale spends his time fishing, coaching youth baseball and restoring a 1978 pickup with his two sons.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glance",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "paper"
+      },
+      "children": [
+        {
+          "id": "glance-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "glance-box",
+              "type": "column",
+              "props": {
+                "span": 5,
+                "background": "ink",
+                "padding": 6
+              },
+              "children": [
+                {
+                  "id": "glance-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Summit Ridge at a glance",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "glance-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "Named a North Texas Top Workplace three years running."
+                      },
+                      {
+                        "label": "Family-owned and operated, serving Texas and Oklahoma for over 25 years."
+                      },
+                      {
+                        "label": "Four locations: Riverton, Fort Worth, Tyler and Oklahoma City."
+                      },
+                      {
+                        "label": "New and used trucks and trailers, with a large selection of pre-owned units across makes and models."
+                      },
+                      {
+                        "label": "Full-service shops: PM programs, diagnostics, DOT inspections, aftertreatment, fabrication and body work."
+                      },
+                      {
+                        "label": "Telematics-backed fleet support, after-hours Road Assist and mobile service teams."
+                      },
+                      {
+                        "label": "Over $10M in parts inventory, same-day delivery and an award-winning parts team."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "glance-story",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "years-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "Why 25 years with Summit Ridge isn’t all that uncommon",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "years-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Our culture is our company’s secret ingredient and our biggest advantage. Nobody can copy it, because it’s the thing that shapes how each of us works and what we believe in.\n\nOur family-owned business has spent more than two decades helping customers reach their goals, with a heritage of community service and a “be the change” attitude we’re passing on to the next generation of leaders.\n\nAnd it starts inside our own walls:",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "years-list",
+                  "type": "list",
+                  "props": {
+                    "columns": 1,
+                    "items": [
+                      {
+                        "label": "We invest heavily in developing our people and give them room to grow and lead."
+                      },
+                      {
+                        "label": "We share an “open book” view of the business, so everyone can see how their work contributes."
+                      },
+                      {
+                        "label": "We hold ourselves accountable to our mission and values, and give everyone a voice as part of the Summit Ridge family."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "years-text-2",
+                  "type": "text",
+                  "props": {
+                    "text": "As a result, we keep investing in our locations and in a growing range of products, services and support for every kind of transportation need. We value the chance to be your trusted partner, to deliver on our commitments, and to put our mission and values to work for you.",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "mission-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "Our mission",
+            "text": "We strive to be the leading provider of quality transportation products, parts and service at a fair price — with an unrivalled commitment to our customers’ success, matched only by our dedication to our team’s growth and well-being, and our calling to make a meaningful difference in our community.",
+            "headingLevel": 2,
+            "align": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "info-cards",
+        "values": {
+          "eyebrow": "Our values",
+          "heading": "What we stand for",
+          "intro": "",
+          "cards": [
+            {
+              "tag": "",
+              "title": "Trust",
+              "text": "Our number one goal — and we earn it one word, one choice and one action at a time."
+            },
+            {
+              "tag": "",
+              "title": "Honesty",
+              "text": "Always the best policy, and our ongoing promise."
+            },
+            {
+              "tag": "",
+              "title": "Teamwork",
+              "text": "Travel fast alone, or far together."
+            },
+            {
+              "tag": "",
+              "title": "Customer service",
+              "text": "Let’s get you going."
+            },
+            {
+              "tag": "",
+              "title": "Mutual respect",
+              "text": "Treating everyone with dignity is our gold standard."
+            },
+            {
+              "tag": "",
+              "title": "Vision & action",
+              "text": "If you don’t know where you’re going, any road will take you there."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cta",
+      "type": "sharedSection",
+      "props": {
+        "sectionId": "cta-band",
+        "values": {
+          "eyebrow": "Join the family",
+          "heading": "Ready to get on the road?",
+          "body": "Visit a Summit Ridge location, or talk to our team about trucks, parts, service and financing."
+        }
+      }
+    }
+  ]
+}
