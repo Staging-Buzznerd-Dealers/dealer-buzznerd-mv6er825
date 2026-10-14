@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "promo-section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "paper",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "promo-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center",
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "promo-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "promo-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Meritor Brake Pads Promo",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "promo-text",
+                  "type": "text",
+                  "props": {
+                    "align": "center",
+                    "width": "prose",
+                    "text": "Save on premium Meritor brake pads that promise lasting performance until December 31st, 2026. Now is the perfect time to seize this exclusive offer and give your vehicle the reliability it deserves. Act quickly to ensure you don’t miss out on top-quality components that keep safety and longevity front and center in your vehicle's maintenance. Meritor brake pads are known for their durability and exceptional stopping power, making them a preferred choice among commercial vehicle operators. Take advantage of our special pricing now."
+                  }
+                },
+                {
+                  "id": "promo-button",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "shop-parts",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

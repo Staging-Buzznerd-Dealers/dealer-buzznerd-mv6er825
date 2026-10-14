@@ -183,5 +183,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "i-want-a-parts-promo",
+    "dir": "i-want-a-parts-promo",
+    "title": "I Want A Parts Promo",
+    "path": "/i-want-a-parts-promo",
+    "out": "i-want-a-parts-promo/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
