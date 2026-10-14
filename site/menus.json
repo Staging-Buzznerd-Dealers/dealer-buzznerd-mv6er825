@@ -47,15 +47,6 @@
                   "url": null,
                   "newTab": false,
                   "children": []
-                },
-                {
-                  "id": "mt-capacity",
-                  "label": "Capacity Yard Trucks",
-                  "type": "inventory",
-                  "ref": "search?q=capacity+yard",
-                  "url": null,
-                  "newTab": false,
-                  "children": []
                 }
               ]
             },
@@ -67,33 +58,6 @@
               "url": null,
               "newTab": false,
               "children": [
-                {
-                  "id": "mf-config",
-                  "label": "Truck Configurator",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#contact",
-                  "newTab": false,
-                  "children": []
-                },
-                {
-                  "id": "mf-s13",
-                  "label": "S13 Integrated",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#contact",
-                  "newTab": false,
-                  "children": []
-                },
-                {
-                  "id": "mf-power",
-                  "label": "Powertrain & Brochures",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#contact",
-                  "newTab": false,
-                  "children": []
-                },
                 {
                   "id": "mf-finance",
                   "label": "Financing & Credit",
