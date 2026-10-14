@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "parts-promotion-section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "paper",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "content-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "start",
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "text-column",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "start"
+              },
+              "children": [
+                {
+                  "id": "promo-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Special Promotion on Meritor Brake Pads",
+                    "headingLevel": 1,
+                    "align": "left"
+                  }
+                },
+                {
+                  "id": "promo-text",
+                  "type": "text",
+                  "props": {
+                    "text": "<strong>Limited-Time Offer!</strong> Get the high-quality <em>Meritor brake pads</em> at a discounted rate. This exclusive promotion is available until December 31st, 2026. Ensure your vehicle's safety and performance with top-notch brake pads from a trusted brand. Don't miss out on this special opportunity to upgrade your brake system. Act now and experience the reliability and durability of Meritor brake pads. Contact us today to learn more about this limited-time offer.",
+                    "align": "left",
+                    "width": "prose"
+                  }
+                },
+                {
+                  "id": "call-us-button",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "call-us"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
