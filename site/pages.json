@@ -92,5 +92,24 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "financing",
+    "title": "Truck & Trailer Financing",
+    "description": "Financing for new and used trucks and trailers at Summit Ridge Truck Center — six payment structures, municipal leasing, financed extended warranties and one monthly payment.",
+    "path": "/financing",
+    "out": "financing/index.html",
+    "dir": "financing",
+    "group": "financing",
+    "status": "published",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]

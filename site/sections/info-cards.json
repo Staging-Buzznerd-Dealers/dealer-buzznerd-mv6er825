@@ -1,0 +1,148 @@
+{
+  "version": 2,
+  "id": "info-cards",
+  "name": "Info cards",
+  "description": "A label, heading and intro line, then a grid of outlined cards — each with a small tag, a title, copy and an optional link. Used for financing options and add-ons.",
+  "css": "[data-bz-section=\"info-cards\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"info-cards\"] [data-bz-node=\"ic-intro\"] p { max-width: 62ch; color: #3b3a37; margin-bottom: 0; }\n[data-bz-section=\"info-cards\"] .bz-row[data-bz-node=\"ic-grid\"] { display: grid; grid-template-columns: repeat(var(--ic-cols, 3), minmax(0, 1fr)); gap: 12px; margin-top: 28px; }\n[data-bz-section=\"info-cards\"] .bz-col[data-bz-node^=\"ic-card\"] { grid-column: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 24px 22px 26px; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-title\"] .bz-eyebrow { font-size: 10.5px; color: var(--muted); margin: 0 0 6px; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-title\"] h3 { font-size: 15px; line-height: 1.3; margin: 0 0 12px; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-text\"] p { font-size: 14px; line-height: 1.6; color: #4a4945; margin: 0; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-link\"] p { margin: 14px 0 0; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-link\"] a { font: 700 12px / 1.4 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); text-decoration: none; }\n[data-bz-section=\"info-cards\"] .bz-block[data-bz-node^=\"ic-link\"] a:empty { display: none; }\n@media (max-width: 1100px) { [data-bz-section=\"info-cards\"] .bz-row[data-bz-node=\"ic-grid\"] { grid-template-columns: repeat(2, minmax(0, 1fr)); } }\n@media (max-width: 640px) { [data-bz-section=\"info-cards\"] .bz-row[data-bz-node=\"ic-grid\"] { grid-template-columns: minmax(0, 1fr); } }",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Label above the heading"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "key": "intro",
+      "type": "textarea",
+      "label": "Intro line"
+    },
+    {
+      "key": "cards",
+      "type": "list",
+      "label": "Cards",
+      "fields": [
+        {
+          "key": "tag",
+          "type": "text",
+          "label": "Small tag"
+        },
+        {
+          "key": "title",
+          "type": "text",
+          "label": "Title"
+        },
+        {
+          "key": "text",
+          "type": "textarea",
+          "label": "Copy"
+        },
+        {
+          "key": "linkLabel",
+          "type": "text",
+          "label": "Link text (optional)"
+        },
+        {
+          "key": "linkUrl",
+          "type": "url",
+          "label": "Link (optional)"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ic",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8
+      },
+      "children": [
+        {
+          "id": "ic-head",
+          "type": "row",
+          "props": {
+            "gap": 4
+          },
+          "children": [
+            {
+              "id": "ic-headcol",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "ic-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2
+                  }
+                },
+                {
+                  "id": "ic-intro",
+                  "type": "text",
+                  "props": {
+                    "text": "{{intro}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-grid",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ic-card",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "repeat": "cards"
+              },
+              "children": [
+                {
+                  "id": "ic-title",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{tag}}",
+                    "text": "{{title}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "ic-text",
+                  "type": "text",
+                  "props": {
+                    "text": "{{text}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ic-link",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{linkUrl}}\">{{linkLabel}}</a>",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

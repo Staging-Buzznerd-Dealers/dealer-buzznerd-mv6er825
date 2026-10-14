@@ -61,9 +61,8 @@
                 {
                   "id": "mf-finance",
                   "label": "Financing & Credit",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#financing",
+                  "type": "page",
+                  "ref": "financing",
                   "newTab": false,
                   "children": []
                 }
@@ -146,9 +145,8 @@
                 {
                   "id": "mr-finance",
                   "label": "Financing & credit",
-                  "type": "url",
-                  "ref": null,
-                  "url": "/#financing",
+                  "type": "page",
+                  "ref": "financing",
                   "newTab": false,
                   "children": []
                 }
@@ -328,9 +326,8 @@
             {
               "id": "fs-fin",
               "label": "Financing",
-              "type": "url",
-              "ref": null,
-              "url": "/#financing",
+              "type": "page",
+              "ref": "financing",
               "newTab": false,
               "children": []
             }
