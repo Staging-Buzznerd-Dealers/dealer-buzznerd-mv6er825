@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "holiday-promo",
+      "type": "section",
+      "props": {
+        "background": "accent",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "promo-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center"
+          },
+          "children": [
+            {
+              "id": "promo-col",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "promo-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Holiday Parts Promo!",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "promo-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Celebrate the festive season with our special discounts on truck parts, valid until December 31st.",
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "promo-cta",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "shop-parts",
+                        "style": "primary"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

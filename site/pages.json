@@ -149,5 +149,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "i-need-a-parts-promotion",
+    "dir": "i-need-a-parts-promotion",
+    "title": "I Need A Parts Promotion",
+    "path": "/i-need-a-parts-promotion",
+    "out": "i-need-a-parts-promotion/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
