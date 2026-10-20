@@ -8,6 +8,9 @@
     },
     "prev": {
       "src": "https://vendure.ai4dealerships.com/assets/source/b1/tick-svgrepo-com.svg"
+    },
+    "arrow-left": {
+      "src": "https://vendure.ai4dealerships.com/assets/source/b4/save-svgrepo-com.svg"
     }
   }
 }
