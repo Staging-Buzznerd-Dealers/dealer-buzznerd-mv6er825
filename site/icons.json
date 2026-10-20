@@ -5,9 +5,6 @@
     "search": {
       "src": "https://vendure.ai4dealerships.com/assets/source/14/search.svg",
       "tint": false
-    },
-    "save": {
-      "src": "https://vendure.ai4dealerships.com/assets/source/14/search.svg"
     }
   }
 }
