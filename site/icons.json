@@ -5,6 +5,9 @@
     "search": {
       "src": "https://vendure.ai4dealerships.com/assets/source/14/search.svg",
       "tint": false
+    },
+    "prev": {
+      "src": "https://vendure.ai4dealerships.com/assets/source/b1/tick-svgrepo-com.svg"
     }
   }
 }
