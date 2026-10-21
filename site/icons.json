@@ -4,9 +4,6 @@
   "slots": {
     "search": {
       "src": "https://vendure.ai4dealerships.com/assets/source/14/search.svg"
-    },
-    "save": {
-      "src": "https://vendure.ai4dealerships.com/assets/source/d4/whatsapp-image-2026-10-21-at-1.51.25-am.svg"
     }
   }
 }
