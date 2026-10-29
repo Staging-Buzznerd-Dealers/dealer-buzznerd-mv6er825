@@ -165,32 +165,6 @@
             "snapshot": {
               "listings": [
                 {
-                  "slug": "6-2026-volvo-vhd84b300-2",
-                  "href": "products/6-2026-volvo-vhd84b300-2",
-                  "title": "2026 VOLVO VHD84B300",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2026"
-                    },
-                    {
-                      "label": "Model",
-                      "value": "VHD84B300"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/9b/dms-9037446332__03__preview.webp",
-                    "alt": "2026 VOLVO VHD84B300",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
                   "slug": "6-85120276-new-blower-motor",
                   "href": "products/6-85120276-new-blower-motor",
                   "title": "85120276 NEW BLOWER MOTOR",
@@ -336,6 +310,32 @@
                   "image": {
                     "src": "preview/40/capa_2023_tj6500-1__preview.png",
                     "alt": "Capacity TJ 5000 (OFF-HIGHWAY & DOT)",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2024-international-emv",
+                  "href": "products/6-2024-international-emv",
+                  "title": "2024 INTERNATIONAL EMV",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Length",
+                      "value": "24"
+                    },
+                    {
+                      "label": "Wheel Base",
+                      "value": "254"
+                    },
+                    {
+                      "label": "Mileage",
+                      "value": "2085"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/23/dms-8043066049__02__preview.webp",
+                    "alt": "2024 INTERNATIONAL EMV",
                     "width": 600,
                     "height": 400
                   }
