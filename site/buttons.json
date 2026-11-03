@@ -79,7 +79,7 @@
     "url": "/#contact",
     "style": "secondary",
     "intent": "contact",
-    "newTab": false,
+    "newTab": true,
     "active": true
   },
   {
