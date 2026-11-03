@@ -88,7 +88,7 @@
     "url": "/store/inventory?condition=used",
     "style": "secondary",
     "intent": "browse-inventory",
-    "newTab": false,
+    "newTab": true,
     "active": true
   },
   {
