@@ -24,7 +24,7 @@
     "url": "/service-appointment",
     "style": "primary",
     "intent": "book-service",
-    "newTab": false,
+    "newTab": true,
     "active": true
   },
   {
