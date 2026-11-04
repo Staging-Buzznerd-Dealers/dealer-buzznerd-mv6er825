@@ -1,8 +1,8 @@
 [
   {
     "id": "browse-inventory",
-    "label": "View all inventory →",
-    "url": "/store/inventory",
+    "label": "Browse inventory",
+    "url": "/store",
     "style": "primary",
     "intent": "browse-inventory",
     "newTab": false,
@@ -20,17 +20,18 @@
   },
   {
     "id": "book-service",
-    "label": "Schedule service",
-    "url": "/service-appointment",
-    "style": "primary",
+    "label": "Book service",
+    "url": null,
+    "formId": "request-info",
+    "style": "secondary",
     "intent": "book-service",
-    "newTab": true,
+    "newTab": false,
     "active": true
   },
   {
     "id": "call-us",
-    "label": "Call (555) 010-0148",
-    "url": "tel:+15550100148",
+    "label": "Call us",
+    "url": "tel:+15551234567",
     "style": "secondary",
     "intent": "call-dealer",
     "newTab": false,
@@ -38,66 +39,11 @@
   },
   {
     "id": "about-us",
-    "label": "Why Summit Ridge",
-    "url": "/#why-us",
+    "label": "About us",
+    "url": "/about",
     "style": "link",
     "intent": "about",
     "newTab": false,
     "active": true
-  },
-  {
-    "id": "shop-new",
-    "label": "New trucks",
-    "url": "/store/inventory?condition=new",
-    "style": "secondary",
-    "intent": "browse-inventory",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "shop-parts",
-    "label": "Order parts",
-    "url": "/store/parts",
-    "style": "primary",
-    "intent": "browse-parts",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "get-financing",
-    "label": "Get pre-qualified",
-    "url": null,
-    "formId": "financing",
-    "style": "secondary",
-    "intent": "get-financing",
-    "newTab": false,
-    "active": true
-  },
-  {
-    "id": "contact-us",
-    "label": "Contact us",
-    "url": "/#contact",
-    "style": "secondary",
-    "intent": "contact",
-    "newTab": true,
-    "active": true
-  },
-  {
-    "id": "shop-used",
-    "label": "Used trucks",
-    "url": "/store/inventory?condition=used",
-    "style": "secondary",
-    "intent": "browse-inventory",
-    "newTab": true,
-    "active": true
-  },
-  {
-    "id": "transact",
-    "label": "Transact",
-    "url": "",
-    "style": "primary",
-    "intent": "transact",
-    "active": true,
-    "newTab": true
   }
 ]
