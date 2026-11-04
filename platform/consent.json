@@ -1,4 +1,68 @@
 {
-  "mode": "opt-in",
-  "version": 1
+  "mode": "opt-out",
+  "version": 1,
+  "expiryDays": 365,
+  "categories": [
+    "functional",
+    "analytics",
+    "marketing"
+  ],
+  "text": {
+    "title": "We value your privacy",
+    "body": "We use essential cookies and similar technologies to operate, secure, and provide core website features. These technologies remain active because they are necessary for the website to function. With your permission, we also use optional technologies to analyze website traffic, personalize content, and support advertising. Select Accept All to allow optional technologies, Reject All to use only those necessary for website functionality, or Customize to manage your preferences.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "preferences": "Customize",
+    "save": "Save My Preferences",
+    "preferencesTitle": "Customize Consent Preferences",
+    "prefsIntro": "We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.",
+    "settingsButton": "Manage consent",
+    "policyLabel": "Privacy Policy",
+    "gpcConfirmation": "Your Global Privacy Control opt-out signal was detected and honored.",
+    "dnsLabel": "Do Not Sell or Share My Personal Information",
+    "dnsConfirmation": "You have opted out of the sale/sharing of your personal information."
+  },
+  "categoryText": {
+    "essential": {
+      "label": "Necessary",
+      "description": "Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data."
+    },
+    "functional": {
+      "label": "Functional",
+      "description": "Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features."
+    },
+    "analytics": {
+      "label": "Analytics",
+      "description": "Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc."
+    },
+    "marketing": {
+      "label": "Advertisement",
+      "description": "Advertisement cookies are used to provide visitors with customized advertisements based on the pages you visited previously and to analyze the effectiveness of the ad campaigns."
+    }
+  },
+  "revisitButton": true,
+  "showReject": true,
+  "showPreferences": true,
+  "reloadOnChoice": false,
+  "gcmEnabled": true,
+  "gcmAdsDataRedaction": true,
+  "gcmUrlPassthrough": true,
+  "gpcEnabled": true,
+  "gpcShowConfirmation": true,
+  "dnsEnabled": true,
+  "autoclear": true,
+  "logging": true,
+  "layout": "banner",
+  "position": "bottom",
+  "theme": "light",
+  "revisitPosition": "bottom-left",
+  "primaryColor": "#0a3d70",
+  "buttonTextColor": "#ffffff",
+  "textColor": "#0f0f0f",
+  "backgroundColor": "#ffffff",
+  "fontFamily": "inherit",
+  "fontSize": 14,
+  "defaultOn": [],
+  "necessaryCategories": [],
+  "cookies": []
 }
