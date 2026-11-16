@@ -1,7 +1,7 @@
 {
   "version": 1,
   "headStart": "<script async src=\"https://www.googletagmanager.com/gtm.js?id=G-0BJKFQNKPV\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n</script>",
-  "headEnd": "",
+  "headEnd": "<meta name=\"google-site-verification\" content=\"czJkYfJLAYvo993_gohCyjVS_rvqLAlOh1Foabo77gE\" />",
   "bodyStart": "",
   "beforeFooter": "",
   "bodyEnd": "",
