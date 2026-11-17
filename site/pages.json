@@ -17,5 +17,22 @@
       "utilityNav": null
     },
     "pageType": "Home"
+  },
+  {
+    "slug": "i-need-a-promotions",
+    "dir": "i-need-a-promotions",
+    "title": "I Need A Promotions",
+    "path": "/i-need-a-promotions",
+    "out": "i-need-a-promotions/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
