@@ -165,209 +165,177 @@
             "snapshot": {
               "listings": [
                 {
-                  "slug": "6-2027-fontaine-infinity",
-                  "href": "products/6-2027-fontaine-infinity",
-                  "title": "2027 FONTAINE INFINITY",
+                  "slug": "6-85120276-new-blower-motor",
+                  "href": "products/6-85120276-new-blower-motor",
+                  "title": "85120276 NEW BLOWER MOTOR",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
+                      "label": "Condition",
+                      "value": "new"
+                    },
+                    {
+                      "label": "Brand",
+                      "value": " VOLVO TRUCK"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/01/20221128_111023__03__preview.jpg",
+                    "alt": "85120276 NEW BLOWER MOTOR",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-20953521-new-idler-pulley",
+                  "href": "products/6-20953521-new-idler-pulley",
+                  "title": "20953521 NEW IDLER PULLEY",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "new"
+                    },
+                    {
+                      "label": "Part Type",
+                      "value": "test"
+                    },
+                    {
+                      "label": "Brand",
+                      "value": "test"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/06/img_7179__preview.jpg",
+                    "alt": "20953521 NEW IDLER PULLEY",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-kenworth-t880",
+                  "href": "products/6-kenworth-t880",
+                  "title": "Kenworth T880",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Make",
+                      "value": "Kenworth"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/5c/1-10__preview.jpg",
+                    "alt": "Kenworth T880",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-kenworth-t880-2",
+                  "href": "products/6-kenworth-t880-2",
+                  "title": "Kenworth T880",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Make",
+                      "value": "Kenworth"
+                    }
+                  ],
+                  "image": {
+                    "src": "preview/2c/1-2__preview.jpg",
+                    "alt": "Kenworth T880",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-international-hv-series",
+                  "href": "products/6-international-hv-series",
+                  "title": "INTERNATIONAL HV™ SERIES",
+                  "price": "$0",
+                  "facts": [
+                    {
+                      "label": "Make",
+                      "value": "International"
                     },
                     {
                       "label": "Model",
-                      "value": "INFINITY"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2027"
+                      "value": "HV® SERIES"
                     }
                   ],
                   "image": {
-                    "src": "preview/17/dms-9013159630__preview.jpg",
-                    "alt": "2027 FONTAINE INFINITY",
+                    "src": "preview/f9/whatsapp-image-2026-10-14-at-6.06.10-pm__preview.jpeg",
+                    "alt": "INTERNATIONAL HV™ SERIES",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2027-transcraft-now-wabash-48-039-steel-flatbed-sl",
-                  "href": "products/6-2027-transcraft-now-wabash-48-039-steel-flatbed-sl",
-                  "title": "2027 TRANSCRAFT (NOW WABASH) 48&#039; STEEL FLATBED - SLIDING TANDEM",
+                  "slug": "6-international-hx-series",
+                  "href": "products/6-international-hx-series",
+                  "title": "INTERNATIONAL HX® SERIES",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Year",
-                      "value": "2027"
-                    },
-                    {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
-                      "label": "Manufacturer",
-                      "value": "TRANSCRAFT"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/fe/dms-5008055881__preview.jpg",
-                    "alt": "2027 TRANSCRAFT (NOW WABASH) 48&#039; STEEL FLATBED - SLIDING TANDEM",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
-                  "slug": "6-2027-fontaine-renegade-20",
-                  "href": "products/6-2027-fontaine-renegade-20",
-                  "title": "2027 FONTAINE RENEGADE 20",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2027"
-                    },
-                    {
-                      "label": "Condition",
-                      "value": "New"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/ae/dms-11025462999__preview.jpg",
-                    "alt": "2027 FONTAINE RENEGADE 20",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
-                  "slug": "6-2014-talbert-rent-me-2014-40-ton-double-drop-rgns-",
-                  "href": "products/6-2014-talbert-rent-me-2014-40-ton-double-drop-rgns-",
-                  "title": "2014 TALBERT Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "TALBERT"
+                      "label": "Make",
+                      "value": "International"
                     },
                     {
                       "label": "Model",
-                      "value": "Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2014"
+                      "value": "HX® SERIES"
                     }
                   ],
                   "image": {
-                    "src": "preview/3c/dms-1011911188__preview.jpg",
-                    "alt": "2014 TALBERT Rent me! 2014 40 TON DOUBLE DROP RGNS WITH OUTRIGG",
+                    "src": "preview/b3/screenshot-2026-10-14-at-5.38.57a¯pm__preview.png",
+                    "alt": "INTERNATIONAL HX® SERIES",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2014-fontaine-for-rent-53-x-102-container-lock-dro",
-                  "href": "products/6-2014-fontaine-for-rent-53-x-102-container-lock-dro",
-                  "title": "2014 FONTAINE For Rent-53 x 102 container lock drop deck CA leg",
+                  "slug": "6-capacity-tj-5000-off-highway-dot",
+                  "href": "products/6-capacity-tj-5000-off-highway-dot",
+                  "title": "Capacity TJ 5000 (OFF-HIGHWAY & DOT)",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2014"
-                    },
-                    {
-                      "label": "Condition",
-                      "value": "Used"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/04/dms-1011690824__preview.jpg",
-                    "alt": "2014 FONTAINE For Rent-53 x 102 container lock drop deck CA leg",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
-                  "slug": "6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "href": "products/6-2013-fontaine-rent-me-lxt-40-ton-double-drop-exten",
-                  "title": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
-                    },
-                    {
-                      "label": "Condition",
-                      "value": "Used"
+                      "label": "Make",
+                      "value": "Capacity "
                     },
                     {
                       "label": "Model",
-                      "value": "Rent Me! LXT 40 Ton Double Drop Extendable"
+                      "value": "TJ 5000 (OFF-HIGHWAY & DOT)"
                     }
                   ],
                   "image": {
-                    "src": "preview/44/dms-1010340934__preview.jpg",
-                    "alt": "2013 FONTAINE Rent Me! LXT 40 Ton Double Drop Extendable",
+                    "src": "preview/40/capa_2023_tj6500-1__preview.png",
+                    "alt": "Capacity TJ 5000 (OFF-HIGHWAY & DOT)",
                     "width": 600,
                     "height": 400
                   }
                 },
                 {
-                  "slug": "6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "href": "products/6-2015-fontaine-for-rent-48x102-rev-all-alum-flat-w-",
-                  "title": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
+                  "slug": "6-2024-international-emv",
+                  "href": "products/6-2024-international-emv",
+                  "title": "2024 INTERNATIONAL EMV",
                   "price": "$0",
                   "facts": [
                     {
-                      "label": "Manufacturer",
-                      "value": "FONTAINE"
+                      "label": "Length",
+                      "value": "24"
                     },
                     {
-                      "label": "Condition",
-                      "value": "Used"
+                      "label": "Wheel Base",
+                      "value": "254"
                     },
                     {
-                      "label": "Model",
-                      "value": "For Rent - 48x102 Rev All Alum Flat w/Aero Sliding"
+                      "label": "Mileage",
+                      "value": "2085"
                     }
                   ],
                   "image": {
-                    "src": "preview/87/dms-1023181768__preview.jpg",
-                    "alt": "2015 FONTAINE For Rent - 48x102 Rev All Alum Flat w/Aero Sliding",
-                    "width": 600,
-                    "height": 400
-                  }
-                },
-                {
-                  "slug": "6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "href": "products/6-2014-talbert-for-rent-55-ton-hydraulic-rgn",
-                  "title": "2014 TALBERT For rent 55 Ton hydraulic RGN",
-                  "price": "$0",
-                  "facts": [
-                    {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
-                      "label": "Manufacturer",
-                      "value": "TALBERT"
-                    },
-                    {
-                      "label": "Year",
-                      "value": "2014"
-                    }
-                  ],
-                  "image": {
-                    "src": "preview/67/dms-1007694860__preview.jpg",
-                    "alt": "2014 TALBERT For rent 55 Ton hydraulic RGN",
+                    "src": "preview/23/dms-8043066049__02__preview.webp",
+                    "alt": "2024 INTERNATIONAL EMV",
                     "width": 600,
                     "height": 400
                   }
@@ -677,598 +645,11 @@
         "data": {
           "rooftops": [
             {
-              "id": "8",
-              "name": "Downtown Branch",
-              "subtitle": "",
-              "slug": "downtown-branch",
-              "num": "01",
-              "href": null,
-              "streetAddress": "123 Main Street",
-              "city": "Springfield",
-              "region": "12345",
-              "postalCode": "",
-              "country": null,
-              "latitude": 40.7128,
-              "longitude": -74.006,
-              "phone": "",
-              "phoneUrl": null,
-              "mapUrl": "https://www.google.com/maps/search/?api=1&query=40.7128,-74.006",
-              "email": null,
-              "brands": "",
-              "services": "",
-              "perks": "",
-              "brandKeys": "",
-              "perkKeys": "",
-              "perk1": null,
-              "perk2": null,
-              "perk3": null,
-              "departments": "Sales · Service",
-              "hours": "Sales: 07:00–17:00 Mon–Fri, 08:00–12:00 Sat\n\nService: 07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-              "phone2": null,
-              "phone2Url": null,
-              "phone3": null,
-              "phone3Url": null,
-              "group": "Full-Service Dealerships",
-              "groupKey": "full-service-dealerships",
-              "photo": {
-                "src": "",
-                "alt": ""
-              },
-              "banner": {
-                "src": "",
-                "alt": ""
-              },
-              "brandRows": [],
-              "serviceRows": [],
-              "perkRows": [],
-              "departmentRows": [
-                {
-                  "name": "Sales",
-                  "key": "sales",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat"
-                },
-                {
-                  "name": "Service",
-                  "key": "service",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat"
-                }
-              ],
-              "hoursRows": [
-                {
-                  "department": "Sales",
-                  "key": "sales",
-                  "summary": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–12:00",
-                      "opensAt": "08:00",
-                      "closesAt": "12:00",
-                      "closed": false
-                    }
-                  ]
-                },
-                {
-                  "department": "Service",
-                  "key": "service",
-                  "summary": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–12:00",
-                      "opensAt": "08:00",
-                      "closesAt": "12:00",
-                      "closed": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "10",
-              "name": "Los Angeles",
-              "subtitle": "",
-              "slug": "los-angeles",
-              "num": "02",
-              "href": null,
-              "streetAddress": null,
-              "city": "",
-              "region": "",
-              "postalCode": "",
-              "country": null,
-              "latitude": null,
-              "longitude": null,
-              "phone": "",
-              "phoneUrl": null,
-              "mapUrl": null,
-              "email": null,
-              "brands": "",
-              "services": "",
-              "perks": "",
-              "brandKeys": "",
-              "perkKeys": "",
-              "perk1": null,
-              "perk2": null,
-              "perk3": null,
-              "departments": "Sales · Rental",
-              "hours": "Sales: 07:00–18:00 Mon–Fri, 08:00–14:00 Sat\n\nRental: 07:00–19:00 Mon–Fri, 08:00–16:00 Sat",
-              "phone2": null,
-              "phone2Url": null,
-              "phone3": null,
-              "phone3Url": null,
-              "group": "Full-Service Dealerships",
-              "groupKey": "full-service-dealerships",
-              "photo": {
-                "src": "",
-                "alt": ""
-              },
-              "banner": {
-                "src": "",
-                "alt": ""
-              },
-              "brandRows": [],
-              "serviceRows": [],
-              "perkRows": [],
-              "departmentRows": [
-                {
-                  "name": "Sales",
-                  "key": "sales",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat"
-                },
-                {
-                  "name": "Rental",
-                  "key": "rental",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–19:00 Mon–Fri, 08:00–16:00 Sat"
-                }
-              ],
-              "hoursRows": [
-                {
-                  "department": "Sales",
-                  "key": "sales",
-                  "summary": "07:00–18:00 Mon–Fri, 08:00–14:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–18:00",
-                      "opensAt": "07:00",
-                      "closesAt": "18:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–18:00",
-                      "opensAt": "07:00",
-                      "closesAt": "18:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–18:00",
-                      "opensAt": "07:00",
-                      "closesAt": "18:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–18:00",
-                      "opensAt": "07:00",
-                      "closesAt": "18:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–18:00",
-                      "opensAt": "07:00",
-                      "closesAt": "18:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–14:00",
-                      "opensAt": "08:00",
-                      "closesAt": "14:00",
-                      "closed": false
-                    }
-                  ]
-                },
-                {
-                  "department": "Rental",
-                  "key": "rental",
-                  "summary": "07:00–19:00 Mon–Fri, 08:00–16:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–19:00",
-                      "opensAt": "07:00",
-                      "closesAt": "19:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–19:00",
-                      "opensAt": "07:00",
-                      "closesAt": "19:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–19:00",
-                      "opensAt": "07:00",
-                      "closesAt": "19:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–19:00",
-                      "opensAt": "07:00",
-                      "closesAt": "19:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–19:00",
-                      "opensAt": "07:00",
-                      "closesAt": "19:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–16:00",
-                      "opensAt": "08:00",
-                      "closesAt": "16:00",
-                      "closed": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "9",
-              "name": "Riverside Branch",
-              "subtitle": "",
-              "slug": "riverside-branch",
-              "num": "03",
-              "href": null,
-              "streetAddress": "45 River Road",
-              "city": "Lakeview",
-              "region": "67890",
-              "postalCode": "",
-              "country": null,
-              "latitude": 34.0522,
-              "longitude": -118.2437,
-              "phone": "",
-              "phoneUrl": null,
-              "mapUrl": "https://www.google.com/maps/search/?api=1&query=34.0522,-118.2437",
-              "email": null,
-              "brands": "",
-              "services": "",
-              "perks": "",
-              "brandKeys": "",
-              "perkKeys": "",
-              "perk1": null,
-              "perk2": null,
-              "perk3": null,
-              "departments": "Sales · Service",
-              "hours": "Sales: 07:00–17:00 Mon–Fri, 08:00–12:00 Sat\n\nService: 07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-              "phone2": null,
-              "phone2Url": null,
-              "phone3": null,
-              "phone3Url": null,
-              "group": "Full-Service Dealerships",
-              "groupKey": "full-service-dealerships",
-              "photo": {
-                "src": "",
-                "alt": ""
-              },
-              "banner": {
-                "src": "",
-                "alt": ""
-              },
-              "brandRows": [],
-              "serviceRows": [],
-              "perkRows": [],
-              "departmentRows": [
-                {
-                  "name": "Sales",
-                  "key": "sales",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat"
-                },
-                {
-                  "name": "Service",
-                  "key": "service",
-                  "phone": null,
-                  "phoneUrl": null,
-                  "email": null,
-                  "hours": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat"
-                }
-              ],
-              "hoursRows": [
-                {
-                  "department": "Sales",
-                  "key": "sales",
-                  "summary": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–12:00",
-                      "opensAt": "08:00",
-                      "closesAt": "12:00",
-                      "closed": false
-                    }
-                  ]
-                },
-                {
-                  "department": "Service",
-                  "key": "service",
-                  "summary": "07:00–17:00 Mon–Fri, 08:00–12:00 Sat",
-                  "days": [
-                    {
-                      "day": "Sunday",
-                      "hours": "Closed",
-                      "opensAt": null,
-                      "closesAt": null,
-                      "closed": true
-                    },
-                    {
-                      "day": "Monday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Tuesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Wednesday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Thursday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Friday",
-                      "hours": "07:00–17:00",
-                      "opensAt": "07:00",
-                      "closesAt": "17:00",
-                      "closed": false
-                    },
-                    {
-                      "day": "Saturday",
-                      "hours": "08:00–12:00",
-                      "opensAt": "08:00",
-                      "closesAt": "12:00",
-                      "closed": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "7",
-              "name": "Riverton",
-              "subtitle": "Summit Ridge Truck Center",
-              "slug": "riverton",
-              "num": "04",
-              "href": null,
-              "streetAddress": "1250 Commerce Parkway",
-              "city": "",
-              "region": "",
-              "postalCode": "",
-              "country": null,
-              "latitude": 32.9618,
-              "longitude": -96.8292,
-              "phone": "",
-              "phoneUrl": null,
-              "mapUrl": "https://www.google.com/maps/search/?api=1&query=32.9618,-96.8292",
-              "email": null,
-              "brands": "",
-              "services": "",
-              "perks": "In-store shopping",
-              "brandKeys": "",
-              "perkKeys": "in_store_shopping",
-              "perk1": "In-store shopping",
-              "perk2": null,
-              "perk3": null,
-              "departments": "",
-              "hours": "",
-              "phone2": null,
-              "phone2Url": null,
-              "phone3": null,
-              "phone3Url": null,
-              "group": "Full-Service Dealerships",
-              "groupKey": "full-service-dealerships",
-              "photo": {
-                "src": "",
-                "alt": ""
-              },
-              "banner": {
-                "src": "",
-                "alt": ""
-              },
-              "brandRows": [],
-              "serviceRows": [],
-              "perkRows": [
-                {
-                  "label": "In-store shopping",
-                  "key": "in_store_shopping"
-                }
-              ],
-              "departmentRows": [],
-              "hoursRows": []
-            },
-            {
               "id": "6",
               "name": "Seattle",
               "subtitle": "",
               "slug": "main",
-              "num": "05",
+              "num": "01",
               "href": null,
               "streetAddress": "1250 Commerce Parkway",
               "city": null,
@@ -2080,6 +1461,593 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "9",
+              "name": "Riverside Branch",
+              "subtitle": "",
+              "slug": "riverside-branch",
+              "num": "02",
+              "href": null,
+              "streetAddress": "45 River Road",
+              "city": "Lakeview",
+              "region": "67890",
+              "postalCode": "",
+              "country": null,
+              "latitude": 34.0522,
+              "longitude": -118.2437,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=34.0522,-118.2437",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Service",
+              "hours": "Sales: 07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat\n\nService: 07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": "Full-Service Dealerships",
+              "groupKey": "full-service-dealerships",
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat"
+                },
+                {
+                  "name": "Service",
+                  "key": "service",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 12:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "12:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Service",
+                  "key": "service",
+                  "summary": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 12:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "12:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "10",
+              "name": "Los Angeles",
+              "subtitle": "",
+              "slug": "los-angeles",
+              "num": "03",
+              "href": null,
+              "streetAddress": "123 Elm Street",
+              "city": "",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": null,
+              "longitude": null,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=123%20Elm%20Street",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Rental",
+              "hours": "Sales: 07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat\n\nRental: 07:00 AM - 07:00 PM Mon–Fri, 08:00 AM - 04:00 PM Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": "Full-Service Dealerships",
+              "groupKey": "full-service-dealerships",
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat"
+                },
+                {
+                  "name": "Rental",
+                  "key": "rental",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 07:00 PM Mon–Fri, 08:00 AM - 04:00 PM Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00 AM - 06:00 PM Mon–Fri, 08:00 AM - 02:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 06:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 06:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 06:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 06:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 06:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "18:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 02:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "14:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Rental",
+                  "key": "rental",
+                  "summary": "07:00 AM - 07:00 PM Mon–Fri, 08:00 AM - 04:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 07:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 07:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 07:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 07:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 07:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "19:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 04:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "16:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "name": "Downtown Branch",
+              "subtitle": "",
+              "slug": "downtown-branch",
+              "num": "04",
+              "href": null,
+              "streetAddress": "123 Main Street",
+              "city": "Springfield",
+              "region": "12345",
+              "postalCode": "",
+              "country": null,
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=40.7128,-74.006",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "",
+              "brandKeys": "",
+              "perkKeys": "",
+              "perk1": null,
+              "perk2": null,
+              "perk3": null,
+              "departments": "Sales · Service",
+              "hours": "Sales: 07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat\n\nService: 07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": "Full-Service Dealerships",
+              "groupKey": "full-service-dealerships",
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [],
+              "departmentRows": [
+                {
+                  "name": "Sales",
+                  "key": "sales",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat"
+                },
+                {
+                  "name": "Service",
+                  "key": "service",
+                  "phone": null,
+                  "phoneUrl": null,
+                  "email": null,
+                  "hours": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat"
+                }
+              ],
+              "hoursRows": [
+                {
+                  "department": "Sales",
+                  "key": "sales",
+                  "summary": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 12:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "12:00",
+                      "closed": false
+                    }
+                  ]
+                },
+                {
+                  "department": "Service",
+                  "key": "service",
+                  "summary": "07:00 AM - 05:00 PM Mon–Fri, 08:00 AM - 12:00 PM Sat",
+                  "days": [
+                    {
+                      "day": "Sunday",
+                      "hours": "Closed",
+                      "opensAt": null,
+                      "closesAt": null,
+                      "closed": true
+                    },
+                    {
+                      "day": "Monday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Tuesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Wednesday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Thursday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Friday",
+                      "hours": "07:00 AM - 05:00 PM",
+                      "opensAt": "07:00",
+                      "closesAt": "17:00",
+                      "closed": false
+                    },
+                    {
+                      "day": "Saturday",
+                      "hours": "08:00 AM - 12:00 PM",
+                      "opensAt": "08:00",
+                      "closesAt": "12:00",
+                      "closed": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "name": "Riverton",
+              "subtitle": "Summit Ridge Truck Center",
+              "slug": "riverton",
+              "num": "05",
+              "href": null,
+              "streetAddress": "1250 Commerce Parkway",
+              "city": "",
+              "region": "",
+              "postalCode": "",
+              "country": null,
+              "latitude": 32.9618,
+              "longitude": -96.8292,
+              "phone": "",
+              "phoneUrl": null,
+              "mapUrl": "https://www.google.com/maps/search/?api=1&query=32.9618,-96.8292",
+              "email": null,
+              "brands": "",
+              "services": "",
+              "perks": "In-store shopping",
+              "brandKeys": "",
+              "perkKeys": "in_store_shopping",
+              "perk1": "In-store shopping",
+              "perk2": null,
+              "perk3": null,
+              "departments": "",
+              "hours": "",
+              "phone2": null,
+              "phone2Url": null,
+              "phone3": null,
+              "phone3Url": null,
+              "group": "Full-Service Dealerships",
+              "groupKey": "full-service-dealerships",
+              "photo": {
+                "src": "",
+                "alt": ""
+              },
+              "banner": {
+                "src": "",
+                "alt": ""
+              },
+              "brandRows": [],
+              "serviceRows": [],
+              "perkRows": [
+                {
+                  "label": "In-store shopping",
+                  "key": "in_store_shopping"
+                }
+              ],
+              "departmentRows": [],
+              "hoursRows": []
             }
           ]
         }
