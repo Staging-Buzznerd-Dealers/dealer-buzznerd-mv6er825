@@ -34,5 +34,22 @@
       "footer": null,
       "utilityNav": null
     }
+  },
+  {
+    "slug": "this",
+    "dir": "this",
+    "title": "This",
+    "path": "/this",
+    "out": "this/index.html",
+    "status": "draft",
+    "seo": {
+      "ogImage": null,
+      "noindex": false
+    },
+    "templates": {
+      "header": null,
+      "footer": null,
+      "utilityNav": null
+    }
   }
 ]
