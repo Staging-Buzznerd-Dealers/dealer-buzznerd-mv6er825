@@ -508,9 +508,10 @@
                     "align": "center",
                     "items": [
                       {
-                        "newTab": false,
+                        "newTab": true,
                         "label": "abc",
-                        "url": "www.buzznerd.com"
+                        "url": "www.buzznerd.com",
+                        "showIcon": true
                       }
                     ]
                   }
