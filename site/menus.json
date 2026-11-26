@@ -288,20 +288,20 @@
           "children": []
         },
         {
+          "id": "item-8",
+          "label": "news and update",
+          "type": "page",
+          "url": null,
+          "ref": "blog",
+          "children": []
+        },
+        {
           "id": "call",
           "label": "15550100148",
           "type": "url",
           "ref": null,
           "url": "tel:+15550100148",
           "newTab": false,
-          "children": []
-        },
-        {
-          "id": "item-8",
-          "label": "news and update",
-          "type": "page",
-          "url": null,
-          "ref": "blog",
           "children": []
         }
       ]
@@ -476,20 +476,6 @@
           "ref": null,
           "url": "/terms",
           "newTab": false,
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "menu",
-      "name": "location",
-      "items": [
-        {
-          "id": "item-1",
-          "label": "abc ",
-          "type": "page",
-          "url": null,
-          "ref": "blog",
           "children": []
         }
       ]
