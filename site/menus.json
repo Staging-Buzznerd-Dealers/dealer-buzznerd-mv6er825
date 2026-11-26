@@ -23,8 +23,11 @@
               "type": "label",
               "ref": null,
               "url": null,
-              "newTab": false,
-              "icon": null,
+              "newTab": true,
+              "icon": {
+                "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
+                "tint": true
+              },
               "children": [
                 {
                   "id": "mt-all",
@@ -65,8 +68,19 @@
                   "newTab": false,
                   "icon": null,
                   "children": []
+                },
+                {
+                  "id": "item-33",
+                  "label": "New item",
+                  "type": "url",
+                  "url": "https://",
+                  "ref": null,
+                  "children": [],
+                  "newTab": true,
+                  "showIcon": true
                 }
-              ]
+              ],
+              "showIcon": true
             },
             {
               "id": "mt-finance",
