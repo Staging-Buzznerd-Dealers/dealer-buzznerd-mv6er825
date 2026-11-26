@@ -12,6 +12,7 @@
           "ref": "inventory?type=truck",
           "url": null,
           "newTab": true,
+          "showIcon": true,
           "icon": {
             "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
             "tint": true
@@ -24,6 +25,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "showIcon": false,
               "icon": {
                 "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
                 "tint": true
@@ -36,12 +38,12 @@
                   "ref": "inventory",
                   "url": null,
                   "newTab": true,
+                  "showIcon": true,
                   "icon": {
                     "src": "https://vendure.ai4dealerships.com/assets/source/c3/tick-square-svgrepo-com__02.svg",
                     "tint": true
                   },
-                  "children": [],
-                  "showIcon": true
+                  "children": []
                 },
                 {
                   "id": "mt-new",
@@ -77,14 +79,14 @@
                   "id": "item-33",
                   "label": "New item",
                   "type": "url",
-                  "url": "https://",
                   "ref": null,
-                  "children": [],
+                  "url": "https://",
                   "newTab": true,
-                  "showIcon": true
+                  "showIcon": true,
+                  "icon": null,
+                  "children": []
                 }
-              ],
-              "showIcon": false
+              ]
             },
             {
               "id": "mt-finance",
@@ -168,8 +170,7 @@
                 }
               ]
             }
-          ],
-          "showIcon": true
+          ]
         },
         {
           "id": "trailers",
@@ -341,7 +342,7 @@
         },
         {
           "id": "item-8",
-          "label": "news and update",
+          "label": "News ",
           "type": "page",
           "ref": "blog",
           "url": null,
@@ -560,21 +561,23 @@
           "id": "item-1",
           "label": "l1",
           "type": "page",
-          "url": null,
           "ref": "locations",
-          "children": [],
+          "url": null,
           "newTab": true,
-          "showIcon": true
+          "showIcon": true,
+          "icon": null,
+          "children": []
         },
         {
           "id": "item-2",
           "label": "l2",
           "type": "page",
-          "url": null,
           "ref": "blog",
-          "children": [],
+          "url": null,
           "newTab": true,
-          "showIcon": true
+          "showIcon": true,
+          "icon": null,
+          "children": []
         }
       ]
     }
