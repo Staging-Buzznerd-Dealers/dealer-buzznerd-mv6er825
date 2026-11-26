@@ -511,7 +511,7 @@
                         "newTab": true,
                         "label": "abc",
                         "url": "www.buzznerd.com",
-                        "showIcon": true
+                        "showIcon": false
                       }
                     ]
                   }
