@@ -1,0 +1,168 @@
+{
+  "version": 2,
+  "id": "location-directory",
+  "name": "Location directory",
+  "description": "Every rooftop as a card in a grid: number and state, name, address, hours, phone, and links to directions and the location's own page. From Locations.",
+  "css": "[data-bz-section=\"location-directory\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"location-directory\"] .bz-row[data-bz-node=\"ld-grid\"] { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }\n[data-bz-section=\"location-directory\"] .bz-col[data-bz-node^=\"ld-card\"] { grid-column: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 26px 26px 28px; display: flex; flex-direction: column; gap: 10px; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-name\"] .bz-eyebrow { margin: 0 0 4px; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-name\"] h3 { font-size: 17px; line-height: 1.25; margin: 0; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-addr\"] p, [data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-hours\"] p { font-size: 14px; color: var(--muted); margin: 0; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-phone\"] p { margin: 0; }\n[data-bz-section=\"location-directory\"] .bz-block p a { color: var(--ink); text-decoration: none; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-links\"] p { font-weight: 700; font-size: 14px; margin: 6px 0 0; display: flex; gap: 18px; }\n[data-bz-section=\"location-directory\"] .bz-block[data-bz-node^=\"ld-depts\"] p { margin: 2px 0 0; font: 700 11px / 1.9 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); }",
+  "props": [
+    {
+      "key": "rooftops",
+      "type": "list",
+      "label": "Rooftops",
+      "fields": [
+        {
+          "key": "num",
+          "type": "text",
+          "label": "Number"
+        },
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "subtitle",
+          "type": "text",
+          "label": "Business name"
+        },
+        {
+          "key": "streetAddress",
+          "type": "text",
+          "label": "Street address"
+        },
+        {
+          "key": "city",
+          "type": "text",
+          "label": "City"
+        },
+        {
+          "key": "region",
+          "type": "text",
+          "label": "State"
+        },
+        {
+          "key": "postalCode",
+          "type": "text",
+          "label": "ZIP"
+        },
+        {
+          "key": "phone",
+          "type": "text",
+          "label": "Phone"
+        },
+        {
+          "key": "phoneUrl",
+          "type": "url",
+          "label": "Phone link"
+        },
+        {
+          "key": "mapUrl",
+          "type": "url",
+          "label": "Directions link"
+        },
+        {
+          "key": "hours",
+          "type": "text",
+          "label": "Hours"
+        },
+        {
+          "key": "departments",
+          "type": "text",
+          "label": "Departments"
+        },
+        {
+          "key": "href",
+          "type": "url",
+          "label": "Location page"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ld",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 0,
+        "anchor": "all-locations"
+      },
+      "styles": {
+        "base": {
+          "paddingBottom": 96
+        }
+      },
+      "children": [
+        {
+          "id": "ld-grid",
+          "type": "row",
+          "props": {
+            "gap": 4,
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "ld-card",
+              "type": "column",
+              "props": {
+                "span": 4,
+                "repeat": "rooftops"
+              },
+              "children": [
+                {
+                  "id": "ld-name",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{num}} · {{region}}",
+                    "text": "{{name}}",
+                    "headingLevel": 3
+                  }
+                },
+                {
+                  "id": "ld-addr",
+                  "type": "text",
+                  "props": {
+                    "text": "{{streetAddress}}, {{city}}, {{region}} {{postalCode}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ld-hours",
+                  "type": "text",
+                  "props": {
+                    "text": "{{hours}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ld-phone",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{phoneUrl}}\">{{phone}}</a>",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ld-depts",
+                  "type": "text",
+                  "props": {
+                    "text": "{{departments}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "ld-links",
+                  "type": "text",
+                  "props": {
+                    "text": "<a href=\"{{href}}\">View location →</a><a href=\"{{mapUrl}}\" target=\"_blank\" rel=\"noopener\">Directions →</a>",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

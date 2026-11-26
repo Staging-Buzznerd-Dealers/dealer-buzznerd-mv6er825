@@ -2,7 +2,7 @@
   {
     "slug": "home",
     "title": "Home",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
+    "description": "Summit Ridge Truck Center in Riverton, TX: new and pre-owned commercial trucks, factory-trained service, genuine parts and fleet financing.",
     "path": "/",
     "out": "index.html",
     "dir": "home",
@@ -19,12 +19,14 @@
     "pageType": "Home"
   },
   {
-    "slug": "i-need-a-promotions",
-    "dir": "i-need-a-promotions",
-    "title": "I Need A Promotions",
-    "path": "/i-need-a-promotions",
-    "out": "i-need-a-promotions/index.html",
-    "status": "draft",
+    "slug": "locations",
+    "title": "Locations & Hours",
+    "description": "Find a Summit Ridge Truck Center location in Texas or Oklahoma — addresses, phone numbers and hours for sales, service and parts.",
+    "path": "/locations",
+    "out": "locations/index.html",
+    "dir": "locations",
+    "group": "locations",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false
@@ -36,12 +38,15 @@
     }
   },
   {
-    "slug": "this",
-    "dir": "this",
-    "title": "This",
-    "path": "/this",
-    "out": "this/index.html",
-    "status": "draft",
+    "slug": "location-detail",
+    "title": "Summit Ridge {{name}} — Hours & Location",
+    "description": "Hours, directions and departments at Summit Ridge Truck Center {{name}}, {{streetAddress}}, {{city}}, {{region}}. Call {{phone}}.",
+    "path": "/locations/:slug",
+    "out": "locations/:slug/index.html",
+    "dir": "location-detail",
+    "group": "locations",
+    "forEach": "locations",
+    "status": "published",
     "seo": {
       "ogImage": null,
       "noindex": false
@@ -53,12 +58,11 @@
     }
   },
   {
-    "slug": "home-copy",
-    "title": "Home (copy)",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
-    "path": "/home-copy",
-    "out": "home-copy/index.html",
-    "dir": "home-copy",
+    "slug": "create-a",
+    "dir": "create-a",
+    "title": "Create A",
+    "path": "/create-a",
+    "out": "create-a/index.html",
     "status": "draft",
     "seo": {
       "ogImage": null,
@@ -68,64 +72,6 @@
       "header": null,
       "footer": null,
       "utilityNav": null
-    },
-    "pageType": "Home"
-  },
-  {
-    "slug": "home-copy-2",
-    "title": "Home (copy)",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
-    "path": "/home-copy-2",
-    "out": "home-copy-2/index.html",
-    "dir": "home-copy-2",
-    "status": "draft",
-    "seo": {
-      "ogImage": null,
-      "noindex": false
-    },
-    "templates": {
-      "header": null,
-      "footer": null,
-      "utilityNav": null
-    },
-    "pageType": "Home"
-  },
-  {
-    "slug": "home-copy-3",
-    "title": "Home (copy)",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
-    "path": "/home-copy-3",
-    "out": "home-copy-3/index.html",
-    "dir": "home-copy-3",
-    "status": "draft",
-    "seo": {
-      "ogImage": null,
-      "noindex": false
-    },
-    "templates": {
-      "header": null,
-      "footer": null,
-      "utilityNav": null
-    },
-    "pageType": "Home"
-  },
-  {
-    "slug": "home-copy-4",
-    "title": "Home (Copy)",
-    "description": "New and used trucks, service and parts from a dealer you can trust.",
-    "path": "/home-copy-4",
-    "out": "home-copy-4/index.html",
-    "dir": "home-copy-4",
-    "status": "draft",
-    "seo": {
-      "ogImage": null,
-      "noindex": true
-    },
-    "templates": {
-      "header": null,
-      "footer": null,
-      "utilityNav": null
-    },
-    "pageType": "Home"
+    }
   }
 ]

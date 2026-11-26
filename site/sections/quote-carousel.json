@@ -1,0 +1,131 @@
+{
+  "version": 2,
+  "id": "quote-carousel",
+  "name": "Testimonial carousel",
+  "description": "One large centred quote at a time, with the customer's name and role, arrows and dots to move between them.",
+  "css": "[data-bz-section=\"quote-carousel\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"quote-carousel\"] .bz-col[data-bz-node^=\"qc-slide\"] { flex: 0 0 100%; width: 100%; text-align: center; padding-inline: max(0px, calc((100% - 820px) / 2)); }\n[data-bz-section=\"quote-carousel\"] .bz-block[data-bz-node^=\"qc-quote\"] p { font-size: 21px; line-height: 1.55; font-style: italic; color: var(--ink); margin: 0 auto 22px; }\n[data-bz-section=\"quote-carousel\"] .bz-block[data-bz-node^=\"qc-name\"] p { font: 700 15px / 1.3 var(--font-heading); text-transform: uppercase; margin: 0 0 4px; }\n[data-bz-section=\"quote-carousel\"] .bz-block[data-bz-node^=\"qc-role\"] p { font-size: 14px; color: var(--muted); }",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Label above the heading",
+      "default": "Customers"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "What fleet owners say"
+    },
+    {
+      "key": "quotes",
+      "type": "list",
+      "label": "Quotes",
+      "fields": [
+        {
+          "key": "quote",
+          "type": "textarea",
+          "label": "Quote"
+        },
+        {
+          "key": "name",
+          "type": "text",
+          "label": "Name"
+        },
+        {
+          "key": "role",
+          "type": "text",
+          "label": "Role and company"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "qc",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 8,
+        "behaviour": "carousel",
+        "behaviourOptions": "{\"label\":\"Customer testimonials\",\"perMove\":1}"
+      },
+      "children": [
+        {
+          "id": "qc-head",
+          "type": "row",
+          "props": {
+            "gap": 4
+          },
+          "children": [
+            {
+              "id": "qc-headcol",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "qc-h",
+                  "type": "heading",
+                  "props": {
+                    "eyebrow": "{{eyebrow}}",
+                    "text": "{{heading}}",
+                    "headingLevel": 2,
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qc-track",
+          "type": "row",
+          "props": {
+            "gap": 0,
+            "part": "track",
+            "stackOn": "never"
+          },
+          "children": [
+            {
+              "id": "qc-slide",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "part": "slide",
+                "repeat": "quotes"
+              },
+              "children": [
+                {
+                  "id": "qc-quote",
+                  "type": "text",
+                  "props": {
+                    "text": "“{{quote}}”",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "qc-name",
+                  "type": "text",
+                  "props": {
+                    "text": "{{name}}",
+                    "width": "full"
+                  }
+                },
+                {
+                  "id": "qc-role",
+                  "type": "text",
+                  "props": {
+                    "text": "{{role}}",
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
