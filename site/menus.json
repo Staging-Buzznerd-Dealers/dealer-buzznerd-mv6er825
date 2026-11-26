@@ -11,8 +11,11 @@
           "type": "inventory",
           "ref": "inventory?type=truck",
           "url": null,
-          "newTab": false,
-          "icon": null,
+          "newTab": true,
+          "icon": {
+            "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
+            "tint": true
+          },
           "children": [
             {
               "id": "mt-shop",
@@ -147,7 +150,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "showIcon": true
         },
         {
           "id": "trailers",
