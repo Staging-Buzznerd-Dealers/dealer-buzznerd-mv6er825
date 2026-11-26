@@ -295,6 +295,14 @@
           "url": "tel:+15550100148",
           "newTab": false,
           "children": []
+        },
+        {
+          "id": "item-8",
+          "label": "news and update",
+          "type": "page",
+          "url": null,
+          "ref": "blog",
+          "children": []
         }
       ]
     },
