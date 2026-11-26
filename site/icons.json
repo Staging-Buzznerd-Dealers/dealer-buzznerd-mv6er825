@@ -4,6 +4,9 @@
   "slots": {
     "save": {
       "src": "https://vendure.ai4dealerships.com/assets/source/c3/tick-square-svgrepo-com__02.svg"
+    },
+    "location": {
+      "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg"
     }
   }
 }
