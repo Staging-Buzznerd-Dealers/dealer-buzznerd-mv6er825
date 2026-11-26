@@ -64,5 +64,50 @@
   "fontSize": 14,
   "defaultOn": [],
   "necessaryCategories": [],
-  "cookies": []
+  "cookies": [
+    {
+      "id": "ck_1ui57qi8",
+      "name": "PHPSESSID",
+      "domain": "",
+      "duration": "session",
+      "description": "This cookie is native to PHP applications. The cookie stores and identifies a user's unique session ID to manage user sessions on the website. The cookie is a session cookie and will be deleted when all the browser windows are closed.",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_apei7alw",
+      "name": "cookie-law-info",
+      "domain": "",
+      "duration": "1 Year",
+      "description": "Stores the user's cookie consent preferences.",
+      "category": "essential",
+      "pattern": "",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_9a8ly45h",
+      "name": "__Secure-YEC",
+      "domain": "",
+      "duration": "past",
+      "description": "YouTube sets this cookie to stores the user's video player preferences using embedded YouTube video",
+      "category": "functional",
+      "pattern": ".youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    },
+    {
+      "id": "ck_933ohiu1",
+      "name": "VISITOR_PRIVACY_METADATA",
+      "domain": ".youtube.com",
+      "duration": "6 Month",
+      "description": "YouTube sets this cookie to manage feature rollout and experimentation. It helps Google control which new features or interface changes are shown to users as part of testing and staged rollouts, ensuring consistent experience for a given user during an experiment.",
+      "category": "functional",
+      "pattern": ".youtube.com",
+      "httpOnly": false,
+      "enabled": true
+    }
+  ]
 }
