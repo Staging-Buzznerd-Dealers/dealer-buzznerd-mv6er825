@@ -1,0 +1,30 @@
+{
+  "id": "talk-to-team",
+  "name": "Talk to our team",
+  "status": "live",
+  "surfaces": ["page", "blog"],
+  "intent": "contact",
+  "submitLabel": "Send message",
+  "successMessage": "Thanks — we'll get back to you within one business day.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted about this enquiry by phone, text or email."
+  },
+  "fields": [
+    { "id": "tt-name", "type": "full_name", "label": "Full name", "placeholder": "Full name", "required": true },
+    { "id": "tt-email", "type": "email", "label": "Email address", "placeholder": "Email address", "required": true },
+    { "id": "tt-message", "type": "paragraph", "label": "How can we help?", "placeholder": "How can we help?", "required": true }
+  ],
+  "notifications": [
+    {
+      "id": "tt-sales",
+      "name": "Website enquiries",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "sales-manager",
+      "scopeMode": "dynamic"
+    }
+  ]
+}

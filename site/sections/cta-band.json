@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "id": "cta-band",
+  "name": "Call-to-action band",
+  "description": "Dark, centred closing band: label, heading, one line of copy and two buttons.",
+  "css": "[data-bz-section=\"cta-band\"] .bz-block { padding-block: 0; }\n[data-bz-section=\"cta-band\"] .bz-block p { color: rgba(255,255,255,.82); max-width: 56ch; margin: 0 auto; }\n[data-bz-section=\"cta-band\"] .bz-btns { justify-content: center; margin-bottom: 0; }\n[data-bz-section=\"cta-band\"] .bz-btn { background: #fff; color: var(--ink); border-color: #fff; }\n[data-bz-section=\"cta-band\"] .bz-btn + .bz-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }",
+  "props": [
+    {
+      "key": "eyebrow",
+      "type": "text",
+      "label": "Label above the heading",
+      "default": "Contact us"
+    },
+    {
+      "key": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Ready to get on the road?"
+    },
+    {
+      "key": "body",
+      "type": "textarea",
+      "label": "Copy",
+      "default": "Talk to our team about trucks, parts, service or financing — we answer every enquiry within one business day."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cta",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "paddingY": 9,
+        "background": "ink"
+      },
+      "children": [
+        {
+          "id": "cta-h",
+          "type": "heading",
+          "props": {
+            "eyebrow": "{{eyebrow}}",
+            "text": "{{heading}}",
+            "headingLevel": 2,
+            "align": "center"
+          }
+        },
+        {
+          "id": "cta-text",
+          "type": "text",
+          "props": {
+            "text": "{{body}}",
+            "align": "center",
+            "width": "full"
+          }
+        },
+        {
+          "id": "cta-btns",
+          "type": "buttons",
+          "props": {
+            "items": [
+              {
+                "ctaId": "call-us"
+              },
+              {
+                "ctaId": "book-service"
+              }
+            ],
+            "align": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
