@@ -479,6 +479,20 @@
           "children": []
         }
       ]
+    },
+    {
+      "id": "menu",
+      "name": "location",
+      "items": [
+        {
+          "id": "item-1",
+          "label": "abc ",
+          "type": "page",
+          "url": null,
+          "ref": "blog",
+          "children": []
+        }
+      ]
     }
   ]
 }
