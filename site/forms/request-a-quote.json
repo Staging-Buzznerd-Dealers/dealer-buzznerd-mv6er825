@@ -99,7 +99,17 @@
       "roleId": "sales-manager",
       "scopeMode": "dynamic",
       "administratorId": "16"
+    },
+    {
+      "id": "n-mwze1lgt1",
+      "name": "Notification 2",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "user",
+      "roleId": "",
+      "scopeMode": "dynamic",
+      "administratorId": "4"
     }
   ],
-  "updatedAt": "2026-11-27T19:40:45.523Z"
+  "updatedAt": "2026-11-27T19:42:39.240Z"
 }
