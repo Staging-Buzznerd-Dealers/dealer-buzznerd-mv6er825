@@ -121,12 +121,14 @@
     "status": "draft",
     "seo": {
       "ogImage": null,
-      "noindex": false
+      "noindex": false,
+      "keywords": []
     },
     "templates": {
       "header": null,
       "footer": null,
       "utilityNav": null
-    }
+    },
+    "description": "Post"
   }
 ]
