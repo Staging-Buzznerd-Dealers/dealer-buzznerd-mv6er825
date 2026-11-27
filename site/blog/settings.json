@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "basePath": "/news",
+  "basePath": "/blog",
   "title": "From the road ahead",
   "description": "Service tips, spec guides and news from Summit Ridge Truck Center."
 }

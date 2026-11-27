@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "section-1",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "none",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "row-1",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "align": "center",
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "column-1",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "heading-1",
+                  "type": "heading",
+                  "props": {
+                    "text": "Meritor Brake Special",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "text-1",
+                  "type": "text",
+                  "props": {
+                    "text": "Discover our exclusive deals on Meritor brakes! Whether you need brake pads, discs, or complete kits, we have special offers that you cannot miss. Enhance your vehicle's performance with top-quality Meritor components.",
+                    "align": "center",
+                    "width": "prose"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "column-2",
+              "type": "column",
+              "props": {
+                "span": 12,
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "buttons-1",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

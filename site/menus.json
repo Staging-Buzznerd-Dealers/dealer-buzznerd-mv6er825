@@ -11,7 +11,12 @@
           "type": "inventory",
           "ref": "inventory?type=truck",
           "url": null,
-          "newTab": false,
+          "newTab": true,
+          "showIcon": true,
+          "icon": {
+            "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
+            "tint": true
+          },
           "children": [
             {
               "id": "mt-shop",
@@ -20,6 +25,11 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "showIcon": false,
+              "icon": {
+                "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg",
+                "tint": true
+              },
               "children": [
                 {
                   "id": "mt-all",
@@ -27,7 +37,12 @@
                   "type": "inventory",
                   "ref": "inventory",
                   "url": null,
-                  "newTab": false,
+                  "newTab": true,
+                  "showIcon": true,
+                  "icon": {
+                    "src": "https://vendure.ai4dealerships.com/assets/source/c3/tick-square-svgrepo-com__02.svg",
+                    "tint": true
+                  },
                   "children": []
                 },
                 {
@@ -37,6 +52,7 @@
                   "ref": "inventory?condition=new",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -46,6 +62,7 @@
                   "ref": "inventory?condition=used",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -55,6 +72,18 @@
                   "ref": "search?q=capacity+yard",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
+                  "children": []
+                },
+                {
+                  "id": "item-33",
+                  "label": "New item",
+                  "type": "url",
+                  "ref": null,
+                  "url": "https://",
+                  "newTab": true,
+                  "showIcon": true,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -66,6 +95,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "mf-config",
@@ -74,6 +104,7 @@
                   "ref": null,
                   "url": "/#contact",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -83,6 +114,7 @@
                   "ref": null,
                   "url": "/#contact",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -92,6 +124,7 @@
                   "ref": null,
                   "url": "/#contact",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -101,6 +134,7 @@
                   "ref": null,
                   "url": "/#financing",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -112,6 +146,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "mb-intl",
@@ -120,6 +155,7 @@
                   "ref": "search?q=international",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -129,6 +165,7 @@
                   "ref": "search?q=capacity+yard",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -142,6 +179,7 @@
           "ref": "search?q=trailer",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "mr-shop",
@@ -150,6 +188,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "mr-all",
@@ -158,6 +197,7 @@
                   "ref": "search?q=trailer",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -169,6 +209,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "mr-rent",
@@ -177,6 +218,7 @@
                   "ref": "search?q=trailer+rental",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 },
                 {
@@ -186,6 +228,7 @@
                   "ref": null,
                   "url": "/#financing",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -199,6 +242,7 @@
           "ref": "parts",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "mp-shop",
@@ -207,6 +251,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "mp-all",
@@ -215,6 +260,7 @@
                   "ref": "parts",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -228,6 +274,7 @@
           "ref": null,
           "url": "/#service",
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "ms-svc",
@@ -236,6 +283,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "ms-book",
@@ -244,6 +292,7 @@
                   "ref": null,
                   "url": "/#contact",
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -255,6 +304,7 @@
               "ref": null,
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": [
                 {
                   "id": "ms-locations",
@@ -263,6 +313,7 @@
                   "ref": "locations",
                   "url": null,
                   "newTab": false,
+                  "icon": null,
                   "children": []
                 }
               ]
@@ -276,6 +327,7 @@
           "ref": null,
           "url": "/#why-us",
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -285,13 +337,18 @@
           "ref": "locations",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
-          "id": "blog",
-          "label": "Blog",
-          "type": "url",
-          "url": "/blog"
+          "id": "item-8",
+          "label": "News ",
+          "type": "page",
+          "ref": "blog",
+          "url": null,
+          "newTab": false,
+          "icon": null,
+          "children": []
         },
         {
           "id": "call",
@@ -300,6 +357,7 @@
           "ref": null,
           "url": "tel:+15550100148",
           "newTab": false,
+          "icon": null,
           "children": []
         }
       ]
@@ -315,6 +373,7 @@
           "ref": null,
           "url": "/#why-us",
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -324,6 +383,7 @@
           "ref": "locations",
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -333,6 +393,7 @@
           "ref": null,
           "url": "/#contact",
           "newTab": false,
+          "icon": null,
           "children": []
         }
       ]
@@ -348,6 +409,7 @@
           "ref": null,
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "fs-new",
@@ -356,6 +418,7 @@
               "ref": "inventory?condition=new",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -365,6 +428,7 @@
               "ref": "inventory?condition=used",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -374,6 +438,7 @@
               "ref": null,
               "url": "/#financing",
               "newTab": false,
+              "icon": null,
               "children": []
             }
           ]
@@ -385,6 +450,7 @@
           "ref": null,
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "fp-service",
@@ -393,6 +459,7 @@
               "ref": null,
               "url": "/#service",
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -402,6 +469,7 @@
               "ref": "parts",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -411,6 +479,7 @@
               "ref": null,
               "url": "/#contact",
               "newTab": false,
+              "icon": null,
               "children": []
             }
           ]
@@ -422,6 +491,7 @@
           "ref": null,
           "url": null,
           "newTab": false,
+          "icon": null,
           "children": [
             {
               "id": "fc-about",
@@ -430,6 +500,7 @@
               "ref": null,
               "url": "/#why-us",
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -439,6 +510,7 @@
               "ref": "locations",
               "url": null,
               "newTab": false,
+              "icon": null,
               "children": []
             },
             {
@@ -448,6 +520,7 @@
               "ref": null,
               "url": "/blog",
               "newTab": false,
+              "icon": null,
               "children": []
             }
           ]
@@ -465,6 +538,7 @@
           "ref": null,
           "url": "/privacy",
           "newTab": false,
+          "icon": null,
           "children": []
         },
         {
@@ -474,6 +548,35 @@
           "ref": null,
           "url": "/terms",
           "newTab": false,
+          "icon": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "name": "location",
+      "items": [
+        {
+          "id": "item-1",
+          "label": "l1",
+          "type": "page",
+          "ref": "locations",
+          "url": null,
+          "newTab": true,
+          "showIcon": true,
+          "icon": null,
+          "children": []
+        },
+        {
+          "id": "item-2",
+          "label": "l2",
+          "type": "page",
+          "ref": "blog",
+          "url": null,
+          "newTab": true,
+          "showIcon": true,
+          "icon": null,
           "children": []
         }
       ]

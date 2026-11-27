@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "promo-section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "none",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "promo-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "promo-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "promo-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Meritor Brake Pads Special Promotion",
+                    "headingLevel": 1,
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "promo-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Upgrade your vehicle with high-quality Meritor Brake Pads. Our special promotion includes up to 20% off on select brake pad sets. Don't miss this limited-time offer!",
+                    "align": "center"
+                  }
+                },
+                {
+                  "id": "promo-buttons",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory"
+                      }
+                    ],
+                    "align": "center"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "promo-image-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "promo-image",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/media/meritor-brake-pads.jpg",
+                      "alt": "Meritor Brake Pads"
+                    },
+                    "width": "full"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
