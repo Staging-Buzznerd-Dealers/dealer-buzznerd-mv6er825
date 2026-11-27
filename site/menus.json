@@ -288,6 +288,12 @@
           "children": []
         },
         {
+          "id": "blog",
+          "label": "Blog",
+          "type": "url",
+          "url": "/blog"
+        },
+        {
           "id": "call",
           "label": "15550100148",
           "type": "url",
