@@ -369,7 +369,18 @@
               "props": {
                 "span": 6
               },
-              "children": []
+              "children": [
+                {
+                  "id": "video",
+                  "type": "video",
+                  "props": {
+                    "width": "full",
+                    "video": {
+                      "src": "https://www.youtube.com/watch?v=YFDTJUtyWgA"
+                    }
+                  }
+                }
+              ]
             },
             {
               "id": "column-2",
@@ -377,7 +388,18 @@
               "props": {
                 "span": 6
               },
-              "children": []
+              "children": [
+                {
+                  "id": "video-2",
+                  "type": "video",
+                  "props": {
+                    "width": "full",
+                    "video": {
+                      "src": "https://www.youtube.com/watch?v=O3hnre4dHTQ"
+                    }
+                  }
+                }
+              ]
             }
           ]
         },
