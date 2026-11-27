@@ -95,6 +95,7 @@
               "ref": null,
               "url": null,
               "newTab": true,
+              "showIcon": true,
               "icon": null,
               "children": [
                 {
@@ -113,9 +114,10 @@
                   "type": "url",
                   "ref": null,
                   "url": "/#contact",
-                  "newTab": false,
+                  "newTab": true,
                   "icon": null,
-                  "children": []
+                  "children": [],
+                  "showIcon": true
                 },
                 {
                   "id": "mf-power",
@@ -137,8 +139,7 @@
                   "icon": null,
                   "children": []
                 }
-              ],
-              "showIcon": true
+              ]
             },
             {
               "id": "mt-brands",
