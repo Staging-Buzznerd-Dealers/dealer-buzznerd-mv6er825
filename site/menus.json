@@ -115,9 +115,12 @@
                   "ref": null,
                   "url": "/#contact",
                   "newTab": true,
-                  "icon": null,
-                  "children": [],
-                  "showIcon": true
+                  "showIcon": true,
+                  "icon": {
+                    "src": "https://vendure.ai4dealerships.com/assets/source/ec/new-window-svgrepo-com-1.svg",
+                    "tint": true
+                  },
+                  "children": []
                 },
                 {
                   "id": "mf-power",
