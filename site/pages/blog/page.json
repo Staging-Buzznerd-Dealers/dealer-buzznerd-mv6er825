@@ -123,7 +123,10 @@
                           "title": "Welcome to our new site",
                           "excerpt": "A faster site, live inventory, and easier ways to reach the right department.",
                           "date": "2026-08-01",
-                          "image": null,
+                          "image": {
+                            "src": "https://vendure.ai4dealerships.com/assets/source/57/dms-ed8d8b8c9456.jpg",
+                            "alt": "dms-ed8d8b8c9456.jpg"
+                          },
                           "tags": []
                         }
                       ]
