@@ -944,9 +944,6 @@
                   "image": null
                 }
               ]
-            },
-            "config": {
-              "layout": "carousel"
             }
           }
         }
