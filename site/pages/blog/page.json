@@ -45,11 +45,29 @@
                     "snapshot": {
                       "heading": "",
                       "tagLabels": [],
-                      "total": 4,
+                      "total": 5,
                       "page": 1,
                       "pageCount": 1,
                       "viewAllHref": null,
                       "posts": [
+                        {
+                          "slug": "welcome-copy",
+                          "href": "/blog/welcome-copy",
+                          "title": "Welcome to our new site (copy)",
+                          "excerpt": "A faster site, live inventory, and easier ways to reach the right department.",
+                          "date": "2026-11-27",
+                          "image": null,
+                          "tags": [
+                            {
+                              "label": "EV",
+                              "href": "/blog/tag/ev"
+                            },
+                            {
+                              "label": "International",
+                              "href": "/blog/tag/international"
+                            }
+                          ]
+                        },
                         {
                           "slug": "preventive-maintenance-101",
                           "href": "/blog/preventive-maintenance-101",
