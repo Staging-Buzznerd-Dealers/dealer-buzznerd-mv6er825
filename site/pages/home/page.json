@@ -319,6 +319,14 @@
                     "width": 600,
                     "height": 400
                   }
+                },
+                {
+                  "slug": "6-test",
+                  "href": "products/6-test",
+                  "title": "Test",
+                  "price": null,
+                  "facts": [],
+                  "image": null
                 }
               ]
             }
@@ -2335,6 +2343,14 @@
                     "width": 600,
                     "height": 400
                   }
+                },
+                {
+                  "slug": "6-test",
+                  "href": "products/6-test",
+                  "title": "Test",
+                  "price": null,
+                  "facts": [],
+                  "image": null
                 }
               ]
             }
