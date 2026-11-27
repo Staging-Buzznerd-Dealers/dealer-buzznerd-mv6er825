@@ -43,7 +43,7 @@
   "revisitButton": true,
   "showReject": true,
   "showPreferences": true,
-  "reloadOnChoice": false,
+  "reloadOnChoice": true,
   "gcmEnabled": true,
   "gcmAdsDataRedaction": true,
   "gcmUrlPassthrough": true,

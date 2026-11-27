@@ -85,8 +85,18 @@
       "id": "shift-digital",
       "adapterUrl": "https://vendure.ai4dealerships.com/adapters/shift-digital@2.1.0.js",
       "settings": {
-        "departments": {},
-        "pageTypes": {}
+        "departments": {
+          "sales": "Sales",
+          "service": "Service",
+          "parts": "Parts",
+          "body": "Other"
+        },
+        "pageTypes": {
+          "listing": "Vehicle Listing",
+          "parts": "Parts",
+          "not-found": "Page Not Found",
+          "detail": "Vehicle Details"
+        }
       },
       "bootstrap": {
         "globalName": "sdim",
@@ -118,7 +128,12 @@
           "runtimeVersion": "siteTechnologyVersion"
         },
         "pageValues": {
-          "pageType": {}
+          "pageType": {
+            "listing": "Vehicle Listing",
+            "parts": "Parts",
+            "not-found": "Page Not Found",
+            "detail": "Vehicle Details"
+          }
         },
         "pageAllowed": {
           "pageType": [
