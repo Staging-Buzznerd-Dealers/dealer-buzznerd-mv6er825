@@ -30,18 +30,11 @@
                 },
                 {
                   "id": "blog-feed",
-                  "type": "widget",
+                  "type": "postsList",
                   "props": {
-                    "widget": "post-feed",
-                    "config": {
-                      "heading": "",
-                      "tagSource": "chosen",
-                      "tags": [],
-                      "excludeTags": [],
-                      "sort": "newest",
-                      "limit": 0,
-                      "layout": "cards"
-                    }
+                    "headingLevel": 2,
+                    "count": 6,
+                    "showDates": true
                   }
                 }
               ]
