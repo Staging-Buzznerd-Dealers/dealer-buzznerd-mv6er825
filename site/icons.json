@@ -2,6 +2,9 @@
   "version": 1,
   "stylesheets": [],
   "slots": {
+    "search": {
+      "src": "https://cdn-icons-png.flaticon.com/512/270/270014.png"
+    },
     "print": {
       "src": "https://cdn-icons-png.flaticon.com/512/5968/5968863.png"
     }
