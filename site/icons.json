@@ -1,9 +1,5 @@
 {
   "version": 1,
   "stylesheets": [],
-  "slots": {
-    "location": {
-      "src": "https://vendure.ai4dealerships.com/assets/source/18/save-svgrepo-com__02.svg"
-    }
-  }
+  "slots": {}
 }
