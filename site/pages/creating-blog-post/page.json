@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "intro-section",
+      "type": "section",
+      "props": {
+        "paddingY": 7,
+        "background": "card"
+      },
+      "children": [
+        {
+          "id": "intro-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "mobile"
+          },
+          "children": [
+            {
+              "id": "text-column",
+              "type": "column",
+              "props": {
+                "span": 8
+              },
+              "children": [
+                {
+                  "id": "intro-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "Creating a Blog Post",
+                    "headingLevel": 1,
+                    "align": "left"
+                  }
+                },
+                {
+                  "id": "intro-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Learn how to create engaging blog posts that captivate your audience and drive traffic to your site. Follow our tips and best practices to craft compelling content.",
+                    "align": "left"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cta-column",
+              "type": "column",
+              "props": {
+                "span": 4
+              },
+              "children": [
+                {
+                  "id": "cta-buttons",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "contact-us",
+                        "label": "Contact us for more tips"
+                      }
+                    ],
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content-section",
+      "type": "section",
+      "props": {
+        "paddingY": 7,
+        "background": "none"
+      },
+      "children": [
+        {
+          "id": "content-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "content-column",
+              "type": "column",
+              "props": {
+                "span": 12
+              },
+              "children": [
+                {
+                  "id": "content-text",
+                  "type": "text",
+                  "props": {
+                    "text": "Creating a blog post involves several key steps. Begin with a compelling headline that grabs attention. Write an introduction that hooks your readers and sets the stage for the content to follow. Use relevant keywords to improve SEO. Make your content structured and easy to read using subheadings, bullet points, and images. Finally, conclude with a call to action to engage your readers further.",
+                    "align": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
