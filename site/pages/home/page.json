@@ -171,12 +171,12 @@
                   "price": "$132,500",
                   "facts": [
                     {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
                       "label": "Year",
                       "value": "2025"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "New"
                     },
                     {
                       "label": "Availability",
@@ -212,6 +212,110 @@
                   "image": {
                     "src": "https://vendure.ai4dealerships.com/assets/preview/f4/dms-11041624412__02__preview.jpg",
                     "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2025-capacity-tj5000-dot-2",
+                  "href": "products/6-2025-capacity-tj5000-dot-2",
+                  "title": "2025 CAPACITY TJ5000 DOT",
+                  "price": "$132,500",
+                  "facts": [
+                    {
+                      "label": "Year",
+                      "value": "2025"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "New"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "For sale"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/df/dms-11044973867__02__preview.jpg",
+                    "alt": "2025 CAPACITY TJ5000 DOT",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2026-hyundai-vr2530152-as-7",
+                  "href": "products/6-2026-hyundai-vr2530152-as-7",
+                  "title": "2026 HYUNDAI VR2530152-AS",
+                  "price": "$87,500",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2026"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "For sale"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/14/dms-11041497731__02__preview.jpg",
+                    "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2026-hyundai-vr2530152-as-3",
+                  "href": "products/6-2026-hyundai-vr2530152-as-3",
+                  "title": "2026 HYUNDAI VR2530152-AS",
+                  "price": "$87,500",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2026"
+                    },
+                    {
+                      "label": "Make",
+                      "value": "HYUNDAI"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/47/dms-11041495491__02__preview.jpg",
+                    "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2024-hyundai-composite-2",
+                  "href": "products/6-2024-hyundai-composite-2",
+                  "title": "2024 HYUNDAI COMPOSITE",
+                  "price": "$33,000",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Make",
+                      "value": "HYUNDAI"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "COMPOSITE"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/01/dms-11038957713__02__preview.jpg",
+                    "alt": "2024 HYUNDAI COMPOSITE",
                     "width": 600,
                     "height": 400
                   }
@@ -2083,12 +2187,12 @@
                   "price": "$132,500",
                   "facts": [
                     {
-                      "label": "Condition",
-                      "value": "New"
-                    },
-                    {
                       "label": "Year",
                       "value": "2025"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "New"
                     },
                     {
                       "label": "Availability",
@@ -2124,6 +2228,110 @@
                   "image": {
                     "src": "https://vendure.ai4dealerships.com/assets/preview/f4/dms-11041624412__02__preview.jpg",
                     "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2025-capacity-tj5000-dot-2",
+                  "href": "products/6-2025-capacity-tj5000-dot-2",
+                  "title": "2025 CAPACITY TJ5000 DOT",
+                  "price": "$132,500",
+                  "facts": [
+                    {
+                      "label": "Year",
+                      "value": "2025"
+                    },
+                    {
+                      "label": "Condition",
+                      "value": "New"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "For sale"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/df/dms-11044973867__02__preview.jpg",
+                    "alt": "2025 CAPACITY TJ5000 DOT",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2026-hyundai-vr2530152-as-7",
+                  "href": "products/6-2026-hyundai-vr2530152-as-7",
+                  "title": "2026 HYUNDAI VR2530152-AS",
+                  "price": "$87,500",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2026"
+                    },
+                    {
+                      "label": "Availability",
+                      "value": "For sale"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/14/dms-11041497731__02__preview.jpg",
+                    "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2026-hyundai-vr2530152-as-3",
+                  "href": "products/6-2026-hyundai-vr2530152-as-3",
+                  "title": "2026 HYUNDAI VR2530152-AS",
+                  "price": "$87,500",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Year",
+                      "value": "2026"
+                    },
+                    {
+                      "label": "Make",
+                      "value": "HYUNDAI"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/47/dms-11041495491__02__preview.jpg",
+                    "alt": "2026 HYUNDAI VR2530152-AS",
+                    "width": 600,
+                    "height": 400
+                  }
+                },
+                {
+                  "slug": "6-2024-hyundai-composite-2",
+                  "href": "products/6-2024-hyundai-composite-2",
+                  "title": "2024 HYUNDAI COMPOSITE",
+                  "price": "$33,000",
+                  "facts": [
+                    {
+                      "label": "Condition",
+                      "value": "Used"
+                    },
+                    {
+                      "label": "Make",
+                      "value": "HYUNDAI"
+                    },
+                    {
+                      "label": "Model",
+                      "value": "COMPOSITE"
+                    }
+                  ],
+                  "image": {
+                    "src": "https://vendure.ai4dealerships.com/assets/preview/01/dms-11038957713__02__preview.jpg",
+                    "alt": "2024 HYUNDAI COMPOSITE",
                     "width": 600,
                     "height": 400
                   }
