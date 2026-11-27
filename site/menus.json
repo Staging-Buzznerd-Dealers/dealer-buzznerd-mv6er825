@@ -94,7 +94,7 @@
               "type": "label",
               "ref": null,
               "url": null,
-              "newTab": false,
+              "newTab": true,
               "icon": null,
               "children": [
                 {
@@ -137,7 +137,8 @@
                   "icon": null,
                   "children": []
                 }
-              ]
+              ],
+              "showIcon": true
             },
             {
               "id": "mt-brands",
