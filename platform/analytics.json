@@ -1,5 +1,165 @@
 {
   "runtimeVersion": "4.25.0",
-  "vocabularies": {},
-  "providers": []
+  "vocabularies": {
+    "pageTypes": [
+      "Home",
+      "Showroom",
+      "Model Showroom",
+      "Brochure",
+      "Trade In",
+      "Vehicle Listing",
+      "Vehicle Details",
+      "Test Drive",
+      "Dealer Specials",
+      "OEM Incentives",
+      "Service Specials",
+      "Finance",
+      "Finance Prequalification",
+      "Schedule Service",
+      "Parts",
+      "Accessories",
+      "About Us",
+      "Hours & Directions",
+      "Contact Us",
+      "Custom Dealer Content",
+      "Other",
+      "Page Not Found",
+      "Blog",
+      "Service Menu",
+      "Service Home",
+      "Parts Home",
+      "Parts Order Form",
+      "Parts Specials",
+      "Service Event",
+      "Maintenance Menu"
+    ],
+    "formTypes": [
+      "Get a Quote",
+      "Test Drive",
+      "Request More Info",
+      "email a Friend",
+      "General Contact",
+      "Service",
+      "Parts",
+      "Schedule Service",
+      "Employment",
+      "Trade In",
+      "Finance",
+      "Payment Estimator",
+      "Specials",
+      "Vehicle Finder",
+      "Dealer Custom",
+      "Make an Offer",
+      "Send to Mobile",
+      "Brochure Request",
+      "Newsletter",
+      "Registration",
+      "Other"
+    ],
+    "formFieldNames": [
+      "firstname",
+      "lastname",
+      "middlename",
+      "phonenumber",
+      "emailaddress",
+      "address",
+      "city",
+      "state",
+      "zipcode",
+      "comments",
+      "other"
+    ],
+    "leadTypes": [
+      "lead",
+      "handraiser",
+      "lead|handraiser"
+    ],
+    "websiteTiers": [
+      "Tier 1",
+      "Tier 2",
+      "Tier 3"
+    ]
+  },
+  "providers": [
+    {
+      "id": "shift-digital",
+      "adapterUrl": "https://vendure.ai4dealerships.com/adapters/shift-digital@2.1.0.js",
+      "settings": {
+        "departments": {},
+        "pageTypes": {}
+      },
+      "bootstrap": {
+        "globalName": "sdim",
+        "script": "//tagging-staging.shiftdigitalapps.io/scripts/sdim.js?containerId=INTERNATIONALMOTORS&dl=sdim",
+        "calls": [
+          [
+            "create",
+            "INTERNATIONALMOTORS",
+            "99999",
+            "BUZZNERD"
+          ]
+        ],
+        "pageCall": [
+          "dataLayer"
+        ],
+        "readyCall": [
+          "send",
+          "pageview"
+        ],
+        "pageData": {
+          "websiteTier": "Tier 3",
+          "pageBrand": "International",
+          "language": "en",
+          "dealerBrand": "International"
+        },
+        "pageKeys": {
+          "pageType": "pageType",
+          "errorCode": "errorCode",
+          "runtimeVersion": "siteTechnologyVersion"
+        },
+        "pageValues": {
+          "pageType": {}
+        },
+        "pageAllowed": {
+          "pageType": [
+            "Home",
+            "Showroom",
+            "Model Showroom",
+            "Brochure",
+            "Trade In",
+            "Vehicle Listing",
+            "Vehicle Details",
+            "Test Drive",
+            "Dealer Specials",
+            "OEM Incentives",
+            "Service Specials",
+            "Finance",
+            "Finance Prequalification",
+            "Schedule Service",
+            "Parts",
+            "Accessories",
+            "About Us",
+            "Hours & Directions",
+            "Contact Us",
+            "Custom Dealer Content",
+            "Other",
+            "Page Not Found",
+            "Blog",
+            "Service Menu",
+            "Service Home",
+            "Parts Home",
+            "Parts Order Form",
+            "Parts Specials",
+            "Service Event",
+            "Maintenance Menu"
+          ]
+        },
+        "runtimeKeys": {
+          "sessionId": "sessionId"
+        }
+      },
+      "consentCategory": "analytics",
+      "requiredForProduction": []
+    }
+  ]
 }
