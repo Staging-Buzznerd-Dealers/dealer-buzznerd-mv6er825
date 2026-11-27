@@ -1,5 +1,9 @@
 {
   "version": 1,
   "stylesheets": [],
-  "slots": {}
+  "slots": {
+    "print": {
+      "src": "https://cdn-icons-png.flaticon.com/512/5968/5968863.png"
+    }
+  }
 }
