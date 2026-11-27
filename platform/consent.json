@@ -77,17 +77,6 @@
       "enabled": true
     },
     {
-      "id": "ck_6a6b1a291caa8",
-      "name": "rc::a",
-      "domain": ".google.com",
-      "duration": "Never Expires",
-      "description": "This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.",
-      "category": "essential",
-      "pattern": "google.com",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
       "id": "ck_6a6b1a48f41d1",
       "name": "__Secure-YEC",
       "domain": ".youtube.com",
@@ -264,72 +253,6 @@
       "enabled": true
     },
     {
-      "id": "ck_6a6b1c4d82d04",
-      "name": "_userway_",
-      "domain": ".userway.org",
-      "duration": "Session",
-      "description": "UserWay accessibility widget",
-      "category": "functional",
-      "pattern": "userway.org",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b1c6915f8f",
-      "name": "_userway_",
-      "domain": ".userway.org",
-      "duration": "Session",
-      "description": "UserWay accessibility widget",
-      "category": "functional",
-      "pattern": "api.userway.org",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b1c9536ddd",
-      "name": "_userway_",
-      "domain": ".userway.org",
-      "duration": "Session",
-      "description": "UserWay accessibility widget",
-      "category": "functional",
-      "pattern": "cdn.userway.org/widgetapp",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b1cc8593be",
-      "name": "WooCommerce Cart Fragments",
-      "domain": ".kenworthsalesco.com",
-      "duration": "Session",
-      "description": "Loads WooCommerce cart fragments to refresh cart contents and update the mini cart using AJAX.",
-      "category": "functional",
-      "pattern": "/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b1cec2994b",
-      "name": "woocommerce-menu-cart",
-      "domain": ".kenworthsalesco.com",
-      "duration": "Session",
-      "description": "Used by the WooCommerce Menu Cart functionality to update the cart via AJAX. This website does not use cart or checkout functionality, so this script is manually blocked before user consent.",
-      "category": "functional",
-      "pattern": "/wp-content/plugins/elementor-pro/assets/js/woocommerce-menu-cart-7e2.bundle.min.js",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b1decc3306",
-      "name": "algolia_user_token_1",
-      "domain": "",
-      "duration": "",
-      "description": "Description is currently not available.",
-      "category": "functional",
-      "pattern": "",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
       "id": "ck_6a6b1e5b2416c",
       "name": "_ga_*",
       "domain": ".kenworthsalesco.com",
@@ -352,39 +275,6 @@
       "enabled": true
     },
     {
-      "id": "ck_6a6b839f398c4",
-      "name": "rc::c",
-      "domain": "google.com",
-      "duration": "Session",
-      "description": "This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.",
-      "category": "essential",
-      "pattern": "google.com",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6b83f809d98",
-      "name": "__Secure-ROLLOUT_TOKEN",
-      "domain": ".youtube.com",
-      "duration": "6 months",
-      "description": "YouTube sets this cookie to manage feature rollout and experimentation. It helps Google control which new features or interface changes are shown to users as part of testing and staged rollouts, ensuring consistent experience for a given user during an experiment.",
-      "category": "functional",
-      "pattern": "youtube.com",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a6d056556251",
-      "name": "_GRECAPTCHA",
-      "domain": "",
-      "duration": "",
-      "description": "",
-      "category": "essential",
-      "pattern": "",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
       "id": "ck_6a72316fb6b8d",
       "name": "_fbp",
       "domain": "",
@@ -396,28 +286,6 @@
       "enabled": true
     },
     {
-      "id": "ck_6a72319b19a5a",
-      "name": "Search Insights",
-      "domain": "",
-      "duration": "",
-      "description": "",
-      "category": "analytics",
-      "pattern": "search-insights.min.js|cdn.jsdelivr.net/npm/search-insights",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a7231b6e0d46",
-      "name": "Admin_Ajax",
-      "domain": "",
-      "duration": "",
-      "description": "",
-      "category": "functional",
-      "pattern": "/wp-admin/admin-ajax.php",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
       "id": "ck_6a734ee35209b",
       "name": "NID",
       "domain": "",
@@ -425,17 +293,6 @@
       "description": "Stores user preferences and supports Google services such as Maps, reCAPTCHA, or embedded content. May also be used for ad personalization depending on context.",
       "category": "marketing",
       "pattern": "",
-      "httpOnly": false,
-      "enabled": true
-    },
-    {
-      "id": "ck_6a7a3040edb4d",
-      "name": "Jetpack WordPress Stats-",
-      "domain": "",
-      "duration": "",
-      "description": "",
-      "category": "analytics",
-      "pattern": "stats.wp.com/w.js|stats.wp.com|.*stats\\.wp\\.com.*|pixel.wp.com|pixel.wp.com/g.gif",
       "httpOnly": false,
       "enabled": true
     }
