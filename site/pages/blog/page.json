@@ -41,6 +41,76 @@
                       "sort": "newest",
                       "limit": 0,
                       "layout": "cards"
+                    },
+                    "snapshot": {
+                      "heading": "",
+                      "tagLabels": [],
+                      "total": 5,
+                      "page": 1,
+                      "pageCount": 1,
+                      "viewAllHref": null,
+                      "posts": [
+                        {
+                          "slug": "understanding-kenworth-s-electric-vehicles",
+                          "href": "/blog/understanding-kenworth-s-electric-vehicles",
+                          "title": "Understanding Kenworth's Electric Vehicles",
+                          "excerpt": "Explore the features, benefits, and specifications of Kenworth's electric trucks. Learn how they can meet your hauling needs sustainably.",
+                          "date": "2026-11-27",
+                          "image": {
+                            "src": "https://vendure.ai4dealerships.com/assets/source/a4/1.1__02.jpg",
+                            "alt": "1.1__02.jpg"
+                          },
+                          "tags": []
+                        },
+                        {
+                          "slug": "preventive-maintenance-101",
+                          "href": "/blog/preventive-maintenance-101",
+                          "title": "Preventive maintenance 101: when to schedule, when to react",
+                          "excerpt": "A planned PM program costs less than a breakdown on the shoulder. Here is how to set intervals around your routes, and the warning signs that mean a truck should come in now.",
+                          "date": "2026-09-24",
+                          "image": {
+                            "src": "/images/post-preventive-maintenance.webp",
+                            "alt": "Preventive maintenance 101: when to schedule, when to react"
+                          },
+                          "tags": []
+                        },
+                        {
+                          "slug": "spec-your-next-truck",
+                          "href": "/blog/spec-your-next-truck",
+                          "title": "Spec’ing your next truck: matching truck to route the right way",
+                          "excerpt": "Engine, transmission, axle ratio and sleeper size should all follow the work. A quick guide to getting the spec right before you sign.",
+                          "date": "2026-09-17",
+                          "image": {
+                            "src": "/images/post-spec-your-truck.webp",
+                            "alt": "Spec’ing your next truck: matching truck to route the right way"
+                          },
+                          "tags": []
+                        },
+                        {
+                          "slug": "training-the-next-generation",
+                          "href": "/blog/training-the-next-generation",
+                          "title": "Training the next generation: how we invest in our technicians",
+                          "excerpt": "Factory certifications, mentoring and a clear path from apprentice to master tech. Why our shop invests in training, and what it means for your uptime.",
+                          "date": "2026-09-09",
+                          "image": {
+                            "src": "/images/post-technician-training.webp",
+                            "alt": "Training the next generation: how we invest in our technicians"
+                          },
+                          "tags": []
+                        },
+                        {
+                          "slug": "welcome",
+                          "href": "/blog/welcome",
+                          "title": "Welcome to our new site",
+                          "excerpt": "A faster site, live inventory, and easier ways to reach the right department.",
+                          "date": "2026-08-01",
+                          "image": {
+                            "src": "https://vendure.ai4dealerships.com/assets/source/57/dms-ed8d8b8c9456.jpg",
+                            "alt": "dms-ed8d8b8c9456.jpg"
+                          },
+                          "tags": []
+                        }
+                      ]
                     }
                   }
                 }
