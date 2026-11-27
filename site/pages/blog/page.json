@@ -27,15 +27,6 @@
                     "text": "News & updates",
                     "headingLevel": 1
                   }
-                },
-                {
-                  "id": "blog-feed",
-                  "type": "postsList",
-                  "props": {
-                    "headingLevel": 2,
-                    "count": 6,
-                    "showDates": true
-                  }
                 }
               ]
             }
@@ -64,17 +55,7 @@
               "props": {
                 "span": 12
               },
-              "children": [
-                {
-                  "id": "postsList",
-                  "type": "postsList",
-                  "props": {
-                    "headingLevel": 2,
-                    "count": 3,
-                    "showDates": true
-                  }
-                }
-              ]
+              "children": []
             }
           ]
         }
