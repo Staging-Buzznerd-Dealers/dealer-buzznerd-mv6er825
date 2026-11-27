@@ -55,7 +55,22 @@
               "props": {
                 "span": 12
               },
-              "children": []
+              "children": [
+                {
+                  "id": "widget",
+                  "type": "widget",
+                  "props": {
+                    "widget": "post-article",
+                    "snapshot": {
+                      "found": false
+                    },
+                    "config": {
+                      "showImage": true,
+                      "showAuthor": true
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
