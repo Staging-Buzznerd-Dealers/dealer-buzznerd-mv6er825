@@ -131,7 +131,9 @@
                     "config": {
                       "showImage": true,
                       "showAuthor": true
-                    }
+                    },
+                    "behaviour": "filter",
+                    "part": "count"
                   }
                 }
               ]
