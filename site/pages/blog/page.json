@@ -64,11 +64,20 @@
                     "snapshot": {
                       "heading": "",
                       "tagLabels": [],
-                      "total": 5,
+                      "total": 6,
                       "page": 1,
                       "pageCount": 1,
                       "viewAllHref": null,
                       "posts": [
+                        {
+                          "slug": "maintenance-tips-for-electric-trucks-and-trailers",
+                          "href": "/blog/maintenance-tips-for-electric-trucks-and-trailers",
+                          "title": "Maintenance Tips for Electric Trucks and Trailers",
+                          "excerpt": "Learn essential maintenance practices for keeping your electric trucks and trailers in optimal condition and extending their lifespan.",
+                          "date": "2026-11-28",
+                          "image": null,
+                          "tags": []
+                        },
                         {
                           "slug": "understanding-kenworth-s-electric-vehicles",
                           "href": "/blog/understanding-kenworth-s-electric-vehicles",
