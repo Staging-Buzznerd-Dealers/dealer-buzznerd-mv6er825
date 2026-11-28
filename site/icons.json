@@ -5,6 +5,9 @@
     "search": {
       "src": "https://vendure.ai4dealerships.com/assets/source/c3/tick-square-svgrepo-com__02.svg"
     },
+    "user": {
+      "src": "https://vendure.ai4dealerships.com/assets/source/ec/new-window-svgrepo-com-1.svg"
+    },
     "print": {
       "src": "https://cdn-icons-png.flaticon.com/512/5968/5968863.png"
     }
