@@ -64,18 +64,42 @@
                     "snapshot": {
                       "heading": "",
                       "tagLabels": [],
-                      "total": 6,
+                      "total": 7,
                       "page": 1,
                       "pageCount": 1,
                       "viewAllHref": null,
                       "posts": [
+                        {
+                          "slug": "maintenance-tips-for-electric-trucks-and-trailers-copy",
+                          "href": "/blog/maintenance-tips-for-electric-trucks-and-trailers-copy",
+                          "title": "Maintenance Tips for Electric Trucks and Trailers (copy)",
+                          "excerpt": "Learn essential maintenance practices for keeping your electric trucks and trailers in optimal condition and extending their lifespan.",
+                          "date": "2026-11-28",
+                          "image": {
+                            "src": "https://vendure.ai4dealerships.com/assets/source/b0/dms-134a61a54e9d.jpg",
+                            "alt": "dms-134a61a54e9d.jpg"
+                          },
+                          "tags": [
+                            {
+                              "label": "EV",
+                              "href": "/blog/tag/ev"
+                            },
+                            {
+                              "label": "Truck",
+                              "href": "/blog/tag/truck"
+                            }
+                          ]
+                        },
                         {
                           "slug": "maintenance-tips-for-electric-trucks-and-trailers",
                           "href": "/blog/maintenance-tips-for-electric-trucks-and-trailers",
                           "title": "Maintenance Tips for Electric Trucks and Trailers",
                           "excerpt": "Learn essential maintenance practices for keeping your electric trucks and trailers in optimal condition and extending their lifespan.",
                           "date": "2026-11-28",
-                          "image": null,
+                          "image": {
+                            "src": "https://vendure.ai4dealerships.com/assets/source/b0/dms-134a61a54e9d.jpg",
+                            "alt": "dms-134a61a54e9d.jpg"
+                          },
                           "tags": [
                             {
                               "label": "EV",
