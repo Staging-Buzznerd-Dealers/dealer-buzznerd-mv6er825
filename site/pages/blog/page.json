@@ -76,7 +76,16 @@
                           "excerpt": "Learn essential maintenance practices for keeping your electric trucks and trailers in optimal condition and extending their lifespan.",
                           "date": "2026-11-28",
                           "image": null,
-                          "tags": []
+                          "tags": [
+                            {
+                              "label": "EV",
+                              "href": "/blog/tag/ev"
+                            },
+                            {
+                              "label": "Truck",
+                              "href": "/blog/tag/truck"
+                            }
+                          ]
                         },
                         {
                           "slug": "understanding-kenworth-s-electric-vehicles",
